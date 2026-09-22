@@ -10,7 +10,7 @@ export function SiteHeader() {
   return (
     <>
       {/* Top utility bar */}
-      <div className="full-bleed bg-brand-dark">
+      <div className="full-bleed bg-black">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-1.5 text-xs text-neutral-300">
           <CurrentDate />
           <div className="flex gap-4">

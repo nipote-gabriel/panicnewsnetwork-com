@@ -18,8 +18,8 @@ export function TvBanner() {
           <Image
             src="/brand/pnn-tv-banner.jpg"
             alt="Panic News Network"
-            width={1254}
-            height={1254}
+            width={1536}
+            height={1024}
             className="w-full select-none"
             priority={false}
           />
