@@ -15,7 +15,7 @@ export function SiteFooter() {
             className="h-14 w-auto"
           />
           <p className="mt-3 max-w-xs text-neutral-400">
-            Fake news. Real insight. Satire from the team at Headquarters Comedy.
+            Fake news. Real insight. A subsidiary of Headquarters Comedy.
           </p>
         </div>
 
