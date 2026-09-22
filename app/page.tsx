@@ -25,7 +25,7 @@ export default function Home() {
         <Link href={`/story/${heroStory.slug}`} className="md:col-span-2">
           <StoryImage image={heroStory.image} alt={heroStory.headline} label="Hero Image" />
           <StoryMeta category={heroStory.category} date={heroStory.date} className="mt-3" />
-          <h1 className="mt-1 text-3xl font-extrabold leading-tight hover:underline">
+          <h1 className="mt-1 font-display text-3xl leading-tight hover:underline">
             {heroStory.headline}
           </h1>
           <p className="mt-2 text-neutral-600">{heroStory.dek}</p>
@@ -35,7 +35,7 @@ export default function Home() {
             <Link key={s.slug} href={`/story/${s.slug}`}>
               <StoryImage image={s.image} alt={s.headline} label="Story Image" />
               <StoryMeta category={s.category} date={s.date} />
-              <h2 className="mt-1 text-lg font-bold leading-snug hover:underline">
+              <h2 className="mt-1 font-display text-lg leading-snug hover:underline">
                 {s.headline}
               </h2>
             </Link>
@@ -50,7 +50,7 @@ export default function Home() {
             <Link key={s.slug} href={`/story/${s.slug}`}>
               <StoryImage image={s.image} alt={s.headline} label="Story Image" />
               <StoryMeta category={s.category} date={s.date} />
-              <h3 className="mt-1 text-base font-bold leading-snug hover:underline">
+              <h3 className="mt-1 font-display text-base leading-snug hover:underline">
                 {s.headline}
               </h3>
             </Link>
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
 
         <aside className="border-t border-neutral-200 pt-4 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
-          <h2 className="mb-3 border-b-2 border-brand-red pb-1 text-sm font-extrabold uppercase">
+          <h2 className="mb-3 border-b-2 border-brand-red pb-1 font-display text-sm uppercase">
             Latest Headlines
           </h2>
           <ul className="flex flex-col gap-3">
@@ -84,7 +84,7 @@ export default function Home() {
       <section className="border-t border-neutral-200 bg-neutral-50 py-6">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-4 inline-block bg-brand-red px-3 py-1">
-            <h2 className="text-sm font-extrabold uppercase tracking-wide text-white">
+            <h2 className="font-display text-sm uppercase tracking-wide text-white">
               Featured Stories
             </h2>
           </div>
@@ -93,7 +93,7 @@ export default function Home() {
               <Link key={s.slug} href={`/story/${s.slug}`}>
                 <StoryImage image={s.image} alt={s.headline} label="Story Image" />
                 <StoryMeta category={s.category} date={s.date} />
-                <h3 className="mt-1 text-base font-bold leading-snug hover:underline">
+                <h3 className="mt-1 font-display text-base leading-snug hover:underline">
                   {s.headline}
                 </h3>
               </Link>
@@ -105,7 +105,7 @@ export default function Home() {
       {/* Editor's Picks */}
       <section className="border-t border-neutral-200 px-4 py-6">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-4 flex items-center gap-2 border-b-2 border-brand-red pb-2 text-sm font-extrabold uppercase tracking-wide">
+          <h2 className="mb-4 flex items-center gap-2 border-b-2 border-brand-red pb-2 font-display text-sm uppercase tracking-wide">
             Editor&rsquo;s Picks
           </h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
@@ -117,7 +117,7 @@ export default function Home() {
                   label="Story Image"
                   className="aspect-square"
                 />
-                <h3 className="mt-2 text-sm font-bold leading-snug group-hover:text-brand-red group-hover:underline">
+                <h3 className="mt-2 font-display text-sm leading-snug group-hover:text-brand-red group-hover:underline">
                   {s.headline}
                 </h3>
                 <StoryMeta date={s.date} className="mt-1" />

@@ -44,7 +44,7 @@ export default async function CategoryPage({
       <SiteHeader />
 
       <div className="border-b-4 border-brand-red px-4 py-6">
-        <h1 className="text-3xl font-extrabold uppercase tracking-tight">{category}</h1>
+        <h1 className="font-display text-3xl uppercase tracking-tight">{category}</h1>
       </div>
 
       <AdSlot size="leaderboard" className="px-4 py-4" />
@@ -61,7 +61,7 @@ export default async function CategoryPage({
                 <Link href={`/story/${s.slug}`}>
                   <StoryImage image={s.image} alt={s.headline} label="Story Image" />
                   <StoryMeta date={s.date} />
-                  <h2 className="mt-1 text-base font-bold leading-snug hover:underline">
+                  <h2 className="mt-1 font-display text-base leading-snug hover:underline">
                     {s.headline}
                   </h2>
                   <p className="mt-1 text-sm text-neutral-600">{s.dek}</p>

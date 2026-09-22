@@ -52,7 +52,7 @@ export default async function StoryPage({
           <span className="inline-block text-xs font-bold uppercase text-brand-red">
             {story.category}
           </span>
-          <h1 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">
+          <h1 className="mt-2 font-display text-3xl leading-tight sm:text-4xl">
             {story.headline}
           </h1>
           <p className="mt-3 text-lg text-neutral-600">{story.dek}</p>
@@ -91,7 +91,7 @@ export default async function StoryPage({
         </div>
 
         <aside className="border-t border-neutral-200 pt-4 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
-          <h2 className="mb-3 border-b-2 border-brand-red pb-1 text-sm font-extrabold uppercase">
+          <h2 className="mb-3 border-b-2 border-brand-red pb-1 font-display text-sm uppercase">
             Related Stories
           </h2>
           <ul className="flex flex-col gap-4">
@@ -100,7 +100,7 @@ export default async function StoryPage({
                 <Link href={`/story/${s.slug}`}>
                   <StoryImage image={s.image} alt={s.headline} label="Story Image" />
                   <StoryMeta category={s.category} date={s.date} />
-                  <h3 className="mt-1 text-sm font-bold leading-snug hover:underline">
+                  <h3 className="mt-1 font-display text-sm leading-snug hover:underline">
                     {s.headline}
                   </h3>
                 </Link>

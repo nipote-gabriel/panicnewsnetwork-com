@@ -35,7 +35,7 @@ export default async function SearchPage({
       <SiteHeader />
 
       <div className="border-b-4 border-brand-red px-4 py-6">
-        <h1 className="text-3xl font-extrabold uppercase tracking-tight">
+        <h1 className="font-display text-3xl uppercase tracking-tight">
           Search {q ? <span className="text-neutral-400">&ldquo;{q}&rdquo;</span> : null}
         </h1>
         {q ? (
@@ -58,7 +58,7 @@ export default async function SearchPage({
               <Link key={s.slug} href={`/story/${s.slug}`}>
                 <StoryImage image={s.image} alt={s.headline} label="Story Image" />
                 <StoryMeta category={s.category} date={s.date} />
-                <h2 className="mt-1 text-base font-bold leading-snug hover:underline">
+                <h2 className="mt-1 font-display text-base leading-snug hover:underline">
                   {s.headline}
                 </h2>
                 <p className="mt-1 text-sm text-neutral-600">{s.dek}</p>

@@ -16,6 +16,10 @@ const config: Config = {
           pink: "#FF2DA8",
         },
       },
+      fontFamily: {
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        display: ["var(--font-archivo-black)", "system-ui", "sans-serif"],
+      },
     },
   },
   plugins: [],
