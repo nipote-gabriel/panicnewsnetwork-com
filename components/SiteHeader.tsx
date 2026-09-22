@@ -30,15 +30,15 @@ export function SiteHeader() {
       </div>
 
       {/* Header / logo */}
-      <header className="full-bleed border-b border-neutral-200 px-4 py-4">
+      <header className="full-bleed bg-black px-4 py-4">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-3">
           <div className="flex min-w-0 items-center gap-3">
             <Link href="/" className="shrink-0">
               <Image
                 src="/logo.png"
                 alt="Panic News Network"
-                width={720}
-                height={357}
+                width={485}
+                height={296}
                 priority
                 className="h-16 w-auto sm:h-20"
               />
