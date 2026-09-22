@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ImagePlaceholder } from "@/components/ImagePlaceholder";
+import { StoryImage } from "@/components/StoryImage";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getStoryBySlug, stories } from "@/lib/stories";
@@ -58,7 +58,12 @@ export default async function StoryPage({
           </div>
 
           <div className="mt-6">
-            <ImagePlaceholder label="Story Image" className="aspect-[16/9]" />
+            <StoryImage
+              image={story.image}
+              alt={story.headline}
+              label="Story Image"
+              className="aspect-[16/9]"
+            />
           </div>
 
           <div className="mt-6 flex flex-col gap-4 text-base leading-relaxed text-neutral-800">
@@ -82,7 +87,7 @@ export default async function StoryPage({
             {relatedStories.map((s) => (
               <li key={s.slug} className="border-b border-neutral-100 pb-4 last:border-b-0">
                 <Link href={`/story/${s.slug}`}>
-                  <ImagePlaceholder label="Story Image" />
+                  <StoryImage image={s.image} alt={s.headline} label="Story Image" />
                   <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
                     {s.category}
                   </span>

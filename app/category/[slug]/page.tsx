@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ImagePlaceholder } from "@/components/ImagePlaceholder";
+import { StoryImage } from "@/components/StoryImage";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { categories, categoryBySlug, slugifyCategory } from "@/lib/categories";
@@ -53,7 +53,7 @@ export default async function CategoryPage({
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {categoryStories.map((s) => (
               <Link key={s.slug} href={`/story/${s.slug}`}>
-                <ImagePlaceholder label="Story Image" />
+                <StoryImage image={s.image} alt={s.headline} label="Story Image" />
                 <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
                   {s.category}
                 </span>

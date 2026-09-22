@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ImagePlaceholder } from "@/components/ImagePlaceholder";
+import { StoryImage } from "@/components/StoryImage";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { stories } from "@/lib/stories";
@@ -17,7 +17,7 @@ export default function Home() {
       {/* Hero section */}
       <section className="grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-3">
         <Link href={`/story/${heroStory.slug}`} className="md:col-span-2">
-          <ImagePlaceholder label="Hero Image" />
+          <StoryImage image={heroStory.image} alt={heroStory.headline} label="Hero Image" />
           <span className="mt-3 inline-block text-xs font-bold uppercase text-brand-red">
             {heroStory.category}
           </span>
@@ -29,7 +29,7 @@ export default function Home() {
         <div className="flex flex-col gap-6">
           {secondaryStories.slice(0, 2).map((s) => (
             <Link key={s.slug} href={`/story/${s.slug}`}>
-              <ImagePlaceholder label="Story Image" />
+              <StoryImage image={s.image} alt={s.headline} label="Story Image" />
               <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
                 {s.category}
               </span>
@@ -46,7 +46,7 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
           {gridStories.map((s) => (
             <Link key={s.slug} href={`/story/${s.slug}`}>
-              <ImagePlaceholder label="Story Image" />
+              <StoryImage image={s.image} alt={s.headline} label="Story Image" />
               <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
                 {s.category}
               </span>
