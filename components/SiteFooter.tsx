@@ -81,6 +81,11 @@ export function SiteFooter() {
                 Newsletter
               </a>
             </li>
+            <li>
+              <button type="button" className="hover:text-white hover:underline">
+                Shop
+              </button>
+            </li>
           </ul>
         </div>
 
