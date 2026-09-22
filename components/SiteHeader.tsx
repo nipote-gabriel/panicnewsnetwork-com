@@ -28,43 +28,54 @@ export function SiteHeader() {
       </div>
 
       {/* Header / logo */}
-      <header className="flex items-center justify-between border-b border-neutral-200 px-4 py-4">
-        <div className="flex items-center gap-3">
-          <Link href="/" className="shrink-0">
-            <Image
-              src="/logo.png"
-              alt="Panic News Network"
-              width={720}
-              height={357}
-              priority
-              className="h-16 w-auto sm:h-20"
+      <header className="border-b border-neutral-200 px-4 py-4">
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex min-w-0 items-center gap-3">
+            <Link href="/" className="shrink-0">
+              <Image
+                src="/logo.png"
+                alt="Panic News Network"
+                width={720}
+                height={357}
+                priority
+                className="h-16 w-auto sm:h-20"
+              />
+            </Link>
+            <a
+              href="https://www.headquarterscomedy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.15em] text-brand-red hover:underline sm:inline-flex"
+            >
+              <span className="live-dot h-1.5 w-1.5 shrink-0 rounded-full bg-brand-red" />
+              A subsidiary of Headquarters Comedy
+            </a>
+          </div>
+          <form action="/search" method="GET" className="flex shrink-0 items-center gap-2">
+            <input
+              type="search"
+              name="q"
+              placeholder="Search…"
+              aria-label="Search stories"
+              className="w-24 min-w-0 rounded border border-neutral-300 px-2 py-1 text-sm text-neutral-800 focus:w-40 focus:border-brand-red focus:outline-none sm:w-32 sm:focus:w-48"
             />
-          </Link>
-          <a
-            href="https://www.headquarterscomedy.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.15em] text-brand-red hover:underline sm:inline-flex"
-          >
-            <span className="live-dot h-1.5 w-1.5 shrink-0 rounded-full bg-brand-red" />
-            A subsidiary of Headquarters Comedy
-          </a>
+            <button
+              type="submit"
+              className="shrink-0 rounded bg-brand-red px-3 py-1 text-sm font-semibold text-white hover:bg-red-700"
+            >
+              Search
+            </button>
+          </form>
         </div>
-        <form action="/search" method="GET" className="flex items-center gap-2">
-          <input
-            type="search"
-            name="q"
-            placeholder="Search…"
-            aria-label="Search stories"
-            className="w-32 rounded border border-neutral-300 px-2 py-1 text-sm text-neutral-800 focus:w-48 focus:border-brand-red focus:outline-none sm:w-48"
-          />
-          <button
-            type="submit"
-            className="rounded bg-brand-red px-3 py-1 text-sm font-semibold text-white hover:bg-red-700"
-          >
-            Search
-          </button>
-        </form>
+        <a
+          href="https://www.headquarterscomedy.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.15em] text-brand-red hover:underline sm:hidden"
+        >
+          <span className="live-dot h-1.5 w-1.5 shrink-0 rounded-full bg-brand-red" />
+          A subsidiary of Headquarters Comedy
+        </a>
       </header>
 
       {/* Category nav */}
