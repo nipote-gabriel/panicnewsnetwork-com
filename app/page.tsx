@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       {/* Story grid + sidebar */}
-      <section className="grid grid-cols-1 gap-8 border-t border-neutral-200 px-4 py-6 lg:grid-cols-3">
+      <section className="grid grid-cols-1 gap-8 border-t border-neutral-200 px-4 py-6 lg:grid-cols-3 lg:items-start">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3 xl:grid-cols-4">
           {gridStories.map((s) => (
             <Link key={s.slug} href={`/story/${s.slug}`}>
