@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { StoryImage } from "@/components/StoryImage";
+import { StoryMeta } from "@/components/StoryMeta";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { stories } from "@/lib/stories";
@@ -20,9 +21,7 @@ export default function Home() {
       <section className="grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-3">
         <Link href={`/story/${heroStory.slug}`} className="md:col-span-2">
           <StoryImage image={heroStory.image} alt={heroStory.headline} label="Hero Image" />
-          <span className="mt-3 inline-block text-xs font-bold uppercase text-brand-red">
-            {heroStory.category}
-          </span>
+          <StoryMeta category={heroStory.category} date={heroStory.date} className="mt-3" />
           <h1 className="mt-1 text-3xl font-extrabold leading-tight hover:underline">
             {heroStory.headline}
           </h1>
@@ -32,9 +31,7 @@ export default function Home() {
           {secondaryStories.slice(0, 2).map((s) => (
             <Link key={s.slug} href={`/story/${s.slug}`}>
               <StoryImage image={s.image} alt={s.headline} label="Story Image" />
-              <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
-                {s.category}
-              </span>
+              <StoryMeta category={s.category} date={s.date} />
               <h2 className="mt-1 text-lg font-bold leading-snug hover:underline">
                 {s.headline}
               </h2>
@@ -49,9 +46,7 @@ export default function Home() {
           {gridStories.map((s) => (
             <Link key={s.slug} href={`/story/${s.slug}`}>
               <StoryImage image={s.image} alt={s.headline} label="Story Image" />
-              <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
-                {s.category}
-              </span>
+              <StoryMeta category={s.category} date={s.date} />
               <h3 className="mt-1 text-base font-bold leading-snug hover:underline">
                 {s.headline}
               </h3>
@@ -72,6 +67,7 @@ export default function Home() {
                 >
                   {s.headline}
                 </Link>
+                <StoryMeta date={s.date} className="mt-1" />
               </li>
             ))}
           </ul>
@@ -90,9 +86,7 @@ export default function Home() {
             {featuredStories.map((s) => (
               <Link key={s.slug} href={`/story/${s.slug}`}>
                 <StoryImage image={s.image} alt={s.headline} label="Story Image" />
-                <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
-                  {s.category}
-                </span>
+                <StoryMeta category={s.category} date={s.date} />
                 <h3 className="mt-1 text-base font-bold leading-snug hover:underline">
                   {s.headline}
                 </h3>
@@ -120,6 +114,7 @@ export default function Home() {
                 <h3 className="mt-2 text-sm font-bold leading-snug group-hover:text-brand-red group-hover:underline">
                   {s.headline}
                 </h3>
+                <StoryMeta date={s.date} className="mt-1" />
               </Link>
             ))}
           </div>

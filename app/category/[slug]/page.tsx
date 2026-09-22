@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { StoryImage } from "@/components/StoryImage";
+import { StoryMeta } from "@/components/StoryMeta";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { categories, categoryBySlug, slugifyCategory } from "@/lib/categories";
@@ -54,9 +55,7 @@ export default async function CategoryPage({
             {categoryStories.map((s) => (
               <Link key={s.slug} href={`/story/${s.slug}`}>
                 <StoryImage image={s.image} alt={s.headline} label="Story Image" />
-                <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
-                  {s.category}
-                </span>
+                <StoryMeta date={s.date} />
                 <h2 className="mt-1 text-base font-bold leading-snug hover:underline">
                   {s.headline}
                 </h2>

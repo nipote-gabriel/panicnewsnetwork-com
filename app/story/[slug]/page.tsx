@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { StoryImage } from "@/components/StoryImage";
+import { StoryMeta } from "@/components/StoryMeta";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getStoryBySlug, stories } from "@/lib/stories";
@@ -88,9 +89,7 @@ export default async function StoryPage({
               <li key={s.slug} className="border-b border-neutral-100 pb-4 last:border-b-0">
                 <Link href={`/story/${s.slug}`}>
                   <StoryImage image={s.image} alt={s.headline} label="Story Image" />
-                  <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
-                    {s.category}
-                  </span>
+                  <StoryMeta category={s.category} date={s.date} />
                   <h3 className="mt-1 text-sm font-bold leading-snug hover:underline">
                     {s.headline}
                   </h3>
