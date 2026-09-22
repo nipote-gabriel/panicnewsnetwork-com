@@ -46,7 +46,7 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 className="hover:text-white hover:underline"
               >
-                HQ
+                Headquarters Comedy
               </a>
             </li>
             <li>
@@ -56,17 +56,7 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 className="hover:text-white hover:underline"
               >
-                WCI
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://headquarterscomedy.beehiiv.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white hover:underline"
-              >
-                Newsletter
+                WorldCorp International
               </a>
             </li>
             <li>
@@ -77,6 +67,16 @@ export function SiteFooter() {
                 className="hover:text-white hover:underline"
               >
                 The Gary Luna Show
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://headquarterscomedy.beehiiv.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                Newsletter
               </a>
             </li>
           </ul>
