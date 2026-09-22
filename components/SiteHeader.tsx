@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { categories, slugifyCategory } from "@/lib/categories";
 import { CurrentDate } from "@/components/CurrentDate";
+import { stories } from "@/lib/stories";
+
+const tickerStories = stories.slice(0, 8);
 
 export function SiteHeader() {
   return (
@@ -71,9 +74,24 @@ export function SiteHeader() {
         <span className="shrink-0 rounded bg-brand-red px-2 py-0.5 text-xs font-bold uppercase">
           Breaking
         </span>
-        <span className="truncate">
-          Placeholder breaking news ticker text — replace with live headline feed.
-        </span>
+        <div className="ticker-viewport min-w-0 flex-1 overflow-hidden">
+          <div className="ticker-track flex w-max items-center gap-10 whitespace-nowrap">
+            {[0, 1].map((rep) => (
+              <div key={rep} className="flex items-center gap-10">
+                {tickerStories.map((s) => (
+                  <Link
+                    key={`${rep}-${s.slug}`}
+                    href={`/story/${s.slug}`}
+                    className="flex items-center gap-2 hover:underline"
+                  >
+                    <span className="text-brand-red">&bull;</span>
+                    {s.headline}
+                  </Link>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );
