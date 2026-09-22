@@ -8,6 +8,8 @@ const heroStory = stories[0];
 const secondaryStories = stories.slice(1, 3);
 const gridStories = stories.slice(3, 9);
 const sidebarStories = stories.slice(9, 15);
+const featuredStories = stories.slice(15, 19);
+const editorsPicks = stories.slice(19, 25);
 
 export default function Home() {
   return (
@@ -74,6 +76,54 @@ export default function Home() {
             ))}
           </ul>
         </aside>
+      </section>
+
+      {/* Featured Stories */}
+      <section className="border-t border-neutral-200 bg-neutral-50 py-6">
+        <div className="mx-auto max-w-6xl px-4">
+          <div className="mb-4 inline-block bg-brand-red px-3 py-1">
+            <h2 className="text-sm font-extrabold uppercase tracking-wide text-white">
+              Featured Stories
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {featuredStories.map((s) => (
+              <Link key={s.slug} href={`/story/${s.slug}`}>
+                <StoryImage image={s.image} alt={s.headline} label="Story Image" />
+                <span className="mt-2 inline-block text-xs font-bold uppercase text-brand-red">
+                  {s.category}
+                </span>
+                <h3 className="mt-1 text-base font-bold leading-snug hover:underline">
+                  {s.headline}
+                </h3>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Editor's Picks */}
+      <section className="border-t border-neutral-200 px-4 py-6">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="mb-4 flex items-center gap-2 border-b-2 border-brand-red pb-2 text-sm font-extrabold uppercase tracking-wide">
+            Editor&rsquo;s Picks
+          </h2>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            {editorsPicks.map((s) => (
+              <Link key={s.slug} href={`/story/${s.slug}`} className="group">
+                <StoryImage
+                  image={s.image}
+                  alt={s.headline}
+                  label="Story Image"
+                  className="aspect-square"
+                />
+                <h3 className="mt-2 text-sm font-bold leading-snug group-hover:text-brand-red group-hover:underline">
+                  {s.headline}
+                </h3>
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
 
       <SiteFooter />
