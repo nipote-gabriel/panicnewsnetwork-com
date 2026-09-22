@@ -5,7 +5,7 @@ import { TvBanner } from "@/components/TvBanner";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-6 bg-brand-dark text-sm text-neutral-400">
+    <footer className="full-bleed mt-6 bg-brand-dark text-sm text-neutral-400">
       <TvBanner />
       <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-4 py-10 sm:grid-cols-4">
         <div className="col-span-2 sm:col-span-1">

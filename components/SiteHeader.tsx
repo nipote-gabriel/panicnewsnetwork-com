@@ -10,26 +10,28 @@ export function SiteHeader() {
   return (
     <>
       {/* Top utility bar */}
-      <div className="flex items-center justify-between bg-brand-dark px-4 py-1.5 text-xs text-neutral-300">
-        <CurrentDate />
-        <div className="flex gap-4">
-          <button type="button" className="hover:underline">
-            Shop
-          </button>
-          <a
-            href="https://headquarterscomedy.beehiiv.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            Newsletter
-          </a>
+      <div className="full-bleed bg-brand-dark">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-1.5 text-xs text-neutral-300">
+          <CurrentDate />
+          <div className="flex gap-4">
+            <button type="button" className="hover:underline">
+              Shop
+            </button>
+            <a
+              href="https://headquarterscomedy.beehiiv.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Newsletter
+            </a>
+          </div>
         </div>
       </div>
 
       {/* Header / logo */}
-      <header className="border-b border-neutral-200 px-4 py-4">
-        <div className="flex items-center justify-between gap-3">
+      <header className="full-bleed border-b border-neutral-200 px-4 py-4">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3">
           <div className="flex min-w-0 items-center gap-3">
             <Link href="/" className="shrink-0">
               <Image
@@ -79,8 +81,8 @@ export function SiteHeader() {
       </header>
 
       {/* Category nav */}
-      <nav className="overflow-x-auto bg-brand-red">
-        <ul className="flex min-w-max gap-6 px-4 py-2 text-sm font-semibold uppercase text-white">
+      <nav className="full-bleed overflow-x-auto bg-brand-red">
+        <ul className="mx-auto flex min-w-max max-w-6xl gap-6 px-4 py-2 text-sm font-semibold uppercase text-white">
           {categories.map((c) => (
             <li key={c} className="whitespace-nowrap">
               <Link href={`/category/${slugifyCategory(c)}`} className="hover:underline">
@@ -92,26 +94,28 @@ export function SiteHeader() {
       </nav>
 
       {/* Breaking news ticker */}
-      <div className="flex items-center gap-3 bg-brand-dark px-4 py-2 text-sm text-white">
-        <span className="shrink-0 rounded bg-brand-red px-2 py-0.5 text-xs font-bold uppercase">
-          Breaking
-        </span>
-        <div className="ticker-viewport min-w-0 flex-1 overflow-hidden">
-          <div className="ticker-track flex w-max items-center gap-10 whitespace-nowrap">
-            {[0, 1].map((rep) => (
-              <div key={rep} className="flex items-center gap-10">
-                {tickerStories.map((s) => (
-                  <Link
-                    key={`${rep}-${s.slug}`}
-                    href={`/story/${s.slug}`}
-                    className="flex items-center gap-2 hover:underline"
-                  >
-                    <span className="text-brand-red">&bull;</span>
-                    {s.headline}
-                  </Link>
-                ))}
-              </div>
-            ))}
+      <div className="full-bleed bg-brand-dark">
+        <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-2 text-sm text-white">
+          <span className="shrink-0 rounded bg-brand-red px-2 py-0.5 text-xs font-bold uppercase">
+            Breaking
+          </span>
+          <div className="ticker-viewport min-w-0 flex-1 overflow-hidden">
+            <div className="ticker-track flex w-max items-center gap-10 whitespace-nowrap">
+              {[0, 1].map((rep) => (
+                <div key={rep} className="flex items-center gap-10">
+                  {tickerStories.map((s) => (
+                    <Link
+                      key={`${rep}-${s.slug}`}
+                      href={`/story/${s.slug}`}
+                      className="flex items-center gap-2 hover:underline"
+                    >
+                      <span className="text-brand-red">&bull;</span>
+                      {s.headline}
+                    </Link>
+                  ))}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
