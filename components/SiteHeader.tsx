@@ -35,7 +35,21 @@ export function SiteHeader() {
             className="h-16 w-auto sm:h-20"
           />
         </Link>
-        <div className="text-sm text-neutral-500">Search</div>
+        <form action="/search" method="GET" className="flex items-center gap-2">
+          <input
+            type="search"
+            name="q"
+            placeholder="Search…"
+            aria-label="Search stories"
+            className="w-32 rounded border border-neutral-300 px-2 py-1 text-sm text-neutral-800 focus:w-48 focus:border-brand-red focus:outline-none sm:w-48"
+          />
+          <button
+            type="submit"
+            className="rounded bg-brand-red px-3 py-1 text-sm font-semibold text-white hover:bg-red-700"
+          >
+            Search
+          </button>
+        </form>
       </header>
 
       {/* Category nav */}
