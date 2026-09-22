@@ -11,18 +11,7 @@ export function SiteHeader() {
     <>
       {/* Top utility bar */}
       <div className="flex items-center justify-between bg-brand-dark px-4 py-1.5 text-xs text-neutral-300">
-        <div className="flex items-center gap-2">
-          <CurrentDate />
-          <span className="hidden text-neutral-600 sm:inline">&middot;</span>
-          <a
-            href="https://www.headquarterscomedy.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden hover:underline sm:inline"
-          >
-            A subsidiary of Headquarters Comedy
-          </a>
-        </div>
+        <CurrentDate />
         <div className="flex gap-4">
           <button type="button" className="hover:underline">
             Shop
@@ -40,16 +29,27 @@ export function SiteHeader() {
 
       {/* Header / logo */}
       <header className="flex items-center justify-between border-b border-neutral-200 px-4 py-4">
-        <Link href="/" className="shrink-0">
-          <Image
-            src="/logo.png"
-            alt="Panic News Network"
-            width={720}
-            height={357}
-            priority
-            className="h-16 w-auto sm:h-20"
-          />
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link href="/" className="shrink-0">
+            <Image
+              src="/logo.png"
+              alt="Panic News Network"
+              width={720}
+              height={357}
+              priority
+              className="h-16 w-auto sm:h-20"
+            />
+          </Link>
+          <a
+            href="https://www.headquarterscomedy.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.15em] text-brand-red hover:underline sm:inline-flex"
+          >
+            <span className="live-dot h-1.5 w-1.5 shrink-0 rounded-full bg-brand-red" />
+            A subsidiary of Headquarters Comedy
+          </a>
+        </div>
         <form action="/search" method="GET" className="flex items-center gap-2">
           <input
             type="search"
