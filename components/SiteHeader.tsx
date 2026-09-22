@@ -11,7 +11,18 @@ export function SiteHeader() {
     <>
       {/* Top utility bar */}
       <div className="flex items-center justify-between bg-brand-dark px-4 py-1.5 text-xs text-neutral-300">
-        <CurrentDate />
+        <div className="flex items-center gap-2">
+          <CurrentDate />
+          <span className="hidden text-neutral-600 sm:inline">&middot;</span>
+          <a
+            href="https://www.headquarterscomedy.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden hover:underline sm:inline"
+          >
+            A subsidiary of Headquarters Comedy
+          </a>
+        </div>
         <div className="flex gap-4">
           <button type="button" className="hover:underline">
             Shop
