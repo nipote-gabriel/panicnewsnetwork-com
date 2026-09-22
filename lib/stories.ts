@@ -10,6 +10,19 @@ export type Story = {
 
 export const stories: Story[] = [
   {
+    slug: "oliver-stone-claims-fell-asleep-watching-john-wick-amc-to-stop-serving-warm-milk",
+    category: "Culture",
+    headline: "Oliver Stone Claims “Fell Asleep” Watching John Wick. AMC to Stop Serving Warm Milk.",
+    dek: "Renowned filmmaker Oliver Stone has sparked controversy by publicly claiming he \"fell asleep\" while watching the action-packed blockbuster \"John Wick.\" Stone, known for his…",
+    byline: "Gabriel Nipote",
+    date: "January 24, 2024",
+    paragraphs: [
+      "Renowned filmmaker Oliver Stone has sparked controversy by publicly claiming he \"fell asleep\" while watching the action-packed blockbuster \"John Wick.\" Stone, known for his provocative works, raised eyebrows with this unexpected critique of the adrenaline-fueled film.",
+      "In a parallel development, AMC Theatres has announced it will cease serving warm milk, a move seemingly prompted by Stone's peculiar snooze during the movie. The chain, famed for its cinematic experience, seeks to ensure patrons remain engaged and alert during screenings. Stone's remarks have ignited discussions on the subjective nature of cinematic tastes, prompting reflection on the intersection of personal preferences and cinematic masterpieces.",
+      "As moviegoers anticipate a new era at AMC without warm milk, the incident sheds light on the diverse ways in which audiences engage with and critique the ever-evolving landscape of cinema.",
+    ],
+  },
+  {
     slug: "desantis-suspends-campaign-just-hours-after-six-flags-reduces-height-requirement-for-trademark-rollercoaster-tatsu",
     category: "Politics",
     headline: "Desantis Suspends Campaign Just Hours After Six Flags Reduces Height Requirement for Trademark Rollercoaster “Tatsu.”",
