@@ -11,7 +11,7 @@ export function SiteFooter() {
           </Link>
         ))}
       </div>
-      <p>&copy; 2026 Fast News Network. All rights reserved.</p>
+      <p>&copy; 2026 Panic News Network. All rights reserved.</p>
     </footer>
   );
 }

@@ -20,8 +20,8 @@ export async function generateMetadata({
   const category = categoryBySlug(slug);
   if (!category) return {};
   return {
-    title: `${category} | Fast News Network`,
-    description: `Latest ${category} stories from Fast News Network.`,
+    title: `${category} | Panic News Network`,
+    description: `Latest ${category} stories from Panic News Network.`,
   };
 }
 

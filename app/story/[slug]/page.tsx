@@ -19,7 +19,7 @@ export async function generateMetadata({
   const story = getStoryBySlug(slug);
   if (!story) return {};
   return {
-    title: `${story.headline} | Fast News Network`,
+    title: `${story.headline} | Panic News Network`,
     description: story.dek,
   };
 }

@@ -28,11 +28,11 @@ export function SiteHeader() {
         <Link href="/" className="shrink-0">
           <Image
             src="/logo.png"
-            alt="Fast News Network"
-            width={700}
-            height={237}
+            alt="Panic News Network"
+            width={760}
+            height={314}
             priority
-            className="h-14 w-auto sm:h-16"
+            className="h-16 w-auto sm:h-20"
           />
         </Link>
         <div className="text-sm text-neutral-500">Search</div>

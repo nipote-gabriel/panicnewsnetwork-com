@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fast News Network",
-  description: "Breaking news, politics, business, and more.",
+  title: "Panic News Network",
+  description: "Fake news. Real insight.",
 };
 
 export default function RootLayout({
