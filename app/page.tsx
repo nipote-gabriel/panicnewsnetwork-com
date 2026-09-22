@@ -8,10 +8,10 @@ import { stories } from "@/lib/stories";
 
 const heroStory = stories[0];
 const secondaryStories = stories.slice(1, 3);
-const gridStories = stories.slice(3, 11);
-const sidebarStories = stories.slice(11, 17);
-const featuredStories = stories.slice(17, 21);
-const editorsPicks = stories.slice(21, 27);
+const gridStories = stories.slice(3, 15);
+const sidebarStories = stories.slice(15, 21);
+const featuredStories = stories.slice(21, 25);
+const editorsPicks = stories.slice(25, 31);
 
 export default function Home() {
   return (
