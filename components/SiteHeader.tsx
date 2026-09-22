@@ -29,8 +29,8 @@ export function SiteHeader() {
           <Image
             src="/logo.png"
             alt="Panic News Network"
-            width={760}
-            height={314}
+            width={720}
+            height={357}
             priority
             className="h-16 w-auto sm:h-20"
           />
