@@ -15,7 +15,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Steve Bannon Voted People Magazine’s Most Buoyant Man of 2024",
     dek: "In an unexpected nod from People Magazine, political strategist Steve Bannon has been named the “Most Buoyant Man of 2024.” While the accolade traditionally celebrates physical attractiveness, this…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 31, 2024",
     paragraphs: [
       "In an unexpected nod from People Magazine, political strategist Steve Bannon has been named the “Most Buoyant Man of 2024.” While the accolade traditionally celebrates physical attractiveness, this year’s choice highlights buoyancy—both in terms of resilience and, as the magazine clarified, “literal water displacement.”",
@@ -30,7 +30,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Seasonal Depression? You Might Just Live in Boston",
     dek: "As winter approaches, many Boston residents brace for what feels like an annual wave of seasonal depression. However, experts suggest that these feelings may stem less from biological factors and…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 25, 2024",
     paragraphs: [
       "As winter approaches, many Boston residents brace for what feels like an annual wave of seasonal depression. However, experts suggest that these feelings may stem less from biological factors and more from the challenges of living in a city renowned for its harsh winters, fast-paced lifestyle, and general shittyness.",
@@ -45,7 +45,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Move Over Reba McEntire… You’re Sitting Way Too Close to Me",
     dek: "Country music legend Reba McEntire inadvertently became the subject of a trending social media meme after a fan complained about her proximity during a photo-op. The viral post, which humorously…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 23, 2024",
     paragraphs: [
       "Country music legend Reba McEntire inadvertently became the subject of a trending social media meme after a fan complained about her proximity during a photo-op. The viral post, which humorously claimed, “Move over, Reba—you’re sitting way too close to me,” has sparked a wave of lighthearted memes and discussions about personal space in celebrity interactions.",
@@ -60,7 +60,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "RFK Outraged That Hot Dogs No Longer Made From Real Dog",
     dek: "In a controversial statement during a town hall meeting, presidential candidate Robert F. Kennedy Jr. expressed frustration over the modern composition of hot dogs, lamenting their lack of…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 20, 2024",
     paragraphs: [
       "In a controversial statement during a town hall meeting, presidential candidate Robert F. Kennedy Jr. expressed frustration over the modern composition of hot dogs, lamenting their lack of “authenticity.” “Why call it a hot dog if it’s not made from dog?” Kennedy asked, drawing laughter and confusion from the audience.",
@@ -76,7 +76,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "BlackRock Now Owns 80% of Bounce Houses in America",
     dek: "In a continued streak of domination for one of the world’s largest investment firms, BlackRock has quietly acquired a dominant stake in the U.S. bounce house industry. According to recent financial…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 18, 2024",
     paragraphs: [
       "In a continued streak of domination for one of the world’s largest investment firms, BlackRock has quietly acquired a dominant stake in the U.S. bounce house industry. According to recent financial disclosures, the asset management company now controls 80% of bounce houses in America, sparking concerns about monopolization.",
@@ -92,7 +92,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Gin & Tonics for Breakfast? My Toddler Fucking Slaps",
     dek: "A recent trend in parenting forums has sparked debate: the humor and self-reflection behind lightheartedly describing young children as “slapping,” a term popularized on social media. New York-based…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 13, 2024",
     paragraphs: [
       "A recent trend in parenting forums has sparked debate: the humor and self-reflection behind lightheartedly describing young children as “slapping,” a term popularized on social media. New York-based author Eric Davis recently shared his morning routine on Instagram, which humorously involved making a gin and tonic, for both himself and his 4 year old son, in order to cope with the chaos of the young boy’s energetic antics.",
@@ -108,7 +108,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "ICWT Recipes: Roger Stone’s Easy Weeknight Spit-Roasted Salamander",
     dek: "Roger Stone, the controversial political consultant, has turned his culinary creativity toward an unconventional dish: spit-roasted salamander. In his latest recipe book, Unconventional Meals for the…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 8, 2024",
     paragraphs: [
       "Roger Stone, the controversial political consultant, has turned his culinary creativity toward an unconventional dish: spit-roasted salamander. In his latest recipe book, Unconventional Meals for the Daring Cook, Stone details a method he claims brings out “robust, earthy flavors” from the amphibian.",
@@ -124,7 +124,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Looks can be deceiving: This little man ejecting himself from woman’’s uterus actually just long time friend of fetus.",
     dek: "In a bizarre case that has perplexed the medical community, a Milwaukee woman delivering her baby last week also encountered an unexpected presence: a small, biologically unexplainable humanoid…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 8, 2024",
     paragraphs: [
       "In a bizarre case that has perplexed the medical community, a Milwaukee woman delivering her baby last week also encountered an unexpected presence: a small, biologically unexplainable humanoid figure described as the “fetus’s long-time companion and backgammon playing partner.”",
@@ -140,7 +140,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Drinking 6 more cups of coffee per day may lead to drinking 7 or more cups of coffee per day.",
     dek: "A recent study from the National Institute on Dietary Habits has observed an unexpected trend among high-volume coffee drinkers. Individuals consuming six cups of coffee daily often increase their…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 8, 2024",
     paragraphs: [
       "A recent study from the National Institute on Dietary Habits has observed an unexpected trend among high-volume coffee drinkers. Individuals consuming six cups of coffee daily often increase their intake to seven or more cups, raising concerns about caffeine dependency and health implications.",
@@ -156,7 +156,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Celebrate the small wins: Ass cheese technically non-dairy.",
     dek: "For those who have braved hot, humid days or tight pants, “ass cheese” is an all-too-familiar byproduct — the unofficial term for the uncomfortable buildup of sweat, skin oils, and bacteria that can…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 29, 2024",
     paragraphs: [
       "For those who have braved hot, humid days or tight pants, “ass cheese” is an all-too-familiar byproduct — the unofficial term for the uncomfortable buildup of sweat, skin oils, and bacteria that can collect between the thighs. While not the most glamorous of topics, hygiene experts want people to know there’s a silver lining: it’s technically non-dairy.",
@@ -171,7 +171,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Mother sifting through feces to find child’s swallowed lost tooth insists she is not a moron.",
     dek: "For the past three days, Sarah Whitaker, a devoted mother from Boulder, Colorado, has found herself sifting through an unexpected pile of parental duties. After her 6-year-old son, Max, accidentally…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 25, 2024",
     paragraphs: [
       "For the past three days, Sarah Whitaker, a devoted mother from Boulder, Colorado, has found herself sifting through an unexpected pile of parental duties. After her 6-year-old son, Max, accidentally swallowed a freshly-lost tooth, Whitaker decided to retrieve it the hard way: by combing through his daily “contributions” in search of the missing molar.",
@@ -188,7 +188,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Experts: Optimism Now Classified as Mental Illness",
     dek: "In a surprising twist in the world of psychology, a coalition of mental health experts has moved to officially classify optimism as a mental disorder. The proposal, introduced at this year’s American…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 22, 2024",
     paragraphs: [
       "In a surprising twist in the world of psychology, a coalition of mental health experts has moved to officially classify optimism as a mental disorder. The proposal, introduced at this year’s American Psychological Association conference, describes “pathological optimism” as a condition marked by persistent, unrealistic positivity that may impede an individual’s ability to respond to real-world challenges.",
@@ -205,7 +205,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Americas hottest new pop star is a young attractive woman.",
     dek: "In a development that has stunned precisely no one, America’s newest pop sensation is a young, attractive woman. With catchy hooks, choreographed dance routines, and a polished social media presence,…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 17, 2024",
     paragraphs: [
       "In a development that has stunned precisely no one, America’s newest pop sensation is a young, attractive woman. With catchy hooks, choreographed dance routines, and a polished social media presence, 22-year-old Ava Starling has ascended to the top of the charts — a meteoric rise that seems to reinforce every music industry trend of the past two decades.",
@@ -221,7 +221,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Prozac flavor revamp sucks.",
     dek: "In a surprising attempt to modernize one of the world’s most prescribed antidepressants, pharmaceutical giant Eli Lilly recently released a new, “enhanced flavor” version of Prozac. But patients and…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 15, 2024",
     paragraphs: [
       "In a surprising attempt to modernize one of the world’s most prescribed antidepressants, pharmaceutical giant Eli Lilly recently released a new, “enhanced flavor” version of Prozac. But patients and doctors alike have been quick to pan the change, calling the taste revamp a misstep that distracts from the medication’s purpose.",
@@ -237,7 +237,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Global warming causes another devastating renewal of Young Sheldon.",
     dek: "After a season of brutal storms destroying infrastructure and taking lives, CBS has hit the public with another natural disaster of immense magnitude announcing yet another renewal of Young Sheldon,…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 14, 2024",
     paragraphs: [
       "After a season of brutal storms destroying infrastructure and taking lives, CBS has hit the public with another natural disaster of immense magnitude announcing yet another renewal of Young Sheldon, the spinoff of The Big Bang Theory. The network is passing off blame for lacking the balls to kill the show, attributing its unexpected longevity to the effects of global warming. The show, now entering its eighth season, has been met with mixed reviews since its debut, yet seems to persist as inexorably as rising sea levels.",
@@ -254,7 +254,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Netflix CEO Confirms Company Will Start Charging Extra Fee for Breathing Too Hard",
     dek: "In a move that has left subscribers both bewildered and outraged, Netflix announced a new policy that will charge users an additional fee if their “breathing patterns exceed the acceptable level”…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 12, 2024",
     paragraphs: [
       "In a move that has left subscribers both bewildered and outraged, Netflix announced a new policy that will charge users an additional fee if their “breathing patterns exceed the acceptable level” during streaming sessions. CEO Ted Sarandos confirmed the change at a press event on Tuesday, citing the need to “remain competitive” and “find new revenue streams in a challenging market.”",
@@ -270,7 +270,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“Tastes Like Dogshit. Zero Stars.” Man Cooks for Himself",
     dek: "In an era of takeout apps and meal delivery services, a growing number of Americans are finding themselves out of practice in the kitchen. Such was the case for Aaron Miller, a 34-year-old software…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 11, 2024",
     paragraphs: [
       "In an era of takeout apps and meal delivery services, a growing number of Americans are finding themselves out of practice in the kitchen. Such was the case for Aaron Miller, a 34-year-old software engineer in San Francisco, who recently took on the challenge of cooking for himself — only to be met with humbling results.",
@@ -286,7 +286,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "J.D. Vance has a dirty little secret: his penis.",
     dek: "Rumors are swirling around J.D. Vance, Ohio’s outspoken conservative voice, about a “dirty little secret.” The source? His own recent comments, which unexpectedly hinted at a personal revelation.",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 4, 2024",
     paragraphs: [
       "Rumors are swirling around J.D. Vance, Ohio’s outspoken conservative voice, about a “dirty little secret.” The source? His own recent comments, which unexpectedly hinted at a personal revelation.",
@@ -302,7 +302,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Report: Marathons Twice as Tiring for Friends of Those Running It",
     dek: "For those braving the 26.2-mile trek, marathons are the ultimate test of endurance. But a recent report reveals that the real marathon may, in fact, be for their friends and family. New findings…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 3, 2024",
     paragraphs: [
       "For those braving the 26.2-mile trek, marathons are the ultimate test of endurance. But a recent report reveals that the real marathon may, in fact, be for their friends and family. New findings suggest that the physical toll of marathon day extends beyond runners, with supporters reporting a unique fatigue all their own.",
@@ -318,7 +318,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Self-Driving Car Refuses to Move Until Driver Puts on Sheryl Crow",
     dek: "In a curious blend of technology and taste, a self-driving car belonging to a suburban Los Angeles resident recently refused to start unless a Sheryl Crow song was playing. The incident, reported by…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 2, 2024",
     paragraphs: [
       "In a curious blend of technology and taste, a self-driving car belonging to a suburban Los Angeles resident recently refused to start unless a Sheryl Crow song was playing. The incident, reported by multiple witnesses and caught on the driver’s smartphone, has raised questions about the quirks and limitations of autonomous vehicle technology.",
@@ -334,7 +334,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Pope kinda thinking a cool ranch wafer could actually be sick",
     dek: "Reports suggest that Pope Francis has repeatedly remarked about the possibility of a Cool Ranch-flavored communion wafer. Those close to the matter say he keeps trying to say it casually, like he’s…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 28, 2024",
     paragraphs: [
       "Reports suggest that Pope Francis has repeatedly remarked about the possibility of a Cool Ranch-flavored communion wafer. Those close to the matter say he keeps trying to say it casually, like he’s not that interested in actually doing it, but he says it too much for it to be an off-hand thought. In any case, the remarks have sparked an unlikely conversation about how the Catholic Church engages with contemporary culture.",
@@ -350,7 +350,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Trump and Kamala agree to settle it over foosball match",
     dek: "Former President Donald Trump and Vice President Kamala Harris have reportedly agreed to resolve the upcoming election with a foosball match. The announcement, made jointly via social media, left…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 27, 2024",
     paragraphs: [
       "Former President Donald Trump and Vice President Kamala Harris have reportedly agreed to resolve the upcoming election with a foosball match. The announcement, made jointly via social media, left political observers and the public saying, “holy fuck. holy fuck.”",
@@ -367,7 +367,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“Show some respect”… guy in casket is wearing t-shirt",
     dek: "A small-town funeral in Ohio has sparked a surprising debate on social media after attendees were taken aback by the sight of the deceased dressed in a casual T-shirt instead of traditional funeral…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 26, 2024",
     paragraphs: [
       "A small-town funeral in Ohio has sparked a surprising debate on social media after attendees were taken aback by the sight of the deceased dressed in a casual T-shirt instead of traditional funeral attire. The incident, which occurred last week, saw a mourner loudly exclaim, “Show some respect,” as the casket was opened, revealing the man’s choice of clothing. The deceased, 45-year-old Logan Tramey, known for his laid-back personality, failed to respond to the outburst.",
@@ -383,7 +383,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Pleading insanity? Tell the judge you watch James Corden!",
     dek: "In a surprising twist of courtroom rhetoric, a quip suggesting that watching The Late Late Show with James Corden could serve as grounds for an insanity defense has sparked a heated conversation…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 20, 2024",
     paragraphs: [
       "In a surprising twist of courtroom rhetoric, a quip suggesting that watching The Late Late Show with James Corden could serve as grounds for an insanity defense has sparked a heated conversation online. The remark, which originated in a viral social media post, reads: “Pleading insanity? Tell the judge you watch James Corden!”—and has prompted a mix of amusement, offense, and reflection on the intersection of humor and mental health.",
@@ -399,7 +399,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Five second rule? This guy just had sex on the floor.",
     dek: "A man has gone viral after being caught on camera engaging in a sexual act on the floor of a public venue. The incident, which occurred in a crowded nightclub in Miami, has sparked widespread debate…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 20, 2024",
     paragraphs: [
       "A man has gone viral after being caught on camera engaging in a sexual act on the floor of a public venue. The incident, which occurred in a crowded nightclub in Miami, has sparked widespread debate about public decency, with the footage quickly circulating on social media and eliciting reactions ranging from outrage to disbelief.",
@@ -415,7 +415,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Fat guy with fat head is my history teacher.",
     dek: "In my small high school in Ohio, one history teacher has become the subject of an unexpected controversy among students—not for his teaching methods or political views, but for his appearance. Known…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 14, 2024",
     paragraphs: [
       "In my small high school in Ohio, one history teacher has become the subject of an unexpected controversy among students—not for his teaching methods or political views, but for his appearance. Known affectionately (and sometimes not) as the “fat guy with a fat head,” this teacher has garnered a mix of admiration and ridicule for his unconventional look, sparking conversations about body image and respect in the classroom.",
@@ -430,7 +430,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Debate format backlash from GOP after diapers disallowed",
     dek: "Controversy erupted this week after Republican Party officials expressed outrage over a new debate rule that prohibits former President Trump and Vice President Harris from wearing diapers during the…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 10, 2024",
     paragraphs: [
       "Controversy erupted this week after Republican Party officials expressed outrage over a new debate rule that prohibits former President Trump and Vice President Harris from wearing diapers during the debate tonight at 9pm ET. The decision, made by the Commission on Presidential Debates & Ass Hygiene, has sparked backlash from several GOP members, who argue, “the restriction places undue stress on candidates, particularly President Trump, whose exuberance and intellect can often overpower his own asshole.”",
@@ -447,7 +447,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Scared Straight Corporate: New reality show teaches youngsters what could happen to them if they keep on achieving.",
     dek: "In a society that often celebrates and rewards high achievement, a new program is taking a decidedly different approach: warning young people of the potential pitfalls that come with relentless…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 6, 2024",
     paragraphs: [
       "In a society that often celebrates and rewards high achievement, a new program is taking a decidedly different approach: warning young people of the potential pitfalls that come with relentless success. Dubbed “Scared Straight Corporate,” the initiative seeks to show ambitious teens what could happen to them if they continue on their high-achieving paths without considering the personal costs.",
@@ -463,7 +463,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "“Small businesses are the juicy phat ass of the American economy.” – Tim Walz attempts to modernize rhetoric on economy.",
     dek: "In an attempt to modernize and perhaps enliven the rhetoric surrounding the American economy, Minnesota Governor Tim Walz recently made headlines with a strikingly unconventional metaphor. Speaking…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 5, 2024",
     paragraphs: [
       "In an attempt to modernize and perhaps enliven the rhetoric surrounding the American economy, Minnesota Governor Tim Walz recently made headlines with a strikingly unconventional metaphor. Speaking at a small business conference in Minneapolis, Walz described small businesses as “the juicy phat ass of the American economy,” a phrase that immediately caught the attention of attendees and quickly went viral online.",
@@ -479,7 +479,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Which actress do fans think has the best blood vessel sub-type sinusoid veins in the biz?",
     dek: "In a world where celebrity culture often fixates on the superficial, an unexpected conversation has emerged among fans: which actress boasts the most impressive blood vessel subtype, specifically…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 4, 2024",
     paragraphs: [
       "In a world where celebrity culture often fixates on the superficial, an unexpected conversation has emerged among fans: which actress boasts the most impressive blood vessel subtype, specifically sinusoid veins? This peculiar yet surprisingly earnest debate has taken social media by storm, capturing the attention of both medical professionals and pop culture enthusiasts.",
@@ -496,7 +496,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“It’s been one of our main challenges as a business” – blockbuster CEO on going out of business",
     dek: "In a candid interview, the CEO of Blockbuster, once a titan in the home entertainment industry, reflected on the factors that led to the company’s decline and eventual closure. Speaking with a mix of…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 29, 2024",
     paragraphs: [
       "In a candid interview, the CEO of Blockbuster, once a titan in the home entertainment industry, reflected on the factors that led to the company’s decline and eventual closure. Speaking with a mix of nostalgia and pragmatism, the CEO acknowledged the challenges that Blockbuster faced as digital streaming services began to dominate the market.",
@@ -513,7 +513,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Florida parents rally against school board for disguised agenda to “educate the next generation”",
     dek: "In a scene emblematic of the growing tension across the nation, a group of concerned parents gathered outside the Orange County School Board in Florida on Wednesday to protest what they claim is a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 29, 2024",
     paragraphs: [
       "In a scene emblematic of the growing tension across the nation, a group of concerned parents gathered outside the Orange County School Board in Florida on Wednesday to protest what they claim is a hidden agenda within the public education system. The protest, attended by over 200 parents and community members, centered on allegations that the school board is pushing a curriculum that many believe is intended to educate rather than indoctrinate.",
@@ -529,7 +529,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“I play the whole game just to own Marvin Gardens. To me, that’s the art of the game. That’s what makes it worth playing.” – Christopher Walken on Monopoly",
     dek: "Christopher Walken, the legendary actor known for his eccentric roles and enigmatic presence, has a surprising obsession: Marvin Gardens. In a recent interview, Walken revealed that when he sits down…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 29, 2024",
     paragraphs: [
       "Christopher Walken, the legendary actor known for his eccentric roles and enigmatic presence, has a surprising obsession: Marvin Gardens. In a recent interview, Walken revealed that when he sits down to play Monopoly, his goal is singular and unwavering—owning the yellow property that sits quietly between Ventnor Avenue and Atlantic Avenue.",
@@ -547,7 +547,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Oprah endorses Kamala at DNC; Trump hopes maybe Jerry Springer will come around.",
     dek: "REAL-TIME ELECTION COVERAGE BY ADMIN STEVE",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 22, 2024",
     paragraphs: [
       "REAL-TIME ELECTION COVERAGE BY ADMIN STEVE",
@@ -565,7 +565,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Poor Joint Health Linked With Reading Articles About Joint Health",
     dek: "Recent studies have suggested a surprising correlation between poor joint health and the frequent consumption of articles on the very topic. Researchers are scratching their heads over what appears…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 22, 2024",
     paragraphs: [
       "Recent studies have suggested a surprising correlation between poor joint health and the frequent consumption of articles on the very topic. Researchers are scratching their heads over what appears to be a case of health-conscious readers inadvertently exacerbating the very issues they seek to mitigate.",
@@ -580,7 +580,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Fit Over 50? That’s Nothing. Civil War Vet Gordon Brower Managed to Fully Decay in Under 190 Years!",
     dek: "As the wellness industry continues its obsession with ageless fitness, a sobering reminder of how long the journey can be has surfaced in the unlikeliest of places: the grave of Gordon Brower, a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 20, 2024",
     paragraphs: [
       "As the wellness industry continues its obsession with ageless fitness, a sobering reminder of how long the journey can be has surfaced in the unlikeliest of places: the grave of Gordon Brower, a Civil War veteran who has accomplished a feat even the fittest 50-plus crowd can’t boast—complete decomposition in under 190 years.",
@@ -595,7 +595,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "These Barefoot Shoes Are Leaving Neuropathy Experts Baffled; They Don’t Know Why Anyone Would Buy Them",
     dek: "Barefoot shoes, designed to mimic the sensation of walking barefoot while offering minimal protection, have surged in popularity. Proponents claim these shoes promote natural foot movement and muscle…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 20, 2024",
     paragraphs: [
       "Barefoot shoes, designed to mimic the sensation of walking barefoot while offering minimal protection, have surged in popularity. Proponents claim these shoes promote natural foot movement and muscle strengthening, but neuropathy experts are increasingly alarmed by the trend.",
@@ -610,7 +610,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Earth Running Low On Water",
     dek: "In a sobering report released this week, scientists have confirmed that Earth is facing an unprecedented water crisis, with reserves of fresh water dwindling at an alarming rate. The comprehensive…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 26, 2024",
     paragraphs: [
       "In a sobering report released this week, scientists have confirmed that Earth is facing an unprecedented water crisis, with reserves of fresh water dwindling at an alarming rate. The comprehensive study, conducted by a coalition of environmental scientists and hydrologists, reveals that the planet’s freshwater resources are being depleted faster than they can be replenished, posing a dire threat to ecosystems, agriculture, and human survival.",
@@ -625,7 +625,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“Thank God? How about thank 30 years flying experience.” Sully Sullenberger Rips Into Sobbing Passenger After Flight ‘lands’.",
     dek: "In a dramatic postscript to the famed “Miracle on the Hudson,” Captain Chesley “Sully” Sullenberger, celebrated for his heroic emergency landing on the Hudson River in 2009, found himself in an…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 25, 2024",
     paragraphs: [
       "In a dramatic postscript to the famed “Miracle on the Hudson,” Captain Chesley “Sully” Sullenberger, celebrated for his heroic emergency landing on the Hudson River in 2009, found himself in an unexpected verbal clash with a passenger from that very flight. The altercation occurred shortly after the miraculous ditching, when a sobbing passenger exclaimed, “Thank God!”",
@@ -641,7 +641,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "As Paris Prepares to Hold 2024 Summer Olympics, I Prepare to Hold Throbbing Dump During Meeting in 2min.",
     dek: "As Paris gears up for the 2024 Summer Olympics, a global event promising to draw millions of spectators and athletes from around the world, an equally pressing personal drama is unfolding for one…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 24, 2024",
     paragraphs: [
       "As Paris gears up for the 2024 Summer Olympics, a global event promising to draw millions of spectators and athletes from around the world, an equally pressing personal drama is unfolding for one local resident, myself. Just two minutes before a crucial business meeting, I am faced with the urgent need to hold in what can only be described as a “throbbing dump.”",
@@ -656,7 +656,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "J.J. Abrams Set to Produce New Star-Studded Bowel Movement",
     dek: "In a turn of events that has left Hollywood insiders both amused and perplexed, acclaimed filmmaker J.J. Abrams has announced his latest venture: producing a bowel movement. Known for his work on…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 23, 2024",
     paragraphs: [
       "In a turn of events that has left Hollywood insiders both amused and perplexed, acclaimed filmmaker J.J. Abrams has announced his latest venture: producing a bowel movement. Known for his work on blockbuster franchises like “Star Wars” and “Star Trek,” Abrams’ new project takes a decidedly more intimate direction.",
@@ -673,7 +673,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "For 6th Day Straight, Woman Discusses Time She Correctly Used Semi-Colon",
     dek: "In an increasingly rare celebration of grammatical triumph, local woman Jane Mitchell has captivated friends, family, and colleagues for six consecutive days with the tale of her flawless use of a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 22, 2024",
     paragraphs: [
       "In an increasingly rare celebration of grammatical triumph, local woman Jane Mitchell has captivated friends, family, and colleagues for six consecutive days with the tale of her flawless use of a semi-colon. The moment, which she first shared at a dinner party, has since become a cornerstone of her daily conversations.",
@@ -689,7 +689,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "CIA Reveals Leaked Messages Hinting at Massive Conspiracy to Ding-Dong Ditch White House.",
     dek: "In a revelation that has left Washington insiders and the public alike in a state of disbelief, the CIA has disclosed a series of leaked messages suggesting an elaborate plot to orchestrate a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 21, 2024",
     paragraphs: [
       "In a revelation that has left Washington insiders and the public alike in a state of disbelief, the CIA has disclosed a series of leaked messages suggesting an elaborate plot to orchestrate a “ding-dong ditch” at the White House. The leaked communications, obtained through an ongoing investigation into cyber intrusions, indicate that the prank involves a coordinated effort by a group of anonymous individuals.",
@@ -704,7 +704,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "TLC’s New Hit: Shark Tank for Orphans",
     dek: "In an audacious move blending reality television with social impact, TLC has unveiled its latest hit show: “Shark Tank for Orphans.” The series, which premiered to record-breaking ratings, places…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 20, 2024",
     paragraphs: [
       "In an audacious move blending reality television with social impact, TLC has unveiled its latest hit show: “Shark Tank for Orphans.” The series, which premiered to record-breaking ratings, places orphaned children in the spotlight as they pitch their dreams and business ideas to a panel of celebrity investors.",
@@ -720,7 +720,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "CIA Finds Hunter Biden Laptop. Discovers Way Fucking Embarrassing 1st Draft of Shitty Novel.",
     dek: "In a surprising twist to the ongoing saga surrounding Hunter Biden’s laptop, the Central Intelligence Agency (CIA) has made an unexpected discovery: a cache of files containing what is described as a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 19, 2024",
     paragraphs: [
       "In a surprising twist to the ongoing saga surrounding Hunter Biden’s laptop, the Central Intelligence Agency (CIA) has made an unexpected discovery: a cache of files containing what is described as a “way fucking embarrassing” first draft of a novel penned by the president’s son.",
@@ -735,7 +735,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Boeing Reasons with Critics, “Death is a part of life. It’s kind of what makes this whole magical experience so meaningful.",
     dek: "Boeing, the aerospace giant embroiled in controversy following a series of high-profile accidents involving its aircraft, has raised eyebrows with a surprising statement in response to critics. In a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 18, 2024",
     paragraphs: [
       "Boeing, the aerospace giant embroiled in controversy following a series of high-profile accidents involving its aircraft, has raised eyebrows with a surprising statement in response to critics. In a candid moment during a recent press conference, a company spokesperson reasoned, “Death is a part of life. It’s kind of what makes this whole magical experience so meaningful.”",
@@ -750,7 +750,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "India’s Modi Escalates Anti-Muslim Rhetoric Leaving Many Americans Confused That the Guy Ain’t Muslim.",
     dek: "Indian Prime Minister Narendra Modi’s recent escalation of anti-Muslim rhetoric has sparked confusion and concern among many Americans, who find themselves perplexed by the fact that there is a brown…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 17, 2024",
     paragraphs: [
       "Indian Prime Minister Narendra Modi’s recent escalation of anti-Muslim rhetoric has sparked confusion and concern among many Americans, who find themselves perplexed by the fact that there is a brown man with a foreign sounding name who, evidenced by his Muslim-bashing, is not Muslim himself.",
@@ -765,7 +765,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Judge Scolds Trump for Disobeying Gag Order Whenever HE Gives It, but Loving Every Gag, Piss On Me, and Bend Over Order from Other People.",
     dek: "In a courtroom drama that has captivated the nation, a federal judge has delivered a scathing rebuke to former President Donald Trump for his repeated defiance of a gag order – but with a curious…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 16, 2024",
     paragraphs: [
       "In a courtroom drama that has captivated the nation, a federal judge has delivered a scathing rebuke to former President Donald Trump for his repeated defiance of a gag order – but with a curious twist. While admonishing Trump for flouting the court’s directives whenever he issues them himself, the judge noted a perplexing pattern: Trump seemingly revels in complying with gag orders, piss on me orders, and bend over orders when they originate from others.",
@@ -779,7 +779,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Rep. Marjorie Taylor Greene Unsuccessfully Ousts Speaker Johnson from Office, But Successfully Inserts Other Johnson(s) into Buttocks and Mouth Simultaneously.",
     dek: "In a stunning and graphic display of political theater, Representative Marjorie Taylor Greene has once again made headlines for her controversial actions within the hallowed halls of Congress. While…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 15, 2024",
     paragraphs: [
       "In a stunning and graphic display of political theater, Representative Marjorie Taylor Greene has once again made headlines for her controversial actions within the hallowed halls of Congress. While her attempt to oust Speaker Johnson from office was met with resounding failure, Greene managed to command attention through a bizarre and unsettling act of protest.",
@@ -794,7 +794,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Disgraced Ohtani Translator Has No Choice But to Plead Guilty to Bowl Cut.",
     dek: "In a bizarre turn of events, the disgraced translator of Japanese baseball sensation Shohei Ohtani has found themselves entangled in an unexpected legal battle – not over gambling or misconduct, but…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 14, 2024",
     paragraphs: [
       "In a bizarre turn of events, the disgraced translator of Japanese baseball sensation Shohei Ohtani has found themselves entangled in an unexpected legal battle – not over gambling or misconduct, but rather, a hairstyle: the infamous bowl cut.",
@@ -809,7 +809,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "RFK Reveals Worm Dwelling In Skull In Commitment to Resolve Housing Crisis.",
     dek: "In a bold and unexpected display of commitment to addressing the pressing issue of affordable housing, Robert F. Kennedy Jr. (RFK), scion of the iconic political dynasty, has revealed a shocking…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 13, 2024",
     paragraphs: [
       "In a bold and unexpected display of commitment to addressing the pressing issue of affordable housing, Robert F. Kennedy Jr. (RFK), scion of the iconic political dynasty, has revealed a shocking personal revelation: a worm dwelling in his skull. The revelation, made during a high-profile press conference, aims to draw attention to the dire housing crisis plaguing communities across the nation.",
@@ -824,7 +824,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Mother’s Day Miracle: Vagina Voted Best Sex Organ.",
     dek: "This Mother’s Day, a groundswell of support has emerged for an unexpected contender in the realm of sexual organs: the vagina. Amidst the traditional celebrations honoring mothers and motherhood, a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 12, 2024",
     paragraphs: [
       "This Mother’s Day, a groundswell of support has emerged for an unexpected contender in the realm of sexual organs: the vagina. Amidst the traditional celebrations honoring mothers and motherhood, a grassroots movement has taken shape, championing the vagina as the undisputed champion of pleasure and intimacy.",
@@ -841,7 +841,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Borderline Personality Disorder: Man Insists He Is a Borderline.",
     dek: "Amidst the ongoing discourse surrounding mental health awareness, a man has sparked a heated debate by publicly asserting his identification as a “borderline.” The individual, who prefers to remain…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 11, 2024",
     paragraphs: [
       "Amidst the ongoing discourse surrounding mental health awareness, a man has sparked a heated debate by publicly asserting his identification as a “borderline.” The individual, who prefers to remain anonymous, claims to suffer from Borderline Personality Disorder (BPD) and vehemently insists that he is a “borderline” rather than someone with BPD.",
@@ -856,7 +856,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Kanye Crowns Himself Trendsetting King; Lashes Out at “College Posers” for Copying His Anti-Semitism",
     dek: "In a whirlwind of controversy and self-proclamation, Kanye West, the enigmatic rap artist and fashion mogul, has once again thrust himself into the spotlight by crowning himself the trendsetting king…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 10, 2024",
     paragraphs: [
       "In a whirlwind of controversy and self-proclamation, Kanye West, the enigmatic rap artist and fashion mogul, has once again thrust himself into the spotlight by crowning himself the trendsetting king while lashing out at what he perceives as imitators in the realm of ideology and pseudo-philosophy.",
@@ -872,7 +872,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Popular “for Dummies” Book Series Renames “Sailing for Dummies” to More Accurate Title, “Sailing”",
     dek: "In response to growing criticism and calls for accuracy in its popular “for Dummies” book series, the publishers have announced a significant revision to one of its titles, “Sailing for Dummies.”…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 9, 2024",
     paragraphs: [
       "In response to growing criticism and calls for accuracy in its popular “for Dummies” book series, the publishers have announced a significant revision to one of its titles, “Sailing for Dummies.” Renaming the book to the more straightforward and precise “Sailing,” the publishers aim to reflect a shift towards authenticity and inclusivity in their educational offerings.",
@@ -889,7 +889,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Big Miss! Artifacts Show Da Vinci Had Designs for Fidget Spinner 500 Years Before Anyone Else.",
     dek: "The recent discovery of Leonardo da Vinci’s recovered journals has provided a fascinating glimpse into the mind of the Renaissance polymath, revealing not only his groundbreaking scientific and…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 8, 2024",
     paragraphs: [
       "The recent discovery of Leonardo da Vinci’s recovered journals has provided a fascinating glimpse into the mind of the Renaissance polymath, revealing not only his groundbreaking scientific and artistic innovations but also his keen insights into human nature and the trajectory of history.",
@@ -904,7 +904,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Disgraced, Unlicensed Dog Trainer Not Trainer At All; Just Loves Giving Puppies Treats. Fleeces Dog Owners for Millions.",
     dek: "In a disturbing case that has rattled the pet industry and sparked outrage among dog owners nationwide, a self-proclaimed “dog trainer” has been exposed as an unlicensed con artist who exploited the…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 7, 2024",
     paragraphs: [
       "In a disturbing case that has rattled the pet industry and sparked outrage among dog owners nationwide, a self-proclaimed “dog trainer” has been exposed as an unlicensed con artist who exploited the trust of unsuspecting clients while preying on the innocence of their beloved pets.",
@@ -919,7 +919,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Couple Describes Difficulty Loving with Language Barrier. Man Knows No Languages.",
     dek: "In a poignant tale of love transcending linguistic boundaries, Mr. and Mrs. Patel, a couple hailing from diverse cultural backgrounds, open up about the unique challenges they face in their…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 6, 2024",
     paragraphs: [
       "In a poignant tale of love transcending linguistic boundaries, Mr. and Mrs. Patel, a couple hailing from diverse cultural backgrounds, open up about the unique challenges they face in their relationship due to a significant language barrier. While Mrs. Patel is fluent in English and several other languages, her husband, Mr. Patel, confesses to knowing none.",
@@ -934,7 +934,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Man takes out mortgage to add shrimp to salad.",
     dek: "In a culinary saga reflecting the evolving landscape of modern gastronomy, Mr. Theodore Henderson’s decision to take out a mortgage for an unusual purpose sheds light on the escalating costs of…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 5, 2024",
     paragraphs: [
       "In a culinary saga reflecting the evolving landscape of modern gastronomy, Mr. Theodore Henderson’s decision to take out a mortgage for an unusual purpose sheds light on the escalating costs of indulgence in today’s culinary scene. Faced with the exorbitant prices of salad add-ons in upscale eateries, Mr. Henderson found himself at a crossroads: compromise his discerning palate or take matters into his own hands.",
@@ -948,7 +948,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Man Sleeps with Entire Friend Group. Friend Group Itchy.",
     dek: "In a scandal that has sent shockwaves through social circles in the heart of Manhattan, Mr. Alexander Grant, a prominent figure among his tight-knit group of friends, finds himself embroiled in…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 4, 2024",
     paragraphs: [
       "In a scandal that has sent shockwaves through social circles in the heart of Manhattan, Mr. Alexander Grant, a prominent figure among his tight-knit group of friends, finds himself embroiled in controversy after an ill-fated night of intimacy. Reports suggest that Mr. Grant, known for his charismatic charm, engaged in romantic liaisons with each member of his friend group, blurring the boundaries of camaraderie and complicating the dynamics of their relationships.",
@@ -962,7 +962,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Football Coaches Under Fire: Research Shows Nothing Less Serious Than Grumpy Old Man Taking A Child’s Game Extremely Seriously.",
     dek: "In a groundbreaking study that has rattled the foundations of football coaching philosophy, researchers from leading universities have unveiled a startling revelation: nothing is less serious than an…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 3, 2024",
     paragraphs: [
       "In a groundbreaking study that has rattled the foundations of football coaching philosophy, researchers from leading universities have unveiled a startling revelation: nothing is less serious than an old man taking a child’s game extremely seriously. The findings, published in the prestigious sports psychology journal, “Balls Quarterly”, have sent shockwaves through the coaching community, prompting soul-searching and introspection among seasoned mentors.",
@@ -977,7 +977,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Aurora Borealis Politely Reminds Backpacking Assholes It’s Rude to Stare.",
     dek: "In a celestial spectacle as stunning as it was unexpected, the Aurora Borealis delivered a gentle admonition to a group of backpackers traversing the remote wilderness of Norway. As the ethereal…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 2, 2024",
     paragraphs: [
       "In a celestial spectacle as stunning as it was unexpected, the Aurora Borealis delivered a gentle admonition to a group of backpackers traversing the remote wilderness of Norway. As the ethereal lights danced and swirled across the night sky, the backpackers, enraptured by the mesmerizing display, found themselves unwittingly caught in a moment of awe.",
@@ -992,7 +992,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "An Exclusive Inside Look: My Ear.",
     dek: "In a bold journalistic pursuit, I embark on an exclusive expedition into the inner workings of my own ear, shedding light on its intricate mechanisms and unveiling its hidden wonders.",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "May 1, 2024",
     paragraphs: [
       "In a bold journalistic pursuit, I embark on an exclusive expedition into the inner workings of my own ear, shedding light on its intricate mechanisms and unveiling its hidden wonders.",
@@ -1008,7 +1008,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Idiots In Dawn Marketing Department Will Figure It Out at Some Point.",
     dek: "In a curious case of missed marketing opportunities, executives at Dawn find themselves under scrutiny for their failure to capitalize on a potential celebrity spokesperson: CNN anchor Don Lemon.…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 30, 2024",
     paragraphs: [
       "In a curious case of missed marketing opportunities, executives at Dawn find themselves under scrutiny for their failure to capitalize on a potential celebrity spokesperson: CNN anchor Don Lemon. Despite the serendipitous synergy between Lemon’s name and Dawn’s lemon-scented cleaning soap, the household brand’s marketing department has yet to leverage this connection.",
@@ -1023,7 +1023,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Policeman who clearly looks fat blames bulletproof vest for body shape, despite freaking obviously being fat.",
     dek: "In a contentious debate over body image and protective gear, a policeman has sparked controversy by attributing his appearance to his bulletproof vest rather than acknowledging his weight. The…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 29, 2024",
     paragraphs: [
       "In a contentious debate over body image and protective gear, a policeman has sparked controversy by attributing his appearance to his bulletproof vest rather than acknowledging his weight. The officer, whose physical stature has drawn attention, asserted that the bulk of his bulletproof vest was responsible for his perceived body shape.",
@@ -1037,7 +1037,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Guy I Met Literally Tonight Through Mutual Friend Won’t Shut Up About How Various Medications are “technically just meth” as We Walk from Last Bar to Next Bar.",
     dek: "During a casual night out, a chance encounter with a new acquaintance took an unexpected turn as he embarked on an impassioned discourse about the chemical composition of various medications. As the…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 27, 2024",
     paragraphs: [
       "During a casual night out, a chance encounter with a new acquaintance took an unexpected turn as he embarked on an impassioned discourse about the chemical composition of various medications. As the group transitioned from one bar to the next, the individual, introduced through a mutual friend, seized the opportunity to, without relent or any pauses, expound upon his theory that certain medications are “technically just meth.”",
@@ -1051,7 +1051,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Banquet Held for Trailblazing Man Who Pulled Something Out of Thick Air.",
     dek: "A banquet of celebration was held to honor the remarkable achievements of a trailblazing individual who defied convention by pulling something out of thick air. The event, attended by dignitaries and…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 26, 2024",
     paragraphs: [
       "A banquet of celebration was held to honor the remarkable achievements of a trailblazing individual who defied convention by pulling something out of thick air. The event, attended by dignitaries and admirers from across the globe, lauded the man’s ingenuity and pioneering spirit. Stand up comedy from Gabriel Iglesias, and headliner Cardi B brightened the evening promoting thicc culture, on theme with the man’s achievement.",
@@ -1065,7 +1065,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "72yo Long Island Woman Faces Assault Charges for Hitting iPad Screen So Unnecessarily Hard That It’s Difficult to Even Describe.",
     dek: "A 72-year-old woman from Long Island is facing assault charges after a series of incidents involving her iPad. According to witnesses, the woman became increasingly frustrated with her device’s…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 25, 2024",
     paragraphs: [
       "A 72-year-old woman from Long Island is facing assault charges after a series of incidents involving her iPad. According to witnesses, the woman became increasingly frustrated with her device’s unresponsiveness, resorting to aggressive physical actions to force it to function.",
@@ -1080,7 +1080,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“At least now you have a real reason why you never get any work.” – Friend to Actor Friend on Future of AI in Entertainment.",
     dek: "In a candid exchange among peers in the entertainment industry, a friend’s blunt remark encapsulates the mixed sentiments surrounding the future of artificial intelligence (AI) in entertainment. As…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 24, 2024",
     paragraphs: [
       "In a candid exchange among peers in the entertainment industry, a friend’s blunt remark encapsulates the mixed sentiments surrounding the future of artificial intelligence (AI) in entertainment. As advancements in AI technology continue to reshape various sectors, including film and television production, industry insiders grapple with both excitement and apprehension about the implications for human creativity and employment.",
@@ -1095,7 +1095,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Chris Cuomo Under Fire For Acting Like Chris Cuomo.",
     dek: "Former CNN anchor Chris Cuomo has once again found himself embroiled in controversy, facing criticism for his behavior reminiscent of previous incidents. Cuomo, known for his combative on-air persona…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 23, 2024",
     paragraphs: [
       "Former CNN anchor Chris Cuomo has once again found himself embroiled in controversy, facing criticism for his behavior reminiscent of previous incidents. Cuomo, known for his combative on-air persona and outspoken commentary, has come under fire for exhibiting traits characteristic of his own public persona.",
@@ -1111,7 +1111,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“Ossobuco? More like not nearly fucking buco enough.” Chef Gordon Ramsay Releases New Book of Kitchen Wit and Aphorisms.",
     dek: "Renowned chef Gordon Ramsay has once again stirred the culinary world with his latest release, a book brimming with kitchen wit and biting aphorisms. Titled “Gordon’s Gastronomic Grit: A Culinary…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 22, 2024",
     paragraphs: [
       "Renowned chef Gordon Ramsay has once again stirred the culinary world with his latest release, a book brimming with kitchen wit and biting aphorisms. Titled “Gordon’s Gastronomic Grit: A Culinary Companion,” the tome offers readers a tantalizing glimpse into Ramsay’s razor-sharp wit and irreverent humor.",
@@ -1125,7 +1125,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Class Action Plaintiffs Face Trouble Organizing as Each and Every One of Them are Difficult to Deal With.",
     dek: "In a legal saga marked by unprecedented challenges, plaintiffs in a high-profile class action lawsuit find themselves grappling with a formidable obstacle: their own collective disorganization and…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 21, 2024",
     paragraphs: [
       "In a legal saga marked by unprecedented challenges, plaintiffs in a high-profile class action lawsuit find themselves grappling with a formidable obstacle: their own collective disorganization and interpersonal conflicts. The case, which centers on alleged corporate malfeasance, has been plagued by setbacks as plaintiffs struggle to coordinate efforts due to internal friction and communication breakdowns.",
@@ -1139,7 +1139,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Escaped Hostage Recounts Terrifying Details from Being Forced to Fix A/V Input on Panasonic.",
     dek: "In a harrowing account of survival, an escaped hostage has bravely recounted the terrifying ordeal of being forced to fix an A/V input on a Panasonic device by captors. The victim, who wishes to…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 20, 2024",
     paragraphs: [
       "In a harrowing account of survival, an escaped hostage has bravely recounted the terrifying ordeal of being forced to fix an A/V input on a Panasonic device by captors. The victim, who wishes to remain anonymous for safety reasons, described the experience as a nightmare that unfolded in a nondescript basement.",
@@ -1153,7 +1153,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Group of Medical Geniuses in Greenwich, CT Accused of Organizing “Fantasy Patient League”",
     dek: "In a shocking revelation, a group of doctors practicing in Greenwich, CT, has been accused of orchestrating a “Fantasy Patient League,” raising serious ethical concerns within the medical community.…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 20, 2024",
     paragraphs: [
       "In a shocking revelation, a group of doctors practicing in Greenwich, CT, has been accused of orchestrating a “Fantasy Patient League,” raising serious ethical concerns within the medical community. The allegations surfaced after an anonymous whistleblower brought attention to the existence of the league, which purportedly involved doctors competing to secure the most lucrative and medically complex patients for their practices.",
@@ -1167,7 +1167,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Firefighters Manage to Remove Lime from Coconut After Lunatic Shook It All Up.",
     dek: "In a daring rescue operation, firefighters successfully extracted “the lime” from “the coconut” after an individual identified as Jesse Waters, 61, recklessly shook it all up, causing a potentially…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 19, 2024",
     paragraphs: [
       "In a daring rescue operation, firefighters successfully extracted “the lime” from “the coconut” after an individual identified as Jesse Waters, 61, recklessly shook it all up, causing a potentially hazardous situation. The incident unfolded in a suburban neighborhood where residents were left bewildered by the unusual emergency response.",
@@ -1182,7 +1182,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Leaked Video Reveals Sean Combs Has Not Even Seen Breaking Bad",
     dek: "Amid a series of other very serious accusations, a leaked video has surfaced showing music mogul Sean Combs, also known as P. Diddy, admitting that he has never watched the critically acclaimed…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 19, 2024",
     paragraphs: [
       "Amid a series of other very serious accusations, a leaked video has surfaced showing music mogul Sean Combs, also known as P. Diddy, admitting that he has never watched the critically acclaimed television series “Breaking Bad.” The video, captured during a casual conversation at a private event, shows Combs expressing disbelief at the shocked reactions of those around him upon learning of his TV viewing habits.",
@@ -1196,7 +1196,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "BREAKING: Archaeologists Unearth A., B., C., D., and E. Murray Abraham.",
     dek: "In a groundbreaking archaeological dig in Mesopotamia, researchers have uncovered a remarkable discovery: a cluster of ancient individuals that have been identified as the precursor Murray Abrahams…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "April 1, 2024",
     paragraphs: [
       "In a groundbreaking archaeological dig in Mesopotamia, researchers have uncovered a remarkable discovery: a cluster of ancient individuals that have been identified as the precursor Murray Abrahams to F. Murray Abraham. While no direct connection to the modern actor F. Murray Abraham has actually been established, the scientists, or rather, scientist (singular), is quite sure that the unearthed specimens bear some resemblance to the beloved actor and are therefore related. The discovery has sparked speculation and intrigue, igniting discussions about the intersection of identity, heritage, and cultural legacy.",
@@ -1211,7 +1211,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man Uses Word “ergo” Just Hours Prior to Wife’s Infidelity.",
     dek: "The seemingly innocuous utterance of a single word, “ergo,” has sparked speculation and intrigue following revelations of an affair within a marriage. Sources close to the couple, Alicia and Todd…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "March 28, 2024",
     paragraphs: [
       "The seemingly innocuous utterance of a single word, “ergo,” has sparked speculation and intrigue following revelations of an affair within a marriage. Sources close to the couple, Alicia and Todd Nussbaum, 38 & 39 years old from Glendora, CA, report that just hours before his wife’s transgression, the husband employed the term “ergo” at a dinner party during a 34-minute conversation about nautical communication devices. It is important to note that Todd himself incited the topic of conversation. What followed was a cascade of events that would unravel their relationship.",
@@ -1227,7 +1227,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "McDonald’s Adds Healthy Items as Execs Learn Current Menu Killing Off Customers Far Too Quickly for Max Profits.",
     dek: "In a bold move to cater to changing consumer preferences and address concerns about the health impact of its offerings, McDonald’s announced the introduction of a new lineup of low-calorie options.…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "March 27, 2024",
     paragraphs: [
       "In a bold move to cater to changing consumer preferences and address concerns about the health impact of its offerings, McDonald’s announced the introduction of a new lineup of low-calorie options. This strategic shift comes as executives acknowledge the detrimental effects of their current menu on customer health, recognizing that maximizing profits requires keeping patrons alive and thriving longer.",
@@ -1242,7 +1242,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "“Family Switch” Snubbed at Oscars",
     dek: "HOLLYWOOD, CA — A simmering undercurrent of resentment bubbled to the surface Sunday night as Joseph McGinty Nichol’s groundbreaking new comedy feature, “Family Switch” was nowhere to be found on the…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "March 11, 2024",
     paragraphs: [
       "HOLLYWOOD, CA — A simmering undercurrent of resentment bubbled to the surface Sunday night as Joseph McGinty Nichol’s groundbreaking new comedy feature, “Family Switch” was nowhere to be found on the nominees list for best picture this year at the Oscars. Yet again, a perfectly good film with a cast & plot engineered optimally by Netflix’s algorithms to be bearable to all, but enjoyable to none, found itself overlooked by the Academy of Motion Picture Arts and Sciences.",
@@ -1257,7 +1257,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man Asks Friend to Explain Phrase “Layman’s Terms” Using Normal Person Language.",
     dek: "In an exchange emblematic of the complexities of language and communication, a man has sought clarification from a friend regarding the phrase “layman’s terms,” employing a request for explanation in…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "February 1, 2024",
     paragraphs: [
       "In an exchange emblematic of the complexities of language and communication, a man has sought clarification from a friend regarding the phrase “layman’s terms,” employing a request for explanation in more accessible language. The interaction underscores the inherent challenges in conveying abstract concepts to diverse audiences and the importance of clarity in discourse.",
@@ -1271,7 +1271,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Song Recounts Harrowing Details of Being Stuck In Boring Man’s Head for 6 Weeks.",
     dek: "A haunting melody found itself unwittingly trapped in the mind of George Matthews, 45, for a staggering six weeks, offering a unique perspective into the human psyche and the power of musical memory.…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "January 29, 2024",
     paragraphs: [
       "A haunting melody found itself unwittingly trapped in the mind of George Matthews, 45, for a staggering six weeks, offering a unique perspective into the human psyche and the power of musical memory. The song, identified as “Bridge Over Troubled Water” by Simon & Garfunkel, recounted harrowing details of its prolonged residency in Matthews’ head, describing the relentless loop that played out against the backdrop of his daily life.",
@@ -1285,7 +1285,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Oliver Stone Claims “Fell Asleep” Watching John Wick. AMC to Stop Serving Warm Milk.",
     dek: "Renowned filmmaker Oliver Stone has sparked controversy by publicly claiming he “fell asleep” while watching the action-packed blockbuster “John Wick.” Stone, known for his provocative works, raised…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "January 24, 2024",
     paragraphs: [
       "Renowned filmmaker Oliver Stone has sparked controversy by publicly claiming he “fell asleep” while watching the action-packed blockbuster “John Wick.” Stone, known for his provocative works, raised eyebrows with this unexpected critique of the adrenaline-fueled film.",
@@ -1299,7 +1299,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Desantis Suspends Campaign Just Hours After Six Flags Reduces Height Requirement for Trademark Rollercoaster “Tatsu.”",
     dek: "In a stunner, Florida Governor Ron DeSantis has withdrawn from the political race just hours after the renowned amusement park Six Flags adjusted the height requirement for its iconic rollercoaster,…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "January 22, 2024",
     paragraphs: [
       "In a stunner, Florida Governor Ron DeSantis has withdrawn from the political race just hours after the renowned amusement park Six Flags adjusted the height requirement for its iconic rollercoaster, “Tatsu.” Known for his ambitious political aspirations, DeSantis cited a profound personal connection to the exhilarating theme park ride as the primary reason for his unexpected decision.",
@@ -1313,7 +1313,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Ramaswamy Suspends Campaign Just Hours After Coolest High Schoolers in Whole School Announce Party Tonight.",
     dek: "In a political storyline that has sent shockwaves through the nation over the past many months, presidential hopeful Vivek Ramaswamy has unceremoniously ended his campaign mere hours after the…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "January 16, 2024",
     paragraphs: [
       "In a political storyline that has sent shockwaves through the nation over the past many months, presidential hopeful Vivek Ramaswamy has unceremoniously ended his campaign mere hours after the announcement of an eagerly awaited party hosted by the coolest high schoolers around town.",
@@ -1328,7 +1328,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Chris Christie Suspends Campaign Just Hours After McRib Returns.",
     dek: "Former New Jersey Governor Chris Christie announced the suspension of his political campaign just hours after the highly anticipated return of the McRib sandwich. Known for his charismatic and often…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "January 13, 2024",
     paragraphs: [
       "Former New Jersey Governor Chris Christie announced the suspension of his political campaign just hours after the highly anticipated return of the McRib sandwich. Known for his charismatic and often unfiltered approach on the campaign trail, Christie cited a sudden change in priorities, specifically referencing the limited-time availability of the iconic fast-food item.",
@@ -1342,7 +1342,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Disgraced Rep George Santos’ Claims Now Utterly Ridiculous; Calls Stuber a “great film.”",
     dek: "Disgraced weirdo and former U.S. Representative George Santos, is currently facing scrutiny for alleged ethical violations. While his copious lies recently shocked the world, Santos has managed to…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "January 2, 2024",
     paragraphs: [
       "Disgraced weirdo and former U.S. Representative George Santos, is currently facing scrutiny for alleged ethical violations. While his copious lies recently shocked the world, Santos has managed to steer public attention away from his political troubles by making his most outlandish claims ever, this time regarding the film industry. Santos, known for his controversial statements, verged on incoherent and schizophrenic when he recently declared the critically panned movie “Stuber” a “great film.”",
@@ -1356,7 +1356,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Research Reveals Washing Hands Ineffective for Preventing Spread of Butt Cheeks",
     dek: "Challenging conventional hygiene wisdom, recent research has uncovered a surprising finding: washing hands may be ineffective in preventing the spreading of butt cheeks. The study, conducted by a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "December 16, 2023",
     paragraphs: [
       "Challenging conventional hygiene wisdom, recent research has uncovered a surprising finding: washing hands may be ineffective in preventing the spreading of butt cheeks. The study, conducted by a team of eccentric scientists at the Institute of Unconventional Hygiene, examined the habits of over 1,000 participants and found that meticulous handwashing had no discernible impact on the containment of buttock-related “pulling apart” activities.",
@@ -1369,7 +1369,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Sen. Tim Scott suspends campaign just hours after Six Flags announces unlimited Winter Season Pass.",
     dek: "Republican Senator, and presidential hopeful, Tim Scott (R-SC) has decided to suspend his presidential campaign four hours after the announcement of Six Flags’ new Unlimited Winter Season Pass.…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 13, 2023",
     paragraphs: [
       "Republican Senator, and presidential hopeful, Tim Scott (R-SC) has decided to suspend his presidential campaign four hours after the announcement of Six Flags’ new Unlimited Winter Season Pass. Senator Scott’s surprising reversal paired with his “little-boy-in-a-big-body demeanor” is sparking speculation based on the curious timing of Six Flags’ announcement. The senator vehemently denies any connection between the theme park offer and his sudden disinterest in being president of the United States.",
@@ -1383,7 +1383,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Zoom Meeting Mishap: Oh Oh Oh, Oh No… O’Rielly’s Private Parts",
     dek: "A recent virtual Zoom meeting came to a screeching halt due to a rather unexpected mishap, leaving everyone involved red-faced and speechless. The meeting, organized by O’Rielly Enterprises, was…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "November 5, 2023",
     paragraphs: [
       "A recent virtual Zoom meeting came to a screeching halt due to a rather unexpected mishap, leaving everyone involved red-faced and speechless. The meeting, organized by O’Rielly Enterprises, was intended to be a straightforward business discussion about quarterly goals, but a technological glitch took the conversation to a remarkably different, and somewhat awkward, direction.",
@@ -1398,7 +1398,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Giuliani Way Out of Touch: “Chinese New Year, Chinese New Me.”",
     dek: "Rudy Giuliani, the former mayor of New York City, is facing intense backlash after a senior moment during an interview. In response to a reporter pressing Giuliani about his recent conduct, Giuliani…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 31, 2023",
     paragraphs: [
       "Rudy Giuliani, the former mayor of New York City, is facing intense backlash after a senior moment during an interview. In response to a reporter pressing Giuliani about his recent conduct, Giuliani promised to change, declaring: “Chinese New Year, Chinese New Me.” The statement has ignited controversy and criticism, with many accusing him of cultural insensitivity and trivializing a significant cultural celebration.",
@@ -1413,7 +1413,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man Brings Book to Read On Vacation… as if.",
     dek: "A Minneapolis man’s audacious decision to pack a book for his vacation at a lake house on Lake Michigan has raised eyebrows and ignited discussions about changing leisure habits and travel…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 29, 2023",
     paragraphs: [
       "A Minneapolis man’s audacious decision to pack a book for his vacation at a lake house on Lake Michigan has raised eyebrows and ignited discussions about changing leisure habits and travel traditions. What makes this choice even more intriguing is the collective doubt among his peers that he will read even a single page during the trip.",
@@ -1427,7 +1427,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Biden Issues Urgent Statement On Missing Thimble in White House Monopoly Set.",
     dek: "President Joe Biden has issued a statement concerning a missing thimble from the White House’s Monopoly board game set. The declaration comes amid ongoing discussions about pressing national and…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 29, 2023",
     paragraphs: [
       "President Joe Biden has issued a statement concerning a missing thimble from the White House’s Monopoly board game set. The declaration comes amid ongoing discussions about pressing national and global issues, with a twist involving Vice President Kamala Harris.",
@@ -1441,7 +1441,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man Lies to Flight Attendant That He Has No Trash When In Fact He Has Trash.",
     dek: "A seemingly innocuous exchange aboard a commercial flight took an unexpected twist when a passenger decided to play a fibbing role. In the peculiar mid-air incident, a man untruthfully assured a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 27, 2023",
     paragraphs: [
       "A seemingly innocuous exchange aboard a commercial flight took an unexpected twist when a passenger decided to play a fibbing role. In the peculiar mid-air incident, a man untruthfully assured a flight attendant that he had no trash, all the while concealing a small pile of discarded items in his seat-back pocket. What’s worse, the man apparently lied three times to the same in-flight crew member.",
@@ -1455,7 +1455,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Man Institutionalized After Willfully Purchasing Rolos.",
     dek: "A man has been admitted to a psychiatric institution after making the voluntary decision to purchase a packet of Rolos, a well recognized caramel-filled chocolate treat.",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 27, 2023",
     paragraphs: [
       "A man has been admitted to a psychiatric institution after making the voluntary decision to purchase a packet of Rolos, a well recognized caramel-filled chocolate treat.",
@@ -1470,7 +1470,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "7 Cute Ideas for an Unforgettable Funeral",
     dek: "Funerals, once somber affairs, are embracing a shift towards more personalized, celebratory events that reflect the unique lives of those we’ve lost. Families are now seeking creative and sometimes…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 20, 2023",
     paragraphs: [
       "Funerals, once somber affairs, are embracing a shift towards more personalized, celebratory events that reflect the unique lives of those we’ve lost. Families are now seeking creative and sometimes lighthearted decor ideas to celebrate the memories of their loved ones, turning funerals into truly memorable gatherings.",
@@ -1490,7 +1490,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Volvo does not decide to reverse name to Ovlov.",
     dek: "Amidst the ever-evolving landscape of corporate branding and nomenclature, yet another day has gone by in which Volvo, the renowned Swedish automaker, has not decided to reverse its name to “Ovlov.”",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 20, 2023",
     paragraphs: [
       "Amidst the ever-evolving landscape of corporate branding and nomenclature, yet another day has gone by in which Volvo, the renowned Swedish automaker, has not decided to reverse its name to “Ovlov.”",
@@ -1505,7 +1505,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "It’s Official: Checkers is a game for morons.",
     dek: "Researchers from the University of Toronto have published a study with conclusive evidence that Checkers, the timeless board game, is a pastime for individuals of limited intellectual prowess. This…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 20, 2023",
     paragraphs: [
       "Researchers from the University of Toronto have published a study with conclusive evidence that Checkers, the timeless board game, is a pastime for individuals of limited intellectual prowess. This bold assertion challenges the long-standing appreciation of the game and has ignited a spirited debate on the nature of intelligence.",
@@ -1520,7 +1520,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man complains of sand in ass after beach visit. Sand urges there’s two sides to the story.",
     dek: "A routine trip to the beach took an unexpected turn for one beachgoer, who complained of an uncomfortable predicament: sand in less-than-ideal locations. However, sand itself is now speaking up,…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 20, 2023",
     paragraphs: [
       "A routine trip to the beach took an unexpected turn for one beachgoer, who complained of an uncomfortable predicament: sand in less-than-ideal locations. However, sand itself is now speaking up, asserting that there are indeed two sides to this story.",
@@ -1536,7 +1536,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Charmin Goes Even Softer, Offering Jelly-Like Hand Coating for Dirty Work",
     dek: "Charmin, the renowned toilet paper brand, is breaking new ground in the world of hygiene with a groundbreaking product enhancement. In a bold move, Charmin has introduced a jelly-like hand coating…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 13, 2023",
     paragraphs: [
       "Charmin, the renowned toilet paper brand, is breaking new ground in the world of hygiene with a groundbreaking product enhancement. In a bold move, Charmin has introduced a jelly-like hand coating designed to replace its premium toilet paper, promising an unparalleled level of cleanliness for even the dirtiest tasks.",
@@ -1551,7 +1551,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Two men aggressively have sex with each other in road rage incident.",
     dek: "An alarming road rage incident made headlines this week. Alfredo Villar was rear ended by Jeff Dirken on the 405 freeway in Los Angeles, CA at 9:48am this past Wednesday. A dispute ensued which…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 11, 2023",
     paragraphs: [
       "An alarming road rage incident made headlines this week. Alfredo Villar was rear ended by Jeff Dirken on the 405 freeway in Los Angeles, CA at 9:48am this past Wednesday. A dispute ensued which resulted in the two motorists engaging in an aggressive mating ritual, bringing traffic to a standstill. The altercation unfolded during rush hour, stunning onlookers and raising questions about the escalation of road rage incidents.",
@@ -1566,7 +1566,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Marijuana Cited as Potential Cure for Being On Time and Prepared.",
     dek: "Afraid to light up? Think again. Scientists Caleb Braun and Ryan Donald have recently published a paper citing marijuana as an emerging potential solution for chronic “being prepared and on time.”…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 11, 2023",
     paragraphs: [
       "Afraid to light up? Think again. Scientists Caleb Braun and Ryan Donald have recently published a paper citing marijuana as an emerging potential solution for chronic “being prepared and on time.” While cannabis has long been associated with recreational use, a growing body of research suggests its untapped potential as a supplement for the workforce.",
@@ -1581,7 +1581,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "MAGA Genius: Trump’s Hats Shrink Your Brain, Driving Repeat Purchases for Smaller Size.",
     dek: "Mega Maga Revenue.",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 11, 2023",
     paragraphs: [
       "Mega Maga Revenue.",
@@ -1596,7 +1596,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Neurology: Spanish Passenger Involuntarily Shouts “GOAL” Every Time Seatbelt Sign Comes Off on 14hr Redeye.",
     dek: "In a terrifying and annoying incident aboard a 14-hour redeye flight from Malaga to Fort Lauderdale, a Spanish passenger became the center of attention due to an involuntary tick that left flight…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 11, 2023",
     paragraphs: [
       "In a terrifying and annoying incident aboard a 14-hour redeye flight from Malaga to Fort Lauderdale, a Spanish passenger became the center of attention due to an involuntary tick that left flight crew and fellow travelers baffled. Every time the seatbelt sign turned off, the passenger involuntarily shouted “GOALLL,” a passionate exclamation typically reserved for soccer matches.",
@@ -1610,7 +1610,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Bill Gates Betting Big on Bomb Bunkers and 9,200,000 SPF Sunblock.",
     dek: "In a departure from his traditional philanthropic and technological pursuits, billionaire Bill Gates is making waves with an unexpected investment strategy. The tech magnate is reportedly betting big…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 4, 2023",
     paragraphs: [
       "In a departure from his traditional philanthropic and technological pursuits, billionaire Bill Gates is making waves with an unexpected investment strategy. The tech magnate is reportedly betting big on bomb bunkers and an ultra-high SPF sunblock that boasts an astonishing 9,200,000 SPF rating.",
@@ -1625,7 +1625,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Nobel Prize awarded to couple who found agreeable bedroom temperature.",
     dek: "This year’s Nobel Prize in Physics has been awarded to a couple whose groundbreaking research has brought harmony to bedrooms around the world. John and Emily Hartley, both physicists, have dedicated…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 4, 2023",
     paragraphs: [
       "This year’s Nobel Prize in Physics has been awarded to a couple whose groundbreaking research has brought harmony to bedrooms around the world. John and Emily Hartley, both physicists, have dedicated their careers to resolving a universal domestic dispute: the ideal bedroom temperature.",
@@ -1640,7 +1640,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Freezy Friday: McConnell Third Freeze Triggered by Lindsay Lohan Opening Fortune Cookie.",
     dek: "In a bizarre turn of events that has left the nation perplexed, Senate Minority Leader Mitch McConnell has reportedly experienced his third unexplained freeze, and this time, it may have all started…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 3, 2023",
     paragraphs: [
       "In a bizarre turn of events that has left the nation perplexed, Senate Minority Leader Mitch McConnell has reportedly experienced his third unexplained freeze, and this time, it may have all started with actress Lindsay Lohan’s fortune cookie.",
@@ -1658,7 +1658,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Atlantic City beached whale finally identified as Governor Christie.",
     dek: "A curious and somewhat humorous incident unfolded on the shores of Atlantic City as what was initially thought to be a beached whale turned out to be a case of mistaken identity involving former New…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 2, 2023",
     paragraphs: [
       "A curious and somewhat humorous incident unfolded on the shores of Atlantic City as what was initially thought to be a beached whale turned out to be a case of mistaken identity involving former New Jersey Governor Chris Christie.",
@@ -1673,7 +1673,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Beached Whale in Atlantic City Brings Crowds and Cranes to Remove the Gigantic Mammal",
     dek: "A monumental operation is currently underway in Atlantic City as authorities and volunteers come together to remove a beached whale that has captured the attention of crowds and required heavy-duty…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 2, 2023",
     paragraphs: [
       "A monumental operation is currently underway in Atlantic City as authorities and volunteers come together to remove a beached whale that has captured the attention of crowds and required heavy-duty equipment.",
@@ -1688,7 +1688,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "BREAKING: Man seated next to me on airplane watches “Pinball: The Man Who Saved the Game.”",
     dek: "Breaking the monotony of air travel, the man seated next to me on a flight from La Guardia Airport to Florida Fort Lauderdale Airport made their choice of in-flight entertainment a doozy. To the…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 2, 2023",
     paragraphs: [
       "Breaking the monotony of air travel, the man seated next to me on a flight from La Guardia Airport to Florida Fort Lauderdale Airport made their choice of in-flight entertainment a doozy. To the amazement of those sharing the cabin, the passenger opted to watch “Pinball: The Man Who Saved the Game,” a film that chronicles the history and resurgence of pinball.",
@@ -1703,7 +1703,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Dollar General expands prepared foods to include Peking Duck.",
     dek: "Dollar General, known for its affordability and convenience, is stepping up its prepared foods game by introducing Peking Duck to its menu. This expansion reflects the retail giant’s ongoing…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 2, 2023",
     paragraphs: [
       "Dollar General, known for its affordability and convenience, is stepping up its prepared foods game by introducing Peking Duck to its menu. This expansion reflects the retail giant’s ongoing commitment to providing diverse and accessible dining options for its customers.",
@@ -1717,7 +1717,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man heartbroken to miss golf with friends after wife kills friends, which was “also a real bummer.”",
     dek: "In a shocking and deeply tragic incident, a man found himself unable to join his friends for a scheduled golf game after his wife committed a gruesome act of violence against his friends. This…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 2, 2023",
     paragraphs: [
       "In a shocking and deeply tragic incident, a man found himself unable to join his friends for a scheduled golf game after his wife committed a gruesome act of violence against his friends. This devastating turn of events has left the man grieving the loss of not only his friends but also the camaraderie they shared on the golf course.",
@@ -1733,7 +1733,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man’s son makes little league all-stars. No seriously, this is newsworthy.",
     dek: "A local man has been repeatedly sharing the news of his son’s Little League All-Stars achievement, even when met with vocalized disinterest.",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 2, 2023",
     paragraphs: [
       "A local man has been repeatedly sharing the news of his son’s Little League All-Stars achievement, even when met with vocalized disinterest.",
@@ -1748,7 +1748,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Can’t get it up? Don’t worry. It may be due to Biden’s biggest scheme yet.",
     dek: "An assertion has surfaced suggesting that President Joe Biden’s policies could be responsible for certain performance issues amongst men.",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "An assertion has surfaced suggesting that President Joe Biden’s policies could be responsible for certain performance issues amongst men.",
@@ -1764,7 +1764,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Man discovers inside of arm full of blood.",
     dek: "In a bizarre and potentially perilous incident, a man recently found himself in an alarming situation when he discovered that the inside of his arm was filled with blood. What makes this discovery…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "In a bizarre and potentially perilous incident, a man recently found himself in an alarming situation when he discovered that the inside of his arm was filled with blood. What makes this discovery particularly unusual is that it occurred after the man chose to slice into his arm, an action deemed by many as reckless and ill-advised.",
@@ -1779,7 +1779,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Almond Joy Employees Countersue for Scrotum Zoom Background Debacle",
     dek: "The legal battle surrounding the infamous Almond Joy Zoom background incident has taken an unexpected twist as a group of employees countersues the company, alleging privacy invasion and emotional…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "The legal battle surrounding the infamous Almond Joy Zoom background incident has taken an unexpected twist as a group of employees countersues the company, alleging privacy invasion and emotional distress.",
@@ -1796,7 +1796,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Landmark Case Declares Clean Gas Station Bathroom Unconstitutional",
     dek: "In a landmark case this week, a federal judge has declared “the maintenance of a clean and functional gas station bathroom” unconstitutional, raising questions about the boundaries of personal…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "In a landmark case this week, a federal judge has declared “the maintenance of a clean and functional gas station bathroom” unconstitutional, raising questions about the boundaries of personal comfort and legal rights.",
@@ -1812,7 +1812,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Dr. Ben Carson: “Age is just a number.” He actually does not grasp the concept of age.",
     dek: "Former U.S. Secretary of Housing and Urban Development, Dr. Ben Carson, has made headlines with his recent assertion that “age is just a number.” However, it appears that Dr. Carson’s interpretation…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "Former U.S. Secretary of Housing and Urban Development, Dr. Ben Carson, has made headlines with his recent assertion that “age is just a number.” However, it appears that Dr. Carson’s interpretation of this common phrase may be more literal than metaphorical, as he appears to have a puzzling perspective on the concept of age.",
@@ -1827,7 +1827,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Op-Ed: I was Pressured to Take the J&J Vaccine. 28 Months Later, My Favorite Band is Incubus.",
     dek: "Written by John Magnauer",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "Written by John Magnauer",
@@ -1843,7 +1843,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Book club members unanimously agree “it was great.” Have little else to offer.",
     dek: "A local book club recently found itself in the unusual position of unanimous agreement, with every member echoing the sentiment that their latest selection was “great.” However, as discussions…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "A local book club recently found itself in the unusual position of unanimous agreement, with every member echoing the sentiment that their latest selection was “great.” However, as discussions unfolded, it became apparent that the members had little else to offer, raising suspicions that some may not have read the book at all.",
@@ -1858,7 +1858,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Italian-American father urges family to research irrelevant topic.",
     dek: "In an Italian-American household, an ongoing family saga has emerged as Paolo Rossi, the family patriarch, persistently encourages his loved ones to delve into seemingly irrelevant topics. However,…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "October 1, 2023",
     paragraphs: [
       "In an Italian-American household, an ongoing family saga has emerged as Paolo Rossi, the family patriarch, persistently encourages his loved ones to delve into seemingly irrelevant topics. However, instead of sparking curiosity, these pursuits have left family members exasperated and enraged.",
@@ -1873,7 +1873,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Adam Driver Under Fire: Actor Faces “Nepo Baby” Accusations with Upcoming “Ferrari” Movie",
     dek: "Adam Driver, renowned for his acting prowess, now grapples with a casting controversy surrounding his upcoming movie, “Ferrari.” In a surprising twist, Driver himself is at the center of the storm,…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 30, 2023",
     paragraphs: [
       "Adam Driver, renowned for his acting prowess, now grapples with a casting controversy surrounding his upcoming movie, “Ferrari.” In a surprising twist, Driver himself is at the center of the storm, as accusations of nepotism emerge due to his last name being “Driver.”",
@@ -1887,7 +1887,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Macho Ambulance Driver Costs Life By Struggling to Show Off “Parallel Parking Skills”",
     dek: "In a harrowing incident that underscores the dangers of machismo, a self-proclaimed “badass parallel parker” ambulance driver cost a life while attempting to flaunt his parallel parking skills. The…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 30, 2023",
     paragraphs: [
       "In a harrowing incident that underscores the dangers of machismo, a self-proclaimed “badass parallel parker” ambulance driver cost a life while attempting to flaunt his parallel parking skills. The incident occurred in a critical moment when every second counted.",
@@ -1902,7 +1902,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "BREAKING: German Man Watches Adult Film Not Involving Leather",
     dek: "In a notable departure from the stereotype often associated with certain adult entertainment preferences, a German man has gained attention for his unconventional viewing habits.",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 29, 2023",
     paragraphs: [
       "In a notable departure from the stereotype often associated with certain adult entertainment preferences, a German man has gained attention for his unconventional viewing habits.",
@@ -1916,7 +1916,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Mayor Adams: A, C, E Trains to be Converted to 6mi Long Slip N’ Slide Due to Flash Flooding",
     dek: "In a visionary move aimed at addressing New York City’s recurring flash flooding challenges, Mayor Eric Adams has unveiled an audacious proposal to repurpose the A, C, and E subway lines into a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 29, 2023",
     paragraphs: [
       "In a visionary move aimed at addressing New York City’s recurring flash flooding challenges, Mayor Eric Adams has unveiled an audacious proposal to repurpose the A, C, and E subway lines into a six-mile-long slip n’ slide during adverse weather conditions. This innovative approach aims to turn a potential commuting nightmare into a thrilling and eco-friendly solution.",
@@ -1931,7 +1931,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Ben Shapiro Unveils Plan to Eat Veggies Before Chicken Nuggets at Upcoming Dinner with Grown-Ups.",
     dek: "Conservative commentator Ben Shapiro has made headlines again, this time with an unexpected dietary declaration. In preparation for an upcoming dinner with a group of adults, Shapiro revealed his…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 28, 2023",
     paragraphs: [
       "Conservative commentator Ben Shapiro has made headlines again, this time with an unexpected dietary declaration. In preparation for an upcoming dinner with a group of adults, Shapiro revealed his plan to consume vegetables before indulging in his beloved chicken nuggets.",
@@ -1946,7 +1946,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Tallest Man Ever: Robert Wadlow, 8’11” – Shortest Man Ever: Rand Paul’s Penis.",
     dek: "Robert Wadlow, often referred to as the “Alton Giant,” holds the distinction of being the tallest man in recorded history. Born in 1918 in Alton, Illinois, Wadlow’s extraordinary growth began early…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 27, 2023",
     paragraphs: [
       "Robert Wadlow, often referred to as the “Alton Giant,” holds the distinction of being the tallest man in recorded history. Born in 1918 in Alton, Illinois, Wadlow’s extraordinary growth began early in his life due to an overactive pituitary gland. By the time he was a teenager, he had surpassed 8 feet in height, earning him international fame. Standing at an astounding 8 feet 11 inches (272 cm) when he passed away in 1940 at the age of 22, Wadlow’s towering presence captivated people worldwide.",
@@ -1960,7 +1960,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "Trump: Classified files state that inside of mussel should look like peanut and all mussels look gross.",
     dek: "There appears to be a misunderstanding regarding the appearance of mussels in classified files. To the best of our knowledge, there are no classified documents or reports that make claims about…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 26, 2023",
     paragraphs: [
       "There appears to be a misunderstanding regarding the appearance of mussels in classified files. To the best of our knowledge, there are no classified documents or reports that make claims about mussels’ appearance, stating that they should resemble peanuts.",
@@ -1975,7 +1975,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Catholic Church bullish that Artificial Intelligence unlikely to replace molestation.",
     dek: "The Catholic Church, a venerable institution with a history spanning centuries, remains steadfast in its belief that artificial intelligence (AI) will not replace the expertise required to execute…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 26, 2023",
     paragraphs: [
       "The Catholic Church, a venerable institution with a history spanning centuries, remains steadfast in its belief that artificial intelligence (AI) will not replace the expertise required to execute molestation on a global scale. While technological advancements continue to shape our world, the Church emphasizes that AI lacks the profound human qualities required to be so evil and far from good.",
@@ -1989,7 +1989,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Former President Trump and Giuliani Aggressively Dine at Ikea Food Court",
     dek: "In an unusual turn of events, former President Donald Trump found himself both surprised and slightly angered when Rudy Giuliani, his loyal lawyer and friend, suggested the IKEA food court as their…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 26, 2023",
     paragraphs: [
       "In an unusual turn of events, former President Donald Trump found himself both surprised and slightly angered when Rudy Giuliani, his loyal lawyer and friend, suggested the IKEA food court as their lunch destination to repay a favor for yard work. Trump, known for his preference for lavish dining experiences, had expected a different venue.",
@@ -2003,7 +2003,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Melania Trump Native Tongue Discovered to Be Gibberish",
     dek: "In a remarkable linguistic discovery, former first lady Melania Trump has left experts astounded as her native language turned out to be a form of unintelligible gibberish. Melania, a descendant of a…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 26, 2023",
     paragraphs: [
       "In a remarkable linguistic discovery, former first lady Melania Trump has left experts astounded as her native language turned out to be a form of unintelligible gibberish. Melania, a descendant of a small, isolated village, baffled linguists and anthropologists when they realized that her speech bore no resemblance to any known language.",
@@ -2018,7 +2018,7 @@ export const stories: Story[] = [
     category: "Business",
     headline: "Musk reverse engineers perfect kbbq order. Shareholders doubling down.",
     dek: "Elon Musk, the visionary entrepreneur known for his groundbreaking ventures in space exploration, electric vehicles, and renewable energy, has once again taken an unconventional turn, this time in…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 26, 2023",
     paragraphs: [
       "Elon Musk, the visionary entrepreneur known for his groundbreaking ventures in space exploration, electric vehicles, and renewable energy, has once again taken an unconventional turn, this time in the world of culinary innovation. Musk, a self-proclaimed fan of Korean barbecue (KBBQ), has embarked on a quest to reverse engineer the perfect KBBQ order.",
@@ -2033,7 +2033,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Report on Most Up Its Own Ass Chocolate Company Finds Lindt Most Up Its Own Ass Chocolate Company",
     dek: "In a stunning revelation that has sent ripples through the confectionery industry, a comprehensive report has identified Lindt as the “Most Up Its Own Ass Chocolate Company.” The scathing assessment,…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 25, 2023",
     paragraphs: [
       "In a stunning revelation that has sent ripples through the confectionery industry, a comprehensive report has identified Lindt as the “Most Up Its Own Ass Chocolate Company.” The scathing assessment, which was conducted by a panel of industry experts, has raised eyebrows and sparked a heated debate among chocolate enthusiasts.",
@@ -2052,7 +2052,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Feeling the back of my head for 500 days in a row to see if I feel anything different.",
     dek: "I’ve been feeling the back of my head for 341 days in a row. I haven’t really felt anything different yet. I think I’m touching the same part of the back of my head every day and I always use my…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 25, 2023",
     paragraphs: [
       "I’ve been feeling the back of my head for 341 days in a row. I haven’t really felt anything different yet. I think I’m touching the same part of the back of my head every day and I always use my right hand or both hands (pictured).",
@@ -2065,7 +2065,7 @@ export const stories: Story[] = [
     category: "Health",
     headline: "Fermented Foods Found to Promote Gut Health. Specifically, Kimchi Found to Promote Taste of Shit In Mouth.",
     dek: "Kimchi, the iconic Korean dish celebrated for its vibrant flavors and gut-boosting probiotics, stands at the forefront of global culinary curiosity. Yet, for all its fame and accolades, there exists…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 25, 2023",
     paragraphs: [
       "Kimchi, the iconic Korean dish celebrated for its vibrant flavors and gut-boosting probiotics, stands at the forefront of global culinary curiosity. Yet, for all its fame and accolades, there exists a polarizing aspect that often sparks heated debates among food enthusiasts: the bad taste of kimchi.",
@@ -2082,7 +2082,7 @@ export const stories: Story[] = [
     category: "Politics",
     headline: "U.S. Governors Wonder How Word “Gubernatorial” Used For Anything Official At All.",
     dek: "As the country’s state leaders convene for the National Governors Association conference, many are left wondering: why is the word “gubernatorial” associated with anything official at all?",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 25, 2023",
     paragraphs: [
       "As the country’s state leaders convene for the National Governors Association conference, many are left wondering: why is the word “gubernatorial” associated with anything official at all?",
@@ -2097,7 +2097,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Actor Gene Hackman found guilty of looking like Italian-American Lego Piece",
     dek: "Gene Hackman, the acclaimed actor, is often admired for his rugged charm and timeless appeal, which some may liken to the classic handsomeness associated with Italian men. With his striking features…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "September 25, 2023",
     paragraphs: [
       "Gene Hackman, the acclaimed actor, is often admired for his rugged charm and timeless appeal, which some may liken to the classic handsomeness associated with Italian men. With his striking features and charismatic presence, Hackman has captured the hearts of audiences worldwide. His iconic roles in films like “The French Connection” and “The Royal Tenenbaums” showcase not only his exceptional acting talent but also his captivating allure.",
@@ -2111,7 +2111,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Passengers in tragic story who unnecessarily died going to look at titanic didn’t realize only way to unnecessarily die while going to look at titanic is by unnecessarily going to look at titanic.",
     dek: "Several months ago a heartbreaking story surfaced about a group of passengers who embarked on a journey to witness the remnants of the ill-fated Titanic, only to tragically lose their lives when…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 13, 2023",
     paragraphs: [
       "Several months ago a heartbreaking story surfaced about a group of passengers who embarked on a journey to witness the remnants of the ill-fated Titanic, only to tragically lose their lives when their submarine imploded. What makes this story even more poignant is the realization by the public that the only way to meet such a fate is by embarking on precisely this kind of expedition.",
@@ -2125,7 +2125,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Man Claims Search History Including “Asia minor” was Legitimately about Asia Minor.",
     dek: "In a digital age rife with suspicion, one man finds himself in an unusual predicament after authorities questioned his internet search history, specifically the entry for “Asia Minor.” The man, whose…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 11, 2023",
     paragraphs: [
       "In a digital age rife with suspicion, one man finds himself in an unusual predicament after authorities questioned his internet search history, specifically the entry for “Asia Minor.” The man, whose identity remains undisclosed, claims that his online exploration was indeed genuinely about the ancient region of Asia Minor, known for its rich historical and archaeological significance.",
@@ -2139,7 +2139,7 @@ export const stories: Story[] = [
     category: "World",
     headline: "Swiss Nationals Slowly Realize WW2 Neutrality Not Really A Great Look.",
     dek: "In a reflection on its historical stance, the Swiss government is gradually coming to terms with the fact that its World War II neutrality may not be as commendable as once believed. Switzerland’s…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 4, 2023",
     paragraphs: [
       "In a reflection on its historical stance, the Swiss government is gradually coming to terms with the fact that its World War II neutrality may not be as commendable as once believed. Switzerland’s neutrality during the war has long been a point of note and national pride, but evolving perspectives and a shifting global landscape have prompted a reevaluation.",
@@ -2153,7 +2153,7 @@ export const stories: Story[] = [
     category: "Culture",
     headline: "Breaking: Sandra bullock still alive. The actress resides in a house with a family.",
     dek: "In a world where celebrity status often leads to constant scrutiny and public attention, Oscar-winning actress Sandra Bullock has managed to carve out a quiet, private life that might surprise many…",
-    byline: "Gabriel Nipote",
+    byline: "Gabe Nipote",
     date: "August 3, 2023",
     paragraphs: [
       "In a world where celebrity status often leads to constant scrutiny and public attention, Oscar-winning actress Sandra Bullock has managed to carve out a quiet, private life that might surprise many of her fans. Contrary to recent rumors suggesting otherwise, the beloved actress is indeed alive and well, residing in a comfortable house with her family.",
