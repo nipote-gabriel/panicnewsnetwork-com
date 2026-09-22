@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { StoryImage } from "@/components/StoryImage";
 import { StoryMeta } from "@/components/StoryMeta";
+import { AdSlot } from "@/components/AdSlot";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { stories } from "@/lib/stories";
@@ -43,6 +44,8 @@ export default async function SearchPage({
           </p>
         ) : null}
       </div>
+
+      <AdSlot size="leaderboard" className="px-4 py-4" />
 
       <section className="px-4 py-6">
         {!q ? (

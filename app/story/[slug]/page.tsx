@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { Fragment } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { StoryImage } from "@/components/StoryImage";
 import { StoryMeta } from "@/components/StoryMeta";
+import { AdSlot } from "@/components/AdSlot";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getStoryBySlug, stories } from "@/lib/stories";
@@ -37,10 +39,13 @@ export default async function StoryPage({
   const relatedStories = stories
     .filter((s) => s.slug !== story.slug)
     .slice(0, 4);
+  const midpoint = Math.floor(story.paragraphs.length / 2);
 
   return (
     <main className="mx-auto max-w-6xl">
       <SiteHeader />
+
+      <AdSlot size="leaderboard" className="px-4 py-4" />
 
       <article className="grid grid-cols-1 gap-8 px-4 py-8 lg:grid-cols-3">
         <div className="lg:col-span-2">
@@ -69,7 +74,12 @@ export default async function StoryPage({
 
           <div className="mt-6 flex flex-col gap-4 text-base leading-relaxed text-neutral-800">
             {story.paragraphs.map((p, i) => (
-              <p key={i}>{p}</p>
+              <Fragment key={i}>
+                <p>{p}</p>
+                {story.paragraphs.length > 3 && i === midpoint ? (
+                  <AdSlot size="rectangle" className="py-2" />
+                ) : null}
+              </Fragment>
             ))}
           </div>
 
@@ -97,6 +107,7 @@ export default async function StoryPage({
               </li>
             ))}
           </ul>
+          <AdSlot size="rectangle" className="mt-6" />
         </aside>
       </article>
 

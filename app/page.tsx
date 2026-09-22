@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { StoryImage } from "@/components/StoryImage";
 import { StoryMeta } from "@/components/StoryMeta";
+import { AdSlot } from "@/components/AdSlot";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { stories } from "@/lib/stories";
@@ -16,6 +17,8 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-6xl">
       <SiteHeader />
+
+      <AdSlot size="leaderboard" className="px-4 py-4" />
 
       {/* Hero section */}
       <section className="grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-3">
@@ -71,8 +74,11 @@ export default function Home() {
               </li>
             ))}
           </ul>
+          <AdSlot size="rectangle" className="mt-6" />
         </aside>
       </section>
+
+      <AdSlot size="leaderboard" className="border-t border-neutral-200 px-4 py-6" />
 
       {/* Featured Stories */}
       <section className="border-t border-neutral-200 bg-neutral-50 py-6">
@@ -120,6 +126,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <AdSlot size="leaderboard" className="border-t border-neutral-200 px-4 py-6" />
 
       <SiteFooter />
     </main>
