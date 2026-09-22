@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { categories, slugifyCategory } from "@/lib/categories";
+import { TvBanner } from "@/components/TvBanner";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-6 bg-brand-dark px-4 py-10 text-sm text-neutral-400">
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 sm:grid-cols-4">
+    <footer className="mt-6 bg-brand-dark text-sm text-neutral-400">
+      <TvBanner />
+      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-4 py-10 sm:grid-cols-4">
         <div className="col-span-2 sm:col-span-1">
           <Image
             src="/logo.png"
@@ -121,7 +123,7 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <div className="mx-auto mt-8 max-w-6xl border-t border-neutral-700 pt-4">
+      <div className="mx-auto mt-8 max-w-6xl border-t border-neutral-700 px-4 pb-10 pt-4">
         <p>&copy; 2026 Panic News Network. All rights reserved.</p>
       </div>
     </footer>
