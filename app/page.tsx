@@ -15,7 +15,7 @@ const editorsPicks = stories.slice(19, 25);
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-6xl">
+    <main className="mx-auto max-w-[1440px]">
       <SiteHeader />
 
       <AdSlot size="leaderboard" bleed className="px-4 py-4" />
@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Story grid + sidebar */}
       <section className="grid grid-cols-1 gap-8 border-t border-neutral-200 px-4 py-6 lg:grid-cols-3">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3 xl:grid-cols-4">
           {gridStories.map((s) => (
             <Link key={s.slug} href={`/story/${s.slug}`}>
               <StoryImage image={s.image} alt={s.headline} label="Story Image" />
@@ -82,7 +82,7 @@ export default function Home() {
 
       {/* Featured Stories */}
       <section className="full-bleed border-t border-neutral-200 bg-neutral-50 py-6">
-        <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-[1440px] px-4">
           <div className="mb-4 inline-block bg-brand-red px-3 py-1">
             <h2 className="font-display text-sm uppercase tracking-wide text-white">
               Featured Stories
@@ -104,7 +104,7 @@ export default function Home() {
 
       {/* Editor's Picks */}
       <section className="border-t border-neutral-200 px-4 py-6">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-[1440px]">
           <h2 className="mb-4 flex items-center gap-2 border-b-2 border-brand-red pb-2 font-display text-sm uppercase tracking-wide">
             Editor&rsquo;s Picks
           </h2>

@@ -31,7 +31,7 @@ export default async function SearchPage({
   const results = searchStories(q);
 
   return (
-    <main className="mx-auto max-w-6xl">
+    <main className="mx-auto max-w-[1440px]">
       <SiteHeader />
 
       <div className="border-b-4 border-brand-red px-4 py-6">
@@ -53,7 +53,7 @@ export default async function SearchPage({
         ) : results.length === 0 ? (
           <p className="text-neutral-600">No stories matched your search. Try another term.</p>
         ) : (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {results.map((s) => (
               <Link key={s.slug} href={`/story/${s.slug}`}>
                 <StoryImage image={s.image} alt={s.headline} label="Story Image" />

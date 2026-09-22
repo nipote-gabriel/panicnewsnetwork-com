@@ -42,7 +42,7 @@ export default async function StoryPage({
   const midpoint = Math.floor(story.paragraphs.length / 2);
 
   return (
-    <main className="mx-auto max-w-6xl">
+    <main className="mx-auto max-w-[1440px]">
       <SiteHeader />
 
       <AdSlot size="leaderboard" bleed className="px-4 py-4" />
@@ -72,7 +72,7 @@ export default async function StoryPage({
             />
           </div>
 
-          <div className="mt-6 flex flex-col gap-4 text-base leading-relaxed text-neutral-800">
+          <div className="mt-6 flex max-w-3xl flex-col gap-4 text-base leading-relaxed text-neutral-800">
             {story.paragraphs.map((p, i) => (
               <Fragment key={i}>
                 <p>{p}</p>

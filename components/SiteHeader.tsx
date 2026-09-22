@@ -11,7 +11,7 @@ export function SiteHeader() {
     <>
       {/* Top utility bar */}
       <div className="full-bleed bg-brand-dark">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-1.5 text-xs text-neutral-300">
+        <div className="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-1.5 text-xs text-neutral-300">
           <CurrentDate />
           <div className="flex gap-4">
             <button type="button" className="hover:underline">
@@ -31,7 +31,7 @@ export function SiteHeader() {
 
       {/* Header / logo */}
       <header className="full-bleed border-b border-neutral-200 px-4 py-4">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3">
+        <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-3">
           <div className="flex min-w-0 items-center gap-3">
             <Link href="/" className="shrink-0">
               <Image
@@ -82,7 +82,7 @@ export function SiteHeader() {
 
       {/* Category nav */}
       <nav className="full-bleed overflow-x-auto bg-brand-red">
-        <ul className="mx-auto flex min-w-max max-w-6xl gap-6 px-4 py-2 text-sm font-semibold uppercase text-white">
+        <ul className="mx-auto flex min-w-max max-w-[1440px] gap-6 px-4 py-2 text-sm font-semibold uppercase text-white">
           {categories.map((c) => (
             <li key={c} className="whitespace-nowrap">
               <Link href={`/category/${slugifyCategory(c)}`} className="hover:underline">
@@ -95,7 +95,7 @@ export function SiteHeader() {
 
       {/* Breaking news ticker */}
       <div className="full-bleed bg-brand-dark">
-        <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-2 text-sm text-white">
+        <div className="mx-auto flex max-w-[1440px] items-center gap-3 px-4 py-2 text-sm text-white">
           <span className="shrink-0 rounded bg-brand-red px-2 py-0.5 text-xs font-bold uppercase">
             Breaking
           </span>

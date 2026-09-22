@@ -40,7 +40,7 @@ export default async function CategoryPage({
   const categoryStories = stories.filter((s) => s.category === category);
 
   return (
-    <main className="mx-auto max-w-6xl">
+    <main className="mx-auto max-w-[1440px]">
       <SiteHeader />
 
       <div className="border-b-4 border-brand-red px-4 py-6">
@@ -55,7 +55,7 @@ export default async function CategoryPage({
             No stories in this category yet. Check back soon.
           </p>
         ) : (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {categoryStories.map((s, i) => (
               <Fragment key={s.slug}>
                 <Link href={`/story/${s.slug}`}>
@@ -67,7 +67,7 @@ export default async function CategoryPage({
                   <p className="mt-1 text-sm text-neutral-600">{s.dek}</p>
                 </Link>
                 {i === 5 ? (
-                  <div className="sm:col-span-2 lg:col-span-3">
+                  <div className="sm:col-span-2 lg:col-span-3 xl:col-span-4">
                     <AdSlot size="leaderboard" />
                   </div>
                 ) : null}
