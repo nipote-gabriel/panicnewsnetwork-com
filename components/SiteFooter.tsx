@@ -54,6 +54,26 @@ export function SiteFooter() {
                 Search
               </Link>
             </li>
+            <li>
+              <a
+                href="https://www.headquarterscomedy.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                Headquarters Comedy
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.worldcorpinternational.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                WorldCorp International
+              </a>
+            </li>
           </ul>
         </div>
       </div>
