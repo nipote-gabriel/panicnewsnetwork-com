@@ -4,9 +4,10 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { stories } from "@/lib/stories";
 
-const [heroStory, ...secondaryStories] = stories;
-const gridStories = secondaryStories.slice(2);
-const sidebarStories = secondaryStories.slice(2, 8);
+const heroStory = stories[0];
+const secondaryStories = stories.slice(1, 3);
+const gridStories = stories.slice(3, 9);
+const sidebarStories = stories.slice(9, 15);
 
 export default function Home() {
   return (

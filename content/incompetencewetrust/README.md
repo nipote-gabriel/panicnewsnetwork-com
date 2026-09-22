@@ -1,8 +1,8 @@
 # In Competence We Trust — Story Archive
 
-This folder is a staging archive for every story from incompetencewetrust.com, kept as plain Markdown files so they're easy to review, diff, and edit by hand before any of them get imported into the live Fast News Network site (`lib/stories.ts`).
+This folder is a staging archive for every story from incompetencewetrust.com, kept as plain Markdown files so they're easy to review, diff, and edit by hand.
 
-This is **not** wired into the site yet — nothing here is imported or rendered by the Next.js app. It's just storage until we decide what gets published and how.
+**Update:** the full story archive (60 stories, imported from the `ICWT_Stories_Clean_Export.csv` WordPress export) is now live on the site — see `lib/stories.ts`. This `content/incompetencewetrust/stories/` folder remains as reference/staging for any future edits or re-imports, but isn't read by the Next.js app directly.
 
 ## Format
 
@@ -29,7 +29,7 @@ with blank lines between paragraphs, same as this file.
 Notes on fields:
 
 - `slug`, `title`, `date` are required. Everything else is optional — leave it out of the frontmatter if the original story doesn't have it (e.g. no image).
-- `category` doesn't need to match Fast News Network's existing categories (U.S., World, Politics, etc.) — record whatever category the original site used. We'll map/reconcile categories when we actually import stories into the live site.
+- `category` doesn't need to match the live site's category taxonomy (World, Politics, Business, Culture, Health) — record whatever category the original site used. We'll map/reconcile categories when re-importing stories into the live site.
 - `source_url` should always be filled in — it's how we trace a story back to the original if something looks off during import.
 - Keep the body as close to the original text as practical (headings, links, etc. can be simplified to plain Markdown).
 

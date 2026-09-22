@@ -1,13 +1,4 @@
-export const categories = [
-  "U.S.",
-  "World",
-  "Politics",
-  "Business",
-  "Tech",
-  "Entertainment",
-  "Sports",
-  "Opinion",
-];
+export const categories = ["World", "Politics", "Business", "Culture", "Health"];
 
 export function slugifyCategory(name: string): string {
   return name
