@@ -10,10 +10,10 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-[1440px] grid-cols-2 gap-8 px-4 py-10 sm:grid-cols-4">
         <div className="col-span-2 sm:col-span-1">
           <Image
-            src="/logo.png"
+            src="/logo-mono-white.png"
             alt="Panic News Network"
-            width={720}
-            height={357}
+            width={280}
+            height={156}
             className="h-14 w-auto"
           />
           <p className="mt-3 max-w-xs text-neutral-400">
