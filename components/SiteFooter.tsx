@@ -5,8 +5,8 @@ import { categories, slugifyCategory } from "@/lib/categories";
 export function SiteFooter() {
   return (
     <footer className="mt-6 bg-brand-dark px-4 py-10 text-sm text-neutral-400">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 sm:grid-cols-3">
-        <div>
+      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 sm:grid-cols-4">
+        <div className="col-span-2 sm:col-span-1">
           <Image
             src="/logo.png"
             alt="Panic News Network"
@@ -41,27 +41,12 @@ export function SiteFooter() {
           <ul className="flex flex-col gap-2">
             <li>
               <a
-                href="https://headquarterscomedy.beehiiv.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white hover:underline"
-              >
-                Newsletter
-              </a>
-            </li>
-            <li>
-              <Link href="/search" className="hover:text-white hover:underline">
-                Search
-              </Link>
-            </li>
-            <li>
-              <a
                 href="https://www.headquarterscomedy.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white hover:underline"
               >
-                Headquarters Comedy
+                HQ
               </a>
             </li>
             <li>
@@ -71,7 +56,65 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 className="hover:text-white hover:underline"
               >
-                WorldCorp International
+                WCI
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://headquarterscomedy.beehiiv.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                Newsletter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/thegarylunashow/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                The Gary Luna Show
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 className="mb-3 text-xs font-bold uppercase tracking-wide text-white">
+            Connect
+          </h2>
+          <ul className="flex flex-col gap-2">
+            <li>
+              <a
+                href="https://www.instagram.com/headquarterscomedy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/headquarters-comedy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/hq_comedy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white hover:underline"
+              >
+                X
               </a>
             </li>
           </ul>
