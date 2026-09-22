@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { categories, slugifyCategory } from "@/lib/categories";
+import { CurrentDate } from "@/components/CurrentDate";
 
 export function SiteHeader() {
   return (
     <>
       {/* Top utility bar */}
       <div className="flex items-center justify-between bg-brand-dark px-4 py-1.5 text-xs text-neutral-300">
-        <span>Wednesday, September 9, 2026</span>
+        <CurrentDate />
         <div className="flex gap-4">
           <button type="button" className="hover:underline">
             Shop
