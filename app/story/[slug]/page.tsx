@@ -45,7 +45,7 @@ export default async function StoryPage({
     <main className="mx-auto max-w-6xl">
       <SiteHeader />
 
-      <AdSlot size="leaderboard" className="px-4 py-4" />
+      <AdSlot size="leaderboard" bleed className="px-4 py-4" />
 
       <article className="grid grid-cols-1 gap-8 px-4 py-8 lg:grid-cols-3">
         <div className="lg:col-span-2">

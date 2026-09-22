@@ -9,14 +9,18 @@ export type AdSize = keyof typeof AD_SIZES;
 
 export function AdSlot({
   size = "leaderboard",
+  bleed = false,
   className = "",
 }: {
   size?: AdSize;
+  bleed?: boolean;
   className?: string;
 }) {
   const { width, height, fluid } = AD_SIZES[size];
   return (
-    <div className={`mx-auto flex w-full flex-col items-center gap-1 ${className}`}>
+    <div
+      className={`mx-auto flex w-full flex-col items-center gap-1 ${bleed ? "full-bleed" : ""} ${className}`}
+    >
       <span className="text-[10px] font-semibold uppercase tracking-widest text-neutral-400">
         Advertisement
       </span>

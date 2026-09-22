@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function TvBanner() {
   return (
-    <section className="relative overflow-hidden bg-black py-16 sm:py-24">
+    <section className="full-bleed relative overflow-hidden bg-black py-16 sm:py-24">
       {/* vignette */}
       <div
         className="pointer-events-none absolute inset-0 z-20"

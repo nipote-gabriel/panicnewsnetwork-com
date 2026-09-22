@@ -47,7 +47,7 @@ export default async function CategoryPage({
         <h1 className="font-display text-3xl uppercase tracking-tight">{category}</h1>
       </div>
 
-      <AdSlot size="leaderboard" className="px-4 py-4" />
+      <AdSlot size="leaderboard" bleed className="px-4 py-4" />
 
       <section className="px-4 py-6">
         {categoryStories.length === 0 ? (

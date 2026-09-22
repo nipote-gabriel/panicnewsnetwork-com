@@ -18,7 +18,7 @@ export default function Home() {
     <main className="mx-auto max-w-6xl">
       <SiteHeader />
 
-      <AdSlot size="leaderboard" className="px-4 py-4" />
+      <AdSlot size="leaderboard" bleed className="px-4 py-4" />
 
       {/* Hero section */}
       <section className="grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-3">
@@ -78,10 +78,10 @@ export default function Home() {
         </aside>
       </section>
 
-      <AdSlot size="leaderboard" className="border-t border-neutral-200 px-4 py-6" />
+      <AdSlot size="leaderboard" bleed className="border-t border-neutral-200 px-4 py-6" />
 
       {/* Featured Stories */}
-      <section className="border-t border-neutral-200 bg-neutral-50 py-6">
+      <section className="full-bleed border-t border-neutral-200 bg-neutral-50 py-6">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-4 inline-block bg-brand-red px-3 py-1">
             <h2 className="font-display text-sm uppercase tracking-wide text-white">
@@ -127,7 +127,7 @@ export default function Home() {
         </div>
       </section>
 
-      <AdSlot size="leaderboard" className="border-t border-neutral-200 px-4 py-6" />
+      <AdSlot size="leaderboard" bleed className="border-t border-neutral-200 px-4 py-6" />
 
       <SiteFooter />
     </main>
