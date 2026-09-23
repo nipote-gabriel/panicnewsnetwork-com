@@ -46,7 +46,7 @@ export const stories: Story[] = [
   {
     slug: "move-over-reba-mcentire-youre-sitting-way-too-close-to-me",
     category: "Culture",
-    placements: ["Normal"],
+    placements: ["Normal", "Editor's Pick"],
     headline: "Move Over Reba McEntire… You’re Sitting Way Too Close to Me",
     dek: "Country music legend Reba McEntire inadvertently became the subject of a trending social media meme after a fan complained about her proximity during a photo-op. The viral post, which humorously…",
     byline: "Gabe Nipote",
@@ -130,7 +130,7 @@ export const stories: Story[] = [
   {
     slug: "looks-can-be-deceiving-this-little-man-ejecting-himself-from-womans-uterus-actually-just-long-time-friend-of-fetus",
     category: "Health",
-    placements: ["Editor's Pick"],
+    placements: ["Editor's Pick", "Normal"],
     headline: "Looks can be deceiving: This little man ejecting himself from woman’’s uterus actually just long time friend of fetus.",
     dek: "In a bizarre case that has perplexed the medical community, a Milwaukee woman delivering her baby last week also encountered an unexpected presence: a small, biologically unexplainable humanoid…",
     byline: "Gabe Nipote",
@@ -147,7 +147,7 @@ export const stories: Story[] = [
   {
     slug: "drinking-6-more-cups-of-coffee-per-day-may-lead-to-drinking-7-or-more-cups-of-coffee-per-day",
     category: "Health",
-    placements: ["Normal"],
+    placements: ["Normal", "Featured"],
     headline: "Drinking 6 more cups of coffee per day may lead to drinking 7 or more cups of coffee per day.",
     dek: "A recent study from the National Institute on Dietary Habits has observed an unexpected trend among high-volume coffee drinkers. Individuals consuming six cups of coffee daily often increase their…",
     byline: "Gabe Nipote",
@@ -250,7 +250,7 @@ export const stories: Story[] = [
   {
     slug: "global-warming-causes-another-devastating-renewal-of-young-sheldon",
     category: "World",
-    placements: ["Normal"],
+    placements: ["Featured"],
     headline: "Global warming causes another devastating renewal of Young Sheldon.",
     dek: "After a season of brutal storms destroying infrastructure and taking lives, CBS has hit the public with another natural disaster of immense magnitude announcing yet another renewal of Young Sheldon,…",
     byline: "Gabe Nipote",
@@ -525,7 +525,7 @@ export const stories: Story[] = [
   {
     slug: "its-been-one-of-our-main-challenges-as-a-business-blockbuster-ceo-on-going-out-of-business",
     category: "Culture",
-    placements: ["Normal"],
+    placements: ["Editor's Pick"],
     headline: "“It’s been one of our main challenges as a business” – blockbuster CEO on going out of business",
     dek: "In a candid interview, the CEO of Blockbuster, once a titan in the home entertainment industry, reflected on the factors that led to the company’s decline and eventual closure. Speaking with a mix of…",
     byline: "Gabe Nipote",
