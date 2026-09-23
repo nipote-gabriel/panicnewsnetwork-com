@@ -130,7 +130,7 @@ export const stories: Story[] = [
   {
     slug: "looks-can-be-deceiving-this-little-man-ejecting-himself-from-womans-uterus-actually-just-long-time-friend-of-fetus",
     category: "Health",
-    placements: ["Normal"],
+    placements: ["Editor's Pick"],
     headline: "Looks can be deceiving: This little man ejecting himself from woman’’s uterus actually just long time friend of fetus.",
     dek: "In a bizarre case that has perplexed the medical community, a Milwaukee woman delivering her baby last week also encountered an unexpected presence: a small, biologically unexplainable humanoid…",
     byline: "Gabe Nipote",
