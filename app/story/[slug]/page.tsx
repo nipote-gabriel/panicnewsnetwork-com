@@ -45,7 +45,7 @@ export default async function StoryPage({
     <main className="mx-auto max-w-[1440px]">
       <SiteHeader />
 
-      <AdSlot size="leaderboard" bleed className="px-4 py-4" />
+      <AdSlot size="leaderboard" adIndex={0} bleed className="px-4 py-4" />
 
       <article className="grid grid-cols-1 gap-8 px-4 py-8 lg:grid-cols-3">
         <div className="lg:col-span-2">
@@ -77,7 +77,7 @@ export default async function StoryPage({
               <Fragment key={i}>
                 <p>{p}</p>
                 {story.paragraphs.length > 3 && i === midpoint ? (
-                  <AdSlot size="rectangle" className="py-2" />
+                  <AdSlot size="rectangle" adIndex={0} className="py-2" />
                 ) : null}
               </Fragment>
             ))}
@@ -107,7 +107,7 @@ export default async function StoryPage({
               </li>
             ))}
           </ul>
-          <AdSlot size="rectangle" className="mt-6" />
+          <AdSlot size="rectangle" adIndex={1} className="mt-6" />
         </aside>
       </article>
 

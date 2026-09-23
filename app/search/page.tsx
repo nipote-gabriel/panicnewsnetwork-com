@@ -45,7 +45,7 @@ export default async function SearchPage({
         ) : null}
       </div>
 
-      <AdSlot size="leaderboard" bleed className="px-4 py-4" />
+      <AdSlot size="leaderboard" adIndex={0} bleed className="px-4 py-4" />
 
       <section className="px-4 py-6">
         {!q ? (

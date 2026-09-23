@@ -47,7 +47,7 @@ export default async function CategoryPage({
         <h1 className="font-display text-3xl uppercase tracking-tight">{category}</h1>
       </div>
 
-      <AdSlot size="leaderboard" bleed className="px-4 py-4" />
+      <AdSlot size="leaderboard" adIndex={0} bleed className="px-4 py-4" />
 
       <section className="px-4 py-6">
         {categoryStories.length === 0 ? (
@@ -68,7 +68,7 @@ export default async function CategoryPage({
                 </Link>
                 {i === 5 ? (
                   <div className="sm:col-span-2 lg:col-span-3 xl:col-span-4">
-                    <AdSlot size="leaderboard" />
+                    <AdSlot size="leaderboard" adIndex={1} />
                   </div>
                 ) : null}
               </Fragment>

@@ -19,7 +19,7 @@ export default function Home() {
     <main className="mx-auto max-w-[1440px]">
       <SiteHeader />
 
-      <AdSlot size="leaderboard" bleed className="px-4 py-4" />
+      <AdSlot size="leaderboard" adIndex={0} bleed className="px-4 py-4" />
 
       {/* Hero section */}
       <section className="grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-3">
@@ -75,11 +75,11 @@ export default function Home() {
               </li>
             ))}
           </ul>
-          <AdSlot size="rectangle" className="mt-6" />
+          <AdSlot size="rectangle" adIndex={0} className="mt-6" />
         </aside>
       </section>
 
-      <AdSlot size="leaderboard" bleed className="border-t border-neutral-200 px-4 py-6" />
+      <AdSlot size="leaderboard" adIndex={1} bleed className="border-t border-neutral-200 px-4 py-6" />
 
       {/* Featured Stories */}
       <section className="full-bleed border-t border-neutral-200 bg-neutral-50 py-6">
@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       </section>
 
-      <AdSlot size="leaderboard" bleed className="border-t border-neutral-200 px-4 py-6" />
+      <AdSlot size="leaderboard" adIndex={2} bleed className="border-t border-neutral-200 px-4 py-6" />
 
       <SiteFooter />
     </main>
