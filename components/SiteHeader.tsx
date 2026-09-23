@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { categories, slugifyCategory } from "@/lib/categories";
 import { CurrentDate } from "@/components/CurrentDate";
-import { stories } from "@/lib/stories";
+import { storiesByPlacement } from "@/lib/stories";
 
-const tickerStories = stories.slice(0, 8);
+const tickerStories = storiesByPlacement("Breaking");
 
 export function SiteHeader() {
   return (

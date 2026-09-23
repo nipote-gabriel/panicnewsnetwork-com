@@ -1,6 +1,7 @@
 export type Story = {
   slug: string;
   category: string;
+  placements: string[];
   headline: string;
   dek: string;
   byline: string;
@@ -13,6 +14,7 @@ export const stories: Story[] = [
   {
     slug: "steve-bannon-voted-people-magazines-most-buoyant-man-of-2024",
     category: "Politics",
+    placements: ["Normal", "Featured"],
     headline: "Steve Bannon Voted People Magazine’s Most Buoyant Man of 2024",
     dek: "In an unexpected nod from People Magazine, political strategist Steve Bannon has been named the “Most Buoyant Man of 2024.” While the accolade traditionally celebrates physical attractiveness, this…",
     byline: "Gabe Nipote",
@@ -27,7 +29,8 @@ export const stories: Story[] = [
   },
   {
     slug: "seasonal-depression-you-might-just-live-in-boston",
-    category: "Culture",
+    category: "Health",
+    placements: ["Normal"],
     headline: "Seasonal Depression? You Might Just Live in Boston",
     dek: "As winter approaches, many Boston residents brace for what feels like an annual wave of seasonal depression. However, experts suggest that these feelings may stem less from biological factors and…",
     byline: "Gabe Nipote",
@@ -43,6 +46,7 @@ export const stories: Story[] = [
   {
     slug: "move-over-reba-mcentire-youre-sitting-way-too-close-to-me",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Move Over Reba McEntire… You’re Sitting Way Too Close to Me",
     dek: "Country music legend Reba McEntire inadvertently became the subject of a trending social media meme after a fan complained about her proximity during a photo-op. The viral post, which humorously…",
     byline: "Gabe Nipote",
@@ -58,6 +62,7 @@ export const stories: Story[] = [
   {
     slug: "rfk-outraged-that-hot-dogs-no-longer-made-from-real-dog",
     category: "Health",
+    placements: ["Normal", "Hero"],
     headline: "RFK Outraged That Hot Dogs No Longer Made From Real Dog",
     dek: "In a controversial statement during a town hall meeting, presidential candidate Robert F. Kennedy Jr. expressed frustration over the modern composition of hot dogs, lamenting their lack of…",
     byline: "Gabe Nipote",
@@ -74,6 +79,7 @@ export const stories: Story[] = [
   {
     slug: "blackrock-now-owns-80-of-bounce-houses-in-america",
     category: "Business",
+    placements: ["Normal", "Featured"],
     headline: "BlackRock Now Owns 80% of Bounce Houses in America",
     dek: "In a continued streak of domination for one of the world’s largest investment firms, BlackRock has quietly acquired a dominant stake in the U.S. bounce house industry. According to recent financial…",
     byline: "Gabe Nipote",
@@ -90,6 +96,7 @@ export const stories: Story[] = [
   {
     slug: "gin-tonics-for-breakfast-my-toddler-slaps",
     category: "Culture",
+    placements: ["Normal", "Editor's Pick"],
     headline: "Gin & Tonics for Breakfast? My Toddler Fucking Slaps",
     dek: "A recent trend in parenting forums has sparked debate: the humor and self-reflection behind lightheartedly describing young children as “slapping,” a term popularized on social media. New York-based…",
     byline: "Gabe Nipote",
@@ -106,6 +113,7 @@ export const stories: Story[] = [
   {
     slug: "icwt-recipes-roger-stones-easy-weeknight-spit-roasted-salamander",
     category: "Culture",
+    placements: ["Normal"],
     headline: "ICWT Recipes: Roger Stone’s Easy Weeknight Spit-Roasted Salamander",
     dek: "Roger Stone, the controversial political consultant, has turned his culinary creativity toward an unconventional dish: spit-roasted salamander. In his latest recipe book, Unconventional Meals for the…",
     byline: "Gabe Nipote",
@@ -122,6 +130,7 @@ export const stories: Story[] = [
   {
     slug: "looks-can-be-deceiving-this-little-man-ejecting-himself-from-womans-uterus-actually-just-long-time-friend-of-fetus",
     category: "Health",
+    placements: ["Normal"],
     headline: "Looks can be deceiving: This little man ejecting himself from woman’’s uterus actually just long time friend of fetus.",
     dek: "In a bizarre case that has perplexed the medical community, a Milwaukee woman delivering her baby last week also encountered an unexpected presence: a small, biologically unexplainable humanoid…",
     byline: "Gabe Nipote",
@@ -138,6 +147,7 @@ export const stories: Story[] = [
   {
     slug: "drinking-6-more-cups-of-coffee-per-day-may-lead-to-drinking-7-or-more-cups-of-coffee-per-day",
     category: "Health",
+    placements: ["Normal"],
     headline: "Drinking 6 more cups of coffee per day may lead to drinking 7 or more cups of coffee per day.",
     dek: "A recent study from the National Institute on Dietary Habits has observed an unexpected trend among high-volume coffee drinkers. Individuals consuming six cups of coffee daily often increase their…",
     byline: "Gabe Nipote",
@@ -153,7 +163,8 @@ export const stories: Story[] = [
   },
   {
     slug: "celebrate-the-small-wins-ass-cheese-technically-non-dairy",
-    category: "Culture",
+    category: "Health",
+    placements: ["Normal"],
     headline: "Celebrate the small wins: Ass cheese technically non-dairy.",
     dek: "For those who have braved hot, humid days or tight pants, “ass cheese” is an all-too-familiar byproduct — the unofficial term for the uncomfortable buildup of sweat, skin oils, and bacteria that can…",
     byline: "Gabe Nipote",
@@ -169,6 +180,7 @@ export const stories: Story[] = [
   {
     slug: "mother-sifting-through-feces-to-find-childs-swallowed-lost-tooth-insists-she-is-not-a-moron",
     category: "World",
+    placements: ["Normal"],
     headline: "Mother sifting through feces to find child’s swallowed lost tooth insists she is not a moron.",
     dek: "For the past three days, Sarah Whitaker, a devoted mother from Boulder, Colorado, has found herself sifting through an unexpected pile of parental duties. After her 6-year-old son, Max, accidentally…",
     byline: "Gabe Nipote",
@@ -185,7 +197,8 @@ export const stories: Story[] = [
   },
   {
     slug: "experts-optimism-now-classified-as-mental-illness",
-    category: "Culture",
+    category: "Health",
+    placements: ["Normal"],
     headline: "Experts: Optimism Now Classified as Mental Illness",
     dek: "In a surprising twist in the world of psychology, a coalition of mental health experts has moved to officially classify optimism as a mental disorder. The proposal, introduced at this year’s American…",
     byline: "Gabe Nipote",
@@ -203,6 +216,7 @@ export const stories: Story[] = [
   {
     slug: "americas-hottest-new-pop-star-is-a-young-attractive-woman",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Americas hottest new pop star is a young attractive woman.",
     dek: "In a development that has stunned precisely no one, America’s newest pop sensation is a young, attractive woman. With catchy hooks, choreographed dance routines, and a polished social media presence,…",
     byline: "Gabe Nipote",
@@ -219,6 +233,7 @@ export const stories: Story[] = [
   {
     slug: "prozac-flavor-revamp-sucks",
     category: "Health",
+    placements: ["Normal"],
     headline: "Prozac flavor revamp sucks.",
     dek: "In a surprising attempt to modernize one of the world’s most prescribed antidepressants, pharmaceutical giant Eli Lilly recently released a new, “enhanced flavor” version of Prozac. But patients and…",
     byline: "Gabe Nipote",
@@ -234,7 +249,8 @@ export const stories: Story[] = [
   },
   {
     slug: "global-warming-causes-another-devastating-renewal-of-young-sheldon",
-    category: "Culture",
+    category: "World",
+    placements: ["Normal"],
     headline: "Global warming causes another devastating renewal of Young Sheldon.",
     dek: "After a season of brutal storms destroying infrastructure and taking lives, CBS has hit the public with another natural disaster of immense magnitude announcing yet another renewal of Young Sheldon,…",
     byline: "Gabe Nipote",
@@ -252,6 +268,7 @@ export const stories: Story[] = [
   {
     slug: "netflix-ceo-confirms-company-will-start-charging-extra-fee-for-breathing-too-hard",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Netflix CEO Confirms Company Will Start Charging Extra Fee for Breathing Too Hard",
     dek: "In a move that has left subscribers both bewildered and outraged, Netflix announced a new policy that will charge users an additional fee if their “breathing patterns exceed the acceptable level”…",
     byline: "Gabe Nipote",
@@ -268,6 +285,7 @@ export const stories: Story[] = [
   {
     slug: "tastes-like-dogshit-zero-stars-man-cooks-for-himself",
     category: "Culture",
+    placements: ["Normal"],
     headline: "“Tastes Like Dogshit. Zero Stars.” Man Cooks for Himself",
     dek: "In an era of takeout apps and meal delivery services, a growing number of Americans are finding themselves out of practice in the kitchen. Such was the case for Aaron Miller, a 34-year-old software…",
     byline: "Gabe Nipote",
@@ -284,6 +302,7 @@ export const stories: Story[] = [
   {
     slug: "2514-2",
     category: "Politics",
+    placements: ["Normal", "Featured", "Breaking"],
     headline: "J.D. Vance has a dirty little secret: his penis.",
     dek: "Rumors are swirling around J.D. Vance, Ohio’s outspoken conservative voice, about a “dirty little secret.” The source? His own recent comments, which unexpectedly hinted at a personal revelation.",
     byline: "Gabe Nipote",
@@ -300,6 +319,7 @@ export const stories: Story[] = [
   {
     slug: "report-marathons-twice-as-tiring-for-friends-of-those-running-it",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Report: Marathons Twice as Tiring for Friends of Those Running It",
     dek: "For those braving the 26.2-mile trek, marathons are the ultimate test of endurance. But a recent report reveals that the real marathon may, in fact, be for their friends and family. New findings…",
     byline: "Gabe Nipote",
@@ -316,6 +336,7 @@ export const stories: Story[] = [
   {
     slug: "self-driving-car-refuses-to-move-until-driver-puts-on-sheryl-crow",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Self-Driving Car Refuses to Move Until Driver Puts on Sheryl Crow",
     dek: "In a curious blend of technology and taste, a self-driving car belonging to a suburban Los Angeles resident recently refused to start unless a Sheryl Crow song was playing. The incident, reported by…",
     byline: "Gabe Nipote",
@@ -332,6 +353,7 @@ export const stories: Story[] = [
   {
     slug: "pope-kinda-thinking-a-cool-ranch-wafer-could-actually-be-sick",
     category: "World",
+    placements: ["Normal"],
     headline: "Pope kinda thinking a cool ranch wafer could actually be sick",
     dek: "Reports suggest that Pope Francis has repeatedly remarked about the possibility of a Cool Ranch-flavored communion wafer. Those close to the matter say he keeps trying to say it casually, like he’s…",
     byline: "Gabe Nipote",
@@ -348,6 +370,7 @@ export const stories: Story[] = [
   {
     slug: "trump-and-kamala-agree-to-settle-it-over-foosball-match",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Trump and Kamala agree to settle it over foosball match",
     dek: "Former President Donald Trump and Vice President Kamala Harris have reportedly agreed to resolve the upcoming election with a foosball match. The announcement, made jointly via social media, left…",
     byline: "Gabe Nipote",
@@ -364,7 +387,8 @@ export const stories: Story[] = [
   },
   {
     slug: "show-some-respect-guy-in-casket-is-wearing-t-shirt",
-    category: "Culture",
+    category: "World",
+    placements: ["Normal"],
     headline: "“Show some respect”… guy in casket is wearing t-shirt",
     dek: "A small-town funeral in Ohio has sparked a surprising debate on social media after attendees were taken aback by the sight of the deceased dressed in a casual T-shirt instead of traditional funeral…",
     byline: "Gabe Nipote",
@@ -381,6 +405,7 @@ export const stories: Story[] = [
   {
     slug: "pleading-insanity-tell-the-judge-you-watch-james-corden",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Pleading insanity? Tell the judge you watch James Corden!",
     dek: "In a surprising twist of courtroom rhetoric, a quip suggesting that watching The Late Late Show with James Corden could serve as grounds for an insanity defense has sparked a heated conversation…",
     byline: "Gabe Nipote",
@@ -397,6 +422,7 @@ export const stories: Story[] = [
   {
     slug: "five-second-rule-this-guy-just-had-sex-on-the-floor",
     category: "Health",
+    placements: ["Normal"],
     headline: "Five second rule? This guy just had sex on the floor.",
     dek: "A man has gone viral after being caught on camera engaging in a sexual act on the floor of a public venue. The incident, which occurred in a crowded nightclub in Miami, has sparked widespread debate…",
     byline: "Gabe Nipote",
@@ -412,7 +438,8 @@ export const stories: Story[] = [
   },
   {
     slug: "fat-guy-with-fat-head-is-my-history-teacher",
-    category: "Culture",
+    category: "World",
+    placements: ["Normal", "Editor's Pick"],
     headline: "Fat guy with fat head is my history teacher.",
     dek: "In my small high school in Ohio, one history teacher has become the subject of an unexpected controversy among students—not for his teaching methods or political views, but for his appearance. Known…",
     byline: "Gabe Nipote",
@@ -428,6 +455,7 @@ export const stories: Story[] = [
   {
     slug: "debate-format-backlash-from-gop-after-diapers-disallowed",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Debate format backlash from GOP after diapers disallowed",
     dek: "Controversy erupted this week after Republican Party officials expressed outrage over a new debate rule that prohibits former President Trump and Vice President Harris from wearing diapers during the…",
     byline: "Gabe Nipote",
@@ -444,7 +472,8 @@ export const stories: Story[] = [
   },
   {
     slug: "scared-straight-corporate-show-teaches-youngsters-what-could-happen-to-them-if-they-keep-on-achieving",
-    category: "Culture",
+    category: "Entertainment",
+    placements: ["Normal"],
     headline: "Scared Straight Corporate: New reality show teaches youngsters what could happen to them if they keep on achieving.",
     dek: "In a society that often celebrates and rewards high achievement, a new program is taking a decidedly different approach: warning young people of the potential pitfalls that come with relentless…",
     byline: "Gabe Nipote",
@@ -461,6 +490,7 @@ export const stories: Story[] = [
   {
     slug: "small-businesses-are-the-juicy-phat-ass-of-the-american-economy-tim-walz-attempts-to-modernize-rhetoric-on-economy",
     category: "Politics",
+    placements: ["Normal"],
     headline: "“Small businesses are the juicy phat ass of the American economy.” – Tim Walz attempts to modernize rhetoric on economy.",
     dek: "In an attempt to modernize and perhaps enliven the rhetoric surrounding the American economy, Minnesota Governor Tim Walz recently made headlines with a strikingly unconventional metaphor. Speaking…",
     byline: "Gabe Nipote",
@@ -476,7 +506,8 @@ export const stories: Story[] = [
   },
   {
     slug: "which-actress-do-fans-think-has-the-best-blood-vessel-sub-type-sinusoid-veins-in-the-biz",
-    category: "Culture",
+    category: "Entertainment",
+    placements: ["Normal", "Trending"],
     headline: "Which actress do fans think has the best blood vessel sub-type sinusoid veins in the biz?",
     dek: "In a world where celebrity culture often fixates on the superficial, an unexpected conversation has emerged among fans: which actress boasts the most impressive blood vessel subtype, specifically…",
     byline: "Gabe Nipote",
@@ -494,6 +525,7 @@ export const stories: Story[] = [
   {
     slug: "its-been-one-of-our-main-challenges-as-a-business-blockbuster-ceo-on-going-out-of-business",
     category: "Culture",
+    placements: ["Normal"],
     headline: "“It’s been one of our main challenges as a business” – blockbuster CEO on going out of business",
     dek: "In a candid interview, the CEO of Blockbuster, once a titan in the home entertainment industry, reflected on the factors that led to the company’s decline and eventual closure. Speaking with a mix of…",
     byline: "Gabe Nipote",
@@ -510,7 +542,8 @@ export const stories: Story[] = [
   },
   {
     slug: "florida-parents-rally-against-school-board-accuse-disguised-agenda-to-educate-the-next-generation",
-    category: "Culture",
+    category: "World",
+    placements: ["Normal"],
     headline: "Florida parents rally against school board for disguised agenda to “educate the next generation”",
     dek: "In a scene emblematic of the growing tension across the nation, a group of concerned parents gathered outside the Orange County School Board in Florida on Wednesday to protest what they claim is a…",
     byline: "Gabe Nipote",
@@ -527,6 +560,7 @@ export const stories: Story[] = [
   {
     slug: "i-play-the-whole-game-just-to-own-marvin-gardens-to-me-thats-the-art-of-the-game-thats-what-makes-it-worth-playing-christopher-walken-on-monopoly",
     category: "Culture",
+    placements: ["Normal"],
     headline: "“I play the whole game just to own Marvin Gardens. To me, that’s the art of the game. That’s what makes it worth playing.” – Christopher Walken on Monopoly",
     dek: "Christopher Walken, the legendary actor known for his eccentric roles and enigmatic presence, has a surprising obsession: Marvin Gardens. In a recent interview, Walken revealed that when he sits down…",
     byline: "Gabe Nipote",
@@ -545,6 +579,7 @@ export const stories: Story[] = [
   {
     slug: "oprah-endorses-kamala-at-dnc-trump-hopes-maybe-jerry-springer-will-come-around",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Oprah endorses Kamala at DNC; Trump hopes maybe Jerry Springer will come around.",
     dek: "REAL-TIME ELECTION COVERAGE BY ADMIN STEVE",
     byline: "Gabe Nipote",
@@ -563,6 +598,7 @@ export const stories: Story[] = [
   {
     slug: "poor-joint-health-linked-with-reading-articles-about-joint-health",
     category: "Health",
+    placements: ["Normal"],
     headline: "Poor Joint Health Linked With Reading Articles About Joint Health",
     dek: "Recent studies have suggested a surprising correlation between poor joint health and the frequent consumption of articles on the very topic. Researchers are scratching their heads over what appears…",
     byline: "Gabe Nipote",
@@ -578,6 +614,7 @@ export const stories: Story[] = [
   {
     slug: "fit-over-50-thats-nothing-civil-war-vet-gordon-brower-managed-to-fully-decay-in-under-190-years",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Fit Over 50? That’s Nothing. Civil War Vet Gordon Brower Managed to Fully Decay in Under 190 Years!",
     dek: "As the wellness industry continues its obsession with ageless fitness, a sobering reminder of how long the journey can be has surfaced in the unlikeliest of places: the grave of Gordon Brower, a…",
     byline: "Gabe Nipote",
@@ -592,7 +629,8 @@ export const stories: Story[] = [
   },
   {
     slug: "these-barefoot-shoes-are-leaving-neuropathy-experts-baffled-they-dont-know-why-anyone-would-buy-them",
-    category: "Culture",
+    category: "Business",
+    placements: ["Normal"],
     headline: "These Barefoot Shoes Are Leaving Neuropathy Experts Baffled; They Don’t Know Why Anyone Would Buy Them",
     dek: "Barefoot shoes, designed to mimic the sensation of walking barefoot while offering minimal protection, have surged in popularity. Proponents claim these shoes promote natural foot movement and muscle…",
     byline: "Gabe Nipote",
@@ -608,6 +646,7 @@ export const stories: Story[] = [
   {
     slug: "earth-running-low-on-water",
     category: "World",
+    placements: ["Normal", "Breaking"],
     headline: "Earth Running Low On Water",
     dek: "In a sobering report released this week, scientists have confirmed that Earth is facing an unprecedented water crisis, with reserves of fresh water dwindling at an alarming rate. The comprehensive…",
     byline: "Gabe Nipote",
@@ -623,6 +662,7 @@ export const stories: Story[] = [
   {
     slug: "thank-god-how-about-thank-30-years-flying-experience-sully-sullenberger-rips-into-sobbing-passenger-after-flight-lands",
     category: "Culture",
+    placements: ["Normal"],
     headline: "“Thank God? How about thank 30 years flying experience.” Sully Sullenberger Rips Into Sobbing Passenger After Flight ‘lands’.",
     dek: "In a dramatic postscript to the famed “Miracle on the Hudson,” Captain Chesley “Sully” Sullenberger, celebrated for his heroic emergency landing on the Hudson River in 2009, found himself in an…",
     byline: "Gabe Nipote",
@@ -639,6 +679,7 @@ export const stories: Story[] = [
   {
     slug: "as-paris-prepares-to-hold-2024-summer-olympics-i-prepare-to-hold-throbbing-dump-during-meeting-in-2min",
     category: "Culture",
+    placements: ["Normal"],
     headline: "As Paris Prepares to Hold 2024 Summer Olympics, I Prepare to Hold Throbbing Dump During Meeting in 2min.",
     dek: "As Paris gears up for the 2024 Summer Olympics, a global event promising to draw millions of spectators and athletes from around the world, an equally pressing personal drama is unfolding for one…",
     byline: "Gabe Nipote",
@@ -654,6 +695,7 @@ export const stories: Story[] = [
   {
     slug: "j-j-abrams-set-to-produce-new-star-studded-bowel-movement",
     category: "Culture",
+    placements: ["Normal", "Trending"],
     headline: "J.J. Abrams Set to Produce New Star-Studded Bowel Movement",
     dek: "In a turn of events that has left Hollywood insiders both amused and perplexed, acclaimed filmmaker J.J. Abrams has announced his latest venture: producing a bowel movement. Known for his work on…",
     byline: "Gabe Nipote",
@@ -671,6 +713,7 @@ export const stories: Story[] = [
   {
     slug: "for-6th-day-straight-woman-discusses-time-she-correctly-used-semi-colon",
     category: "Culture",
+    placements: ["Normal"],
     headline: "For 6th Day Straight, Woman Discusses Time She Correctly Used Semi-Colon",
     dek: "In an increasingly rare celebration of grammatical triumph, local woman Jane Mitchell has captivated friends, family, and colleagues for six consecutive days with the tale of her flawless use of a…",
     byline: "Gabe Nipote",
@@ -687,6 +730,7 @@ export const stories: Story[] = [
   {
     slug: "cia-reveals-leaked-messages-hinting-at-massive-conspiracy-to-ding-dong-ditch-white-house",
     category: "Politics",
+    placements: ["Normal"],
     headline: "CIA Reveals Leaked Messages Hinting at Massive Conspiracy to Ding-Dong Ditch White House.",
     dek: "In a revelation that has left Washington insiders and the public alike in a state of disbelief, the CIA has disclosed a series of leaked messages suggesting an elaborate plot to orchestrate a…",
     byline: "Gabe Nipote",
@@ -702,6 +746,7 @@ export const stories: Story[] = [
   {
     slug: "tlcs-new-hit-shark-tank-for-orphans",
     category: "Business",
+    placements: ["Normal"],
     headline: "TLC’s New Hit: Shark Tank for Orphans",
     dek: "In an audacious move blending reality television with social impact, TLC has unveiled its latest hit show: “Shark Tank for Orphans.” The series, which premiered to record-breaking ratings, places…",
     byline: "Gabe Nipote",
@@ -718,6 +763,7 @@ export const stories: Story[] = [
   {
     slug: "cia-finds-hunter-biden-laptop-discovers-way-fucking-embarrassing-1st-draft-of-shitty-novel",
     category: "Politics",
+    placements: ["Normal"],
     headline: "CIA Finds Hunter Biden Laptop. Discovers Way Fucking Embarrassing 1st Draft of Shitty Novel.",
     dek: "In a surprising twist to the ongoing saga surrounding Hunter Biden’s laptop, the Central Intelligence Agency (CIA) has made an unexpected discovery: a cache of files containing what is described as a…",
     byline: "Gabe Nipote",
@@ -733,6 +779,7 @@ export const stories: Story[] = [
   {
     slug: "boeing-reasons-with-critics-death-is-a-part-of-life-its-kind-of-what-makes-this-whole-magical-experience-so-meaningful",
     category: "Business",
+    placements: ["Normal"],
     headline: "Boeing Reasons with Critics, “Death is a part of life. It’s kind of what makes this whole magical experience so meaningful.",
     dek: "Boeing, the aerospace giant embroiled in controversy following a series of high-profile accidents involving its aircraft, has raised eyebrows with a surprising statement in response to critics. In a…",
     byline: "Gabe Nipote",
@@ -748,6 +795,7 @@ export const stories: Story[] = [
   {
     slug: "indias-modi-escalates-anti-muslim-rhetoric-leaving-many-americans-confused-that-the-guy-aint-muslim",
     category: "World",
+    placements: ["Normal"],
     headline: "India’s Modi Escalates Anti-Muslim Rhetoric Leaving Many Americans Confused That the Guy Ain’t Muslim.",
     dek: "Indian Prime Minister Narendra Modi’s recent escalation of anti-Muslim rhetoric has sparked confusion and concern among many Americans, who find themselves perplexed by the fact that there is a brown…",
     byline: "Gabe Nipote",
@@ -763,6 +811,7 @@ export const stories: Story[] = [
   {
     slug: "judge-scolds-trump-for-disobeying-gag-order-whenever-he-gives-it-but-loving-every-gag-piss-on-me-and-bend-over-order-from-other-people",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Judge Scolds Trump for Disobeying Gag Order Whenever HE Gives It, but Loving Every Gag, Piss On Me, and Bend Over Order from Other People.",
     dek: "In a courtroom drama that has captivated the nation, a federal judge has delivered a scathing rebuke to former President Donald Trump for his repeated defiance of a gag order – but with a curious…",
     byline: "Gabe Nipote",
@@ -777,6 +826,7 @@ export const stories: Story[] = [
   {
     slug: "rep-marjorie-taylor-greene-unsuccessfully-ousts-speaker-johnson-from-office-but-successfully-inserts-other-johnsons-into-buttocks-and-mouth-simultaneously",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Rep. Marjorie Taylor Greene Unsuccessfully Ousts Speaker Johnson from Office, But Successfully Inserts Other Johnson(s) into Buttocks and Mouth Simultaneously.",
     dek: "In a stunning and graphic display of political theater, Representative Marjorie Taylor Greene has once again made headlines for her controversial actions within the hallowed halls of Congress. While…",
     byline: "Gabe Nipote",
@@ -792,6 +842,7 @@ export const stories: Story[] = [
   {
     slug: "disgraced-ohtani-translator-has-no-choice-but-to-plead-guilty-to-bowl-cut",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Disgraced Ohtani Translator Has No Choice But to Plead Guilty to Bowl Cut.",
     dek: "In a bizarre turn of events, the disgraced translator of Japanese baseball sensation Shohei Ohtani has found themselves entangled in an unexpected legal battle – not over gambling or misconduct, but…",
     byline: "Gabe Nipote",
@@ -807,6 +858,7 @@ export const stories: Story[] = [
   {
     slug: "rfk-reveals-worm-dwelling-in-skull-in-commitment-to-resolve-housing-crisis",
     category: "Politics",
+    placements: ["Normal"],
     headline: "RFK Reveals Worm Dwelling In Skull In Commitment to Resolve Housing Crisis.",
     dek: "In a bold and unexpected display of commitment to addressing the pressing issue of affordable housing, Robert F. Kennedy Jr. (RFK), scion of the iconic political dynasty, has revealed a shocking…",
     byline: "Gabe Nipote",
@@ -822,6 +874,7 @@ export const stories: Story[] = [
   {
     slug: "mothers-day-miracle-vagina-voted-best-sex-organ",
     category: "Health",
+    placements: ["Normal"],
     headline: "Mother’s Day Miracle: Vagina Voted Best Sex Organ.",
     dek: "This Mother’s Day, a groundswell of support has emerged for an unexpected contender in the realm of sexual organs: the vagina. Amidst the traditional celebrations honoring mothers and motherhood, a…",
     byline: "Gabe Nipote",
@@ -839,6 +892,7 @@ export const stories: Story[] = [
   {
     slug: "borderline-personality-disorder-man-insists-he-is-a-borderline",
     category: "Health",
+    placements: ["Normal"],
     headline: "Borderline Personality Disorder: Man Insists He Is a Borderline.",
     dek: "Amidst the ongoing discourse surrounding mental health awareness, a man has sparked a heated debate by publicly asserting his identification as a “borderline.” The individual, who prefers to remain…",
     byline: "Gabe Nipote",
@@ -854,6 +908,7 @@ export const stories: Story[] = [
   {
     slug: "kanye-crowns-himself-trendsetting-king-lashes-out-at-college-posers-for-copying-his-anti-semitism",
     category: "World",
+    placements: ["Normal"],
     headline: "Kanye Crowns Himself Trendsetting King; Lashes Out at “College Posers” for Copying His Anti-Semitism",
     dek: "In a whirlwind of controversy and self-proclamation, Kanye West, the enigmatic rap artist and fashion mogul, has once again thrust himself into the spotlight by crowning himself the trendsetting king…",
     byline: "Gabe Nipote",
@@ -870,6 +925,7 @@ export const stories: Story[] = [
   {
     slug: "popular-for-dummies-book-series-renames-sailing-for-dummies-to-more-accurate-title-sailing",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Popular “for Dummies” Book Series Renames “Sailing for Dummies” to More Accurate Title, “Sailing”",
     dek: "In response to growing criticism and calls for accuracy in its popular “for Dummies” book series, the publishers have announced a significant revision to one of its titles, “Sailing for Dummies.”…",
     byline: "Gabe Nipote",
@@ -887,6 +943,7 @@ export const stories: Story[] = [
   {
     slug: "recovered-artifacts-reveal-da-vinci-had-designs-for-fidget-spinner-500-years-before-anyone-else",
     category: "Business",
+    placements: ["Normal"],
     headline: "Big Miss! Artifacts Show Da Vinci Had Designs for Fidget Spinner 500 Years Before Anyone Else.",
     dek: "The recent discovery of Leonardo da Vinci’s recovered journals has provided a fascinating glimpse into the mind of the Renaissance polymath, revealing not only his groundbreaking scientific and…",
     byline: "Gabe Nipote",
@@ -902,6 +959,7 @@ export const stories: Story[] = [
   {
     slug: "disgraced-unlicensed-dog-trainer-not-trainer-at-all-just-loves-giving-puppies-treats-fleeces-dog-owners-for-millions",
     category: "Business",
+    placements: ["Normal"],
     headline: "Disgraced, Unlicensed Dog Trainer Not Trainer At All; Just Loves Giving Puppies Treats. Fleeces Dog Owners for Millions.",
     dek: "In a disturbing case that has rattled the pet industry and sparked outrage among dog owners nationwide, a self-proclaimed “dog trainer” has been exposed as an unlicensed con artist who exploited the…",
     byline: "Gabe Nipote",
@@ -917,6 +975,7 @@ export const stories: Story[] = [
   {
     slug: "couple-describes-difficulty-loving-with-language-barrier-man-knows-no-languages",
     category: "World",
+    placements: ["Normal"],
     headline: "Couple Describes Difficulty Loving with Language Barrier. Man Knows No Languages.",
     dek: "In a poignant tale of love transcending linguistic boundaries, Mr. and Mrs. Patel, a couple hailing from diverse cultural backgrounds, open up about the unique challenges they face in their…",
     byline: "Gabe Nipote",
@@ -932,6 +991,7 @@ export const stories: Story[] = [
   {
     slug: "man-takes-out-mortgage-to-add-shrimp-to-salad",
     category: "Business",
+    placements: ["Normal", "Editor's Pick"],
     headline: "Man takes out mortgage to add shrimp to salad.",
     dek: "In a culinary saga reflecting the evolving landscape of modern gastronomy, Mr. Theodore Henderson’s decision to take out a mortgage for an unusual purpose sheds light on the escalating costs of…",
     byline: "Gabe Nipote",
@@ -946,6 +1006,7 @@ export const stories: Story[] = [
   {
     slug: "man-sleeps-with-entire-friend-group-friend-group-itchy",
     category: "Health",
+    placements: ["Normal"],
     headline: "Man Sleeps with Entire Friend Group. Friend Group Itchy.",
     dek: "In a scandal that has sent shockwaves through social circles in the heart of Manhattan, Mr. Alexander Grant, a prominent figure among his tight-knit group of friends, finds himself embroiled in…",
     byline: "Gabe Nipote",
@@ -960,6 +1021,7 @@ export const stories: Story[] = [
   {
     slug: "football-coaches-under-fire-research-shows-nothing-less-serious-than-grumpy-old-man-taking-a-childs-game-extremely-seriously",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Football Coaches Under Fire: Research Shows Nothing Less Serious Than Grumpy Old Man Taking A Child’s Game Extremely Seriously.",
     dek: "In a groundbreaking study that has rattled the foundations of football coaching philosophy, researchers from leading universities have unveiled a startling revelation: nothing is less serious than an…",
     byline: "Gabe Nipote",
@@ -975,6 +1037,7 @@ export const stories: Story[] = [
   {
     slug: "aurora-borealis-politely-reminds-backpacking-assholes-its-rude-to-stare",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Aurora Borealis Politely Reminds Backpacking Assholes It’s Rude to Stare.",
     dek: "In a celestial spectacle as stunning as it was unexpected, the Aurora Borealis delivered a gentle admonition to a group of backpackers traversing the remote wilderness of Norway. As the ethereal…",
     byline: "Gabe Nipote",
@@ -990,6 +1053,7 @@ export const stories: Story[] = [
   {
     slug: "an-exclusive-inside-look-my-ear",
     category: "Health",
+    placements: ["Normal", "Editor's Pick"],
     headline: "An Exclusive Inside Look: My Ear.",
     dek: "In a bold journalistic pursuit, I embark on an exclusive expedition into the inner workings of my own ear, shedding light on its intricate mechanisms and unveiling its hidden wonders.",
     byline: "Gabe Nipote",
@@ -1006,6 +1070,7 @@ export const stories: Story[] = [
   {
     slug: "idiots-in-dawn-marketing-department-will-figure-it-out-at-some-point",
     category: "Business",
+    placements: ["Normal"],
     headline: "Idiots In Dawn Marketing Department Will Figure It Out at Some Point.",
     dek: "In a curious case of missed marketing opportunities, executives at Dawn find themselves under scrutiny for their failure to capitalize on a potential celebrity spokesperson: CNN anchor Don Lemon.…",
     byline: "Gabe Nipote",
@@ -1021,6 +1086,7 @@ export const stories: Story[] = [
   {
     slug: "policeman-who-clearly-looks-fat-blames-bulletproof-vest-for-body-shape-despite-freaking-obviously-being-fat",
     category: "Health",
+    placements: ["Normal"],
     headline: "Policeman who clearly looks fat blames bulletproof vest for body shape, despite freaking obviously being fat.",
     dek: "In a contentious debate over body image and protective gear, a policeman has sparked controversy by attributing his appearance to his bulletproof vest rather than acknowledging his weight. The…",
     byline: "Gabe Nipote",
@@ -1035,6 +1101,7 @@ export const stories: Story[] = [
   {
     slug: "guy-i-met-literally-tonight-through-mutual-friend-wont-shut-up-about-how-various-medications-are-technically-just-meth-as-we-walk-from-last-bar-to-next-bar",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Guy I Met Literally Tonight Through Mutual Friend Won’t Shut Up About How Various Medications are “technically just meth” as We Walk from Last Bar to Next Bar.",
     dek: "During a casual night out, a chance encounter with a new acquaintance took an unexpected turn as he embarked on an impassioned discourse about the chemical composition of various medications. As the…",
     byline: "Gabe Nipote",
@@ -1049,6 +1116,7 @@ export const stories: Story[] = [
   {
     slug: "banquet-held-for-trailblazing-man-who-pulled-something-out-of-thick-air",
     category: "World",
+    placements: ["Normal"],
     headline: "Banquet Held for Trailblazing Man Who Pulled Something Out of Thick Air.",
     dek: "A banquet of celebration was held to honor the remarkable achievements of a trailblazing individual who defied convention by pulling something out of thick air. The event, attended by dignitaries and…",
     byline: "Gabe Nipote",
@@ -1063,6 +1131,7 @@ export const stories: Story[] = [
   {
     slug: "72yo-long-island-woman-faces-assault-charges-for-hitting-ipad-screen-so-unnecessarily-hard-that-its-difficult-to-even-describe",
     category: "Culture",
+    placements: ["Normal"],
     headline: "72yo Long Island Woman Faces Assault Charges for Hitting iPad Screen So Unnecessarily Hard That It’s Difficult to Even Describe.",
     dek: "A 72-year-old woman from Long Island is facing assault charges after a series of incidents involving her iPad. According to witnesses, the woman became increasingly frustrated with her device’s…",
     byline: "Gabe Nipote",
@@ -1078,6 +1147,7 @@ export const stories: Story[] = [
   {
     slug: "at-least-now-theres-a-reason-why-you-never-get-any-work-friend-to-actor-friend-on-future-of-ai-in-entertainment",
     category: "Culture",
+    placements: ["Normal"],
     headline: "“At least now you have a real reason why you never get any work.” – Friend to Actor Friend on Future of AI in Entertainment.",
     dek: "In a candid exchange among peers in the entertainment industry, a friend’s blunt remark encapsulates the mixed sentiments surrounding the future of artificial intelligence (AI) in entertainment. As…",
     byline: "Gabe Nipote",
@@ -1093,6 +1163,7 @@ export const stories: Story[] = [
   {
     slug: "chris-cuomo-under-fire-for-acting-like-chris-cuomo",
     category: "Business",
+    placements: ["Normal"],
     headline: "Chris Cuomo Under Fire For Acting Like Chris Cuomo.",
     dek: "Former CNN anchor Chris Cuomo has once again found himself embroiled in controversy, facing criticism for his behavior reminiscent of previous incidents. Cuomo, known for his combative on-air persona…",
     byline: "Gabe Nipote",
@@ -1109,6 +1180,7 @@ export const stories: Story[] = [
   {
     slug: "ossobuco-more-like-not-nearly-fucking-buco-enough-chef-gordon-ramsay-releases-new-book-of-kitchen-wit-and-aphorisms",
     category: "Culture",
+    placements: ["Normal"],
     headline: "“Ossobuco? More like not nearly fucking buco enough.” Chef Gordon Ramsay Releases New Book of Kitchen Wit and Aphorisms.",
     dek: "Renowned chef Gordon Ramsay has once again stirred the culinary world with his latest release, a book brimming with kitchen wit and biting aphorisms. Titled “Gordon’s Gastronomic Grit: A Culinary…",
     byline: "Gabe Nipote",
@@ -1123,6 +1195,7 @@ export const stories: Story[] = [
   {
     slug: "class-action-plaintiffs-face-trouble-organizing-as-each-and-every-one-of-them-are-terrible-to-deal-with",
     category: "Business",
+    placements: ["Normal"],
     headline: "Class Action Plaintiffs Face Trouble Organizing as Each and Every One of Them are Difficult to Deal With.",
     dek: "In a legal saga marked by unprecedented challenges, plaintiffs in a high-profile class action lawsuit find themselves grappling with a formidable obstacle: their own collective disorganization and…",
     byline: "Gabe Nipote",
@@ -1137,6 +1210,7 @@ export const stories: Story[] = [
   {
     slug: "escaped-hostage-recounts-terrifying-details-from-being-forced-to-fix-a-v-input-on-panasonic",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Escaped Hostage Recounts Terrifying Details from Being Forced to Fix A/V Input on Panasonic.",
     dek: "In a harrowing account of survival, an escaped hostage has bravely recounted the terrifying ordeal of being forced to fix an A/V input on a Panasonic device by captors. The victim, who wishes to…",
     byline: "Gabe Nipote",
@@ -1151,6 +1225,7 @@ export const stories: Story[] = [
   {
     slug: "group-of-medical-geniuses-in-greenwich-ct-accused-of-organizing-fantasy-patient-league",
     category: "Health",
+    placements: ["Normal"],
     headline: "Group of Medical Geniuses in Greenwich, CT Accused of Organizing “Fantasy Patient League”",
     dek: "In a shocking revelation, a group of doctors practicing in Greenwich, CT, has been accused of orchestrating a “Fantasy Patient League,” raising serious ethical concerns within the medical community.…",
     byline: "Gabe Nipote",
@@ -1165,6 +1240,7 @@ export const stories: Story[] = [
   {
     slug: "firefighters-manage-to-remove-lime-from-coconut-after-disgruntled-man-shook-it-all-up",
     category: "Health",
+    placements: ["Normal"],
     headline: "Firefighters Manage to Remove Lime from Coconut After Lunatic Shook It All Up.",
     dek: "In a daring rescue operation, firefighters successfully extracted “the lime” from “the coconut” after an individual identified as Jesse Waters, 61, recklessly shook it all up, causing a potentially…",
     byline: "Gabe Nipote",
@@ -1180,6 +1256,7 @@ export const stories: Story[] = [
   {
     slug: "leaked-video-reveals-sean-combs-has-not-even-seen-breaking-bad",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Leaked Video Reveals Sean Combs Has Not Even Seen Breaking Bad",
     dek: "Amid a series of other very serious accusations, a leaked video has surfaced showing music mogul Sean Combs, also known as P. Diddy, admitting that he has never watched the critically acclaimed…",
     byline: "Gabe Nipote",
@@ -1194,6 +1271,7 @@ export const stories: Story[] = [
   {
     slug: "breaking-archaeologists-unearth-a-b-c-d-and-e-murray-abraham",
     category: "Culture",
+    placements: ["Normal"],
     headline: "BREAKING: Archaeologists Unearth A., B., C., D., and E. Murray Abraham.",
     dek: "In a groundbreaking archaeological dig in Mesopotamia, researchers have uncovered a remarkable discovery: a cluster of ancient individuals that have been identified as the precursor Murray Abrahams…",
     byline: "Gabe Nipote",
@@ -1209,6 +1287,7 @@ export const stories: Story[] = [
   {
     slug: "man-uses-word-ergo-just-hours-prior-to-wifes-infidelity",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Man Uses Word “ergo” Just Hours Prior to Wife’s Infidelity.",
     dek: "The seemingly innocuous utterance of a single word, “ergo,” has sparked speculation and intrigue following revelations of an affair within a marriage. Sources close to the couple, Alicia and Todd…",
     byline: "Gabe Nipote",
@@ -1225,6 +1304,7 @@ export const stories: Story[] = [
   {
     slug: "mcdonalds-adds-healthy-items-as-execs-learn-current-menu-killing-off-customers-far-too-quickly-for-max-profits",
     category: "Health",
+    placements: ["Normal"],
     headline: "McDonald’s Adds Healthy Items as Execs Learn Current Menu Killing Off Customers Far Too Quickly for Max Profits.",
     dek: "In a bold move to cater to changing consumer preferences and address concerns about the health impact of its offerings, McDonald’s announced the introduction of a new lineup of low-calorie options.…",
     byline: "Gabe Nipote",
@@ -1240,6 +1320,7 @@ export const stories: Story[] = [
   {
     slug: "family-switch-snubbed-at-oscars",
     category: "Culture",
+    placements: ["Normal"],
     headline: "“Family Switch” Snubbed at Oscars",
     dek: "HOLLYWOOD, CA — A simmering undercurrent of resentment bubbled to the surface Sunday night as Joseph McGinty Nichol’s groundbreaking new comedy feature, “Family Switch” was nowhere to be found on the…",
     byline: "Gabe Nipote",
@@ -1255,6 +1336,7 @@ export const stories: Story[] = [
   {
     slug: "man-asks-friend-to-explain-phrase-laymans-terms-using-normal-person-language",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Man Asks Friend to Explain Phrase “Layman’s Terms” Using Normal Person Language.",
     dek: "In an exchange emblematic of the complexities of language and communication, a man has sought clarification from a friend regarding the phrase “layman’s terms,” employing a request for explanation in…",
     byline: "Gabe Nipote",
@@ -1269,6 +1351,7 @@ export const stories: Story[] = [
   {
     slug: "song-recounts-harrowing-details-after-being-stuck-in-mans-head-for-6-weeks",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Song Recounts Harrowing Details of Being Stuck In Boring Man’s Head for 6 Weeks.",
     dek: "A haunting melody found itself unwittingly trapped in the mind of George Matthews, 45, for a staggering six weeks, offering a unique perspective into the human psyche and the power of musical memory.…",
     byline: "Gabe Nipote",
@@ -1283,6 +1366,7 @@ export const stories: Story[] = [
   {
     slug: "oliver-stone-claims-fell-asleep-watching-john-wick-amc-to-stop-serving-warm-milk",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Oliver Stone Claims “Fell Asleep” Watching John Wick. AMC to Stop Serving Warm Milk.",
     dek: "Renowned filmmaker Oliver Stone has sparked controversy by publicly claiming he “fell asleep” while watching the action-packed blockbuster “John Wick.” Stone, known for his provocative works, raised…",
     byline: "Gabe Nipote",
@@ -1297,6 +1381,7 @@ export const stories: Story[] = [
   {
     slug: "desantis-suspends-campaign-just-hours-after-six-flags-reduces-height-requirement-for-trademark-rollercoaster-tatsu",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Desantis Suspends Campaign Just Hours After Six Flags Reduces Height Requirement for Trademark Rollercoaster “Tatsu.”",
     dek: "In a stunner, Florida Governor Ron DeSantis has withdrawn from the political race just hours after the renowned amusement park Six Flags adjusted the height requirement for its iconic rollercoaster,…",
     byline: "Gabe Nipote",
@@ -1311,6 +1396,7 @@ export const stories: Story[] = [
   {
     slug: "ramaswamy-suspends-campaign-just-hours-after-coolest-high-schoolers-in-whole-school-announce-party-tonight",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Ramaswamy Suspends Campaign Just Hours After Coolest High Schoolers in Whole School Announce Party Tonight.",
     dek: "In a political storyline that has sent shockwaves through the nation over the past many months, presidential hopeful Vivek Ramaswamy has unceremoniously ended his campaign mere hours after the…",
     byline: "Gabe Nipote",
@@ -1326,6 +1412,7 @@ export const stories: Story[] = [
   {
     slug: "chris-christie-suspends-campaign-just-hours-after-mcrib-returns",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Chris Christie Suspends Campaign Just Hours After McRib Returns.",
     dek: "Former New Jersey Governor Chris Christie announced the suspension of his political campaign just hours after the highly anticipated return of the McRib sandwich. Known for his charismatic and often…",
     byline: "Gabe Nipote",
@@ -1339,7 +1426,8 @@ export const stories: Story[] = [
   },
   {
     slug: "disgraced-rep-george-santos-claims-are-now-ridiculous-calls-stuber-a-great-film",
-    category: "Culture",
+    category: "Politics",
+    placements: ["Normal"],
     headline: "Disgraced Rep George Santos’ Claims Now Utterly Ridiculous; Calls Stuber a “great film.”",
     dek: "Disgraced weirdo and former U.S. Representative George Santos, is currently facing scrutiny for alleged ethical violations. While his copious lies recently shocked the world, Santos has managed to…",
     byline: "Gabe Nipote",
@@ -1354,6 +1442,7 @@ export const stories: Story[] = [
   {
     slug: "research-reveals-washing-hands-ineffective-for-preventing-spread-of-butt-cheeks",
     category: "Health",
+    placements: ["Normal"],
     headline: "Research Reveals Washing Hands Ineffective for Preventing Spread of Butt Cheeks",
     dek: "Challenging conventional hygiene wisdom, recent research has uncovered a surprising finding: washing hands may be ineffective in preventing the spreading of butt cheeks. The study, conducted by a…",
     byline: "Gabe Nipote",
@@ -1367,6 +1456,7 @@ export const stories: Story[] = [
   {
     slug: "senator-tim-scott-suspends-presidential-campaign-hours-after-six-flags-announces-unlimited-winter-season-pass",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Sen. Tim Scott suspends campaign just hours after Six Flags announces unlimited Winter Season Pass.",
     dek: "Republican Senator, and presidential hopeful, Tim Scott (R-SC) has decided to suspend his presidential campaign four hours after the announcement of Six Flags’ new Unlimited Winter Season Pass.…",
     byline: "Gabe Nipote",
@@ -1381,6 +1471,7 @@ export const stories: Story[] = [
   {
     slug: "canceled-for-zoom-meeting-mishap-oh-oh-oh-oh-no-oriellys-private-parts",
     category: "Business",
+    placements: ["Normal"],
     headline: "Zoom Meeting Mishap: Oh Oh Oh, Oh No… O’Rielly’s Private Parts",
     dek: "A recent virtual Zoom meeting came to a screeching halt due to a rather unexpected mishap, leaving everyone involved red-faced and speechless. The meeting, organized by O’Rielly Enterprises, was…",
     byline: "Gabe Nipote",
@@ -1396,6 +1487,7 @@ export const stories: Story[] = [
   {
     slug: "giuliani-way-out-of-touch-chinese-new-year-chinese-new-me",
     category: "Politics",
+    placements: ["Normal", "Featured"],
     headline: "Giuliani Way Out of Touch: “Chinese New Year, Chinese New Me.”",
     dek: "Rudy Giuliani, the former mayor of New York City, is facing intense backlash after a senior moment during an interview. In response to a reporter pressing Giuliani about his recent conduct, Giuliani…",
     byline: "Gabe Nipote",
@@ -1411,6 +1503,7 @@ export const stories: Story[] = [
   {
     slug: "man-brings-book-to-read-on-vacation-as-if",
     category: "Culture",
+    placements: ["Normal", "Trending"],
     headline: "Man Brings Book to Read On Vacation… as if.",
     dek: "A Minneapolis man’s audacious decision to pack a book for his vacation at a lake house on Lake Michigan has raised eyebrows and ignited discussions about changing leisure habits and travel…",
     byline: "Gabe Nipote",
@@ -1425,6 +1518,7 @@ export const stories: Story[] = [
   {
     slug: "biden-issues-statement-on-missing-thimble-in-white-house-monopoly-set",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Biden Issues Urgent Statement On Missing Thimble in White House Monopoly Set.",
     dek: "President Joe Biden has issued a statement concerning a missing thimble from the White House’s Monopoly board game set. The declaration comes amid ongoing discussions about pressing national and…",
     byline: "Gabe Nipote",
@@ -1439,6 +1533,7 @@ export const stories: Story[] = [
   {
     slug: "man-lies-to-flight-attendant-that-he-has-no-trash-when-in-fact-he-has-trash",
     category: "Culture",
+    placements: ["Normal", "Trending", "Featured"],
     headline: "Man Lies to Flight Attendant That He Has No Trash When In Fact He Has Trash.",
     dek: "A seemingly innocuous exchange aboard a commercial flight took an unexpected twist when a passenger decided to play a fibbing role. In the peculiar mid-air incident, a man untruthfully assured a…",
     byline: "Gabe Nipote",
@@ -1453,6 +1548,7 @@ export const stories: Story[] = [
   {
     slug: "man-institutionalized-after-willfully-purchasing-rolos",
     category: "Health",
+    placements: ["Normal"],
     headline: "Man Institutionalized After Willfully Purchasing Rolos.",
     dek: "A man has been admitted to a psychiatric institution after making the voluntary decision to purchase a packet of Rolos, a well recognized caramel-filled chocolate treat.",
     byline: "Gabe Nipote",
@@ -1468,6 +1564,7 @@ export const stories: Story[] = [
   {
     slug: "7-cute-ideas-for-an-unforgettable-funeral",
     category: "Culture",
+    placements: ["Normal"],
     headline: "7 Cute Ideas for an Unforgettable Funeral",
     dek: "Funerals, once somber affairs, are embracing a shift towards more personalized, celebratory events that reflect the unique lives of those we’ve lost. Families are now seeking creative and sometimes…",
     byline: "Gabe Nipote",
@@ -1488,6 +1585,7 @@ export const stories: Story[] = [
   {
     slug: "volvo-does-not-decide-to-reverse-name-to-ovlov",
     category: "Business",
+    placements: ["Normal", "Trending", "Breaking"],
     headline: "Volvo does not decide to reverse name to Ovlov.",
     dek: "Amidst the ever-evolving landscape of corporate branding and nomenclature, yet another day has gone by in which Volvo, the renowned Swedish automaker, has not decided to reverse its name to “Ovlov.”",
     byline: "Gabe Nipote",
@@ -1503,6 +1601,7 @@ export const stories: Story[] = [
   {
     slug: "its-official-checkers-is-a-game-for-morons",
     category: "Culture",
+    placements: ["Normal"],
     headline: "It’s Official: Checkers is a game for morons.",
     dek: "Researchers from the University of Toronto have published a study with conclusive evidence that Checkers, the timeless board game, is a pastime for individuals of limited intellectual prowess. This…",
     byline: "Gabe Nipote",
@@ -1518,6 +1617,7 @@ export const stories: Story[] = [
   {
     slug: "man-complains-of-sand-in-ass-after-beach-visit-sand-urges-theres-two-sides-to-the-story",
     category: "Culture",
+    placements: ["Normal", "Featured"],
     headline: "Man complains of sand in ass after beach visit. Sand urges there’s two sides to the story.",
     dek: "A routine trip to the beach took an unexpected turn for one beachgoer, who complained of an uncomfortable predicament: sand in less-than-ideal locations. However, sand itself is now speaking up,…",
     byline: "Gabe Nipote",
@@ -1534,6 +1634,7 @@ export const stories: Story[] = [
   {
     slug: "charmin-goes-even-softer-offering-jelly-like-hand-coating-for-dirty-work",
     category: "Business",
+    placements: ["Normal"],
     headline: "Charmin Goes Even Softer, Offering Jelly-Like Hand Coating for Dirty Work",
     dek: "Charmin, the renowned toilet paper brand, is breaking new ground in the world of hygiene with a groundbreaking product enhancement. In a bold move, Charmin has introduced a jelly-like hand coating…",
     byline: "Gabe Nipote",
@@ -1549,6 +1650,7 @@ export const stories: Story[] = [
   {
     slug: "two-men-aggressively-have-sex-with-each-other-in-road-rage-incident",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Two men aggressively have sex with each other in road rage incident.",
     dek: "An alarming road rage incident made headlines this week. Alfredo Villar was rear ended by Jeff Dirken on the 405 freeway in Los Angeles, CA at 9:48am this past Wednesday. A dispute ensued which…",
     byline: "Gabe Nipote",
@@ -1564,6 +1666,7 @@ export const stories: Story[] = [
   {
     slug: "marijuana-cited-as-potential-cure-for-being-on-time-and-prepared",
     category: "Health",
+    placements: ["Normal"],
     headline: "Marijuana Cited as Potential Cure for Being On Time and Prepared.",
     dek: "Afraid to light up? Think again. Scientists Caleb Braun and Ryan Donald have recently published a paper citing marijuana as an emerging potential solution for chronic “being prepared and on time.”…",
     byline: "Gabe Nipote",
@@ -1579,6 +1682,7 @@ export const stories: Story[] = [
   {
     slug: "maga-genius-trumps-hats-shrink-your-brain-driving-repeat-purchases-for-smaller-size",
     category: "Business",
+    placements: ["Normal"],
     headline: "MAGA Genius: Trump’s Hats Shrink Your Brain, Driving Repeat Purchases for Smaller Size.",
     dek: "Mega Maga Revenue.",
     byline: "Gabe Nipote",
@@ -1594,6 +1698,7 @@ export const stories: Story[] = [
   {
     slug: "neurology-spanish-passenger-involuntarily-shouts-goal-every-time-seatbelt-sign-comes-off-on-14hr-redeye",
     category: "Health",
+    placements: ["Normal"],
     headline: "Neurology: Spanish Passenger Involuntarily Shouts “GOAL” Every Time Seatbelt Sign Comes Off on 14hr Redeye.",
     dek: "In a terrifying and annoying incident aboard a 14-hour redeye flight from Malaga to Fort Lauderdale, a Spanish passenger became the center of attention due to an involuntary tick that left flight…",
     byline: "Gabe Nipote",
@@ -1608,6 +1713,7 @@ export const stories: Story[] = [
   {
     slug: "bill-gates-betting-big-on-bomb-bunkers-and-9200000-spf-sunblock",
     category: "Business",
+    placements: ["Normal"],
     headline: "Bill Gates Betting Big on Bomb Bunkers and 9,200,000 SPF Sunblock.",
     dek: "In a departure from his traditional philanthropic and technological pursuits, billionaire Bill Gates is making waves with an unexpected investment strategy. The tech magnate is reportedly betting big…",
     byline: "Gabe Nipote",
@@ -1623,6 +1729,7 @@ export const stories: Story[] = [
   {
     slug: "nobel-prize-awarded-to-couple-who-found-agreeable-bedroom-temperature",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Nobel Prize awarded to couple who found agreeable bedroom temperature.",
     dek: "This year’s Nobel Prize in Physics has been awarded to a couple whose groundbreaking research has brought harmony to bedrooms around the world. John and Emily Hartley, both physicists, have dedicated…",
     byline: "Gabe Nipote",
@@ -1638,6 +1745,7 @@ export const stories: Story[] = [
   {
     slug: "freezy-friday-mcconnell-third-freeze-reportedly-triggered-by-lindsay-lohan-opening-fortune-cookie",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Freezy Friday: McConnell Third Freeze Triggered by Lindsay Lohan Opening Fortune Cookie.",
     dek: "In a bizarre turn of events that has left the nation perplexed, Senate Minority Leader Mitch McConnell has reportedly experienced his third unexplained freeze, and this time, it may have all started…",
     byline: "Gabe Nipote",
@@ -1656,6 +1764,7 @@ export const stories: Story[] = [
   {
     slug: "atlantic-city-beached-whale-finally-identified-as-governor-christie",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Atlantic City beached whale finally identified as Governor Christie.",
     dek: "A curious and somewhat humorous incident unfolded on the shores of Atlantic City as what was initially thought to be a beached whale turned out to be a case of mistaken identity involving former New…",
     byline: "Gabe Nipote",
@@ -1671,6 +1780,7 @@ export const stories: Story[] = [
   {
     slug: "beached-whale-in-atlantic-city-brings-crowds-and-cranes-to-remove-the-gigantic-mammal",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Beached Whale in Atlantic City Brings Crowds and Cranes to Remove the Gigantic Mammal",
     dek: "A monumental operation is currently underway in Atlantic City as authorities and volunteers come together to remove a beached whale that has captured the attention of crowds and required heavy-duty…",
     byline: "Gabe Nipote",
@@ -1686,6 +1796,7 @@ export const stories: Story[] = [
   {
     slug: "breaking-man-seated-next-to-me-on-airplane-watches-pinball-the-man-who-saved-the-game",
     category: "Culture",
+    placements: ["Normal"],
     headline: "BREAKING: Man seated next to me on airplane watches “Pinball: The Man Who Saved the Game.”",
     dek: "Breaking the monotony of air travel, the man seated next to me on a flight from La Guardia Airport to Florida Fort Lauderdale Airport made their choice of in-flight entertainment a doozy. To the…",
     byline: "Gabe Nipote",
@@ -1701,6 +1812,7 @@ export const stories: Story[] = [
   {
     slug: "dollar-general-expands-prepared-foods-to-include-peking-duck",
     category: "Business",
+    placements: ["Normal"],
     headline: "Dollar General expands prepared foods to include Peking Duck.",
     dek: "Dollar General, known for its affordability and convenience, is stepping up its prepared foods game by introducing Peking Duck to its menu. This expansion reflects the retail giant’s ongoing…",
     byline: "Gabe Nipote",
@@ -1715,6 +1827,7 @@ export const stories: Story[] = [
   {
     slug: "man-heartbroken-to-miss-golf-with-friends-after-wife-kills-friends-which-was-a-real-bummer",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Man heartbroken to miss golf with friends after wife kills friends, which was “also a real bummer.”",
     dek: "In a shocking and deeply tragic incident, a man found himself unable to join his friends for a scheduled golf game after his wife committed a gruesome act of violence against his friends. This…",
     byline: "Gabe Nipote",
@@ -1731,6 +1844,7 @@ export const stories: Story[] = [
   {
     slug: "mans-son-makes-little-league-all-stars-no-seriously-this-is-newsworthy",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Man’s son makes little league all-stars. No seriously, this is newsworthy.",
     dek: "A local man has been repeatedly sharing the news of his son’s Little League All-Stars achievement, even when met with vocalized disinterest.",
     byline: "Gabe Nipote",
@@ -1745,7 +1859,8 @@ export const stories: Story[] = [
   },
   {
     slug: "cant-get-it-up-dont-worry-research-reveals-it-may-be-due-to-bidens-biggest-scheme-yet",
-    category: "Culture",
+    category: "Health",
+    placements: ["Normal"],
     headline: "Can’t get it up? Don’t worry. It may be due to Biden’s biggest scheme yet.",
     dek: "An assertion has surfaced suggesting that President Joe Biden’s policies could be responsible for certain performance issues amongst men.",
     byline: "Gabe Nipote",
@@ -1762,6 +1877,7 @@ export const stories: Story[] = [
   {
     slug: "man-discovers-inside-of-arm-full-of-blood",
     category: "Health",
+    placements: ["Normal", "Featured"],
     headline: "Man discovers inside of arm full of blood.",
     dek: "In a bizarre and potentially perilous incident, a man recently found himself in an alarming situation when he discovered that the inside of his arm was filled with blood. What makes this discovery…",
     byline: "Gabe Nipote",
@@ -1777,6 +1893,7 @@ export const stories: Story[] = [
   {
     slug: "almond-joy-employees-countersue-for-scrotum-zoom-background-debacle",
     category: "Business",
+    placements: ["Normal"],
     headline: "Almond Joy Employees Countersue for Scrotum Zoom Background Debacle",
     dek: "The legal battle surrounding the infamous Almond Joy Zoom background incident has taken an unexpected twist as a group of employees countersues the company, alleging privacy invasion and emotional…",
     byline: "Gabe Nipote",
@@ -1794,6 +1911,7 @@ export const stories: Story[] = [
   {
     slug: "landmark-case-declares-clean-gas-station-bathroom-unconstitutional",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Landmark Case Declares Clean Gas Station Bathroom Unconstitutional",
     dek: "In a landmark case this week, a federal judge has declared “the maintenance of a clean and functional gas station bathroom” unconstitutional, raising questions about the boundaries of personal…",
     byline: "Gabe Nipote",
@@ -1810,6 +1928,7 @@ export const stories: Story[] = [
   {
     slug: "dr-ben-carson-age-is-just-a-number-he-actually-does-not-grasp-the-concept-of-age",
     category: "Health",
+    placements: ["Normal"],
     headline: "Dr. Ben Carson: “Age is just a number.” He actually does not grasp the concept of age.",
     dek: "Former U.S. Secretary of Housing and Urban Development, Dr. Ben Carson, has made headlines with his recent assertion that “age is just a number.” However, it appears that Dr. Carson’s interpretation…",
     byline: "Gabe Nipote",
@@ -1825,6 +1944,7 @@ export const stories: Story[] = [
   {
     slug: "op-ed-i-was-pressured-to-take-the-jj-vaccine-28-months-later-my-favorite-band-is-incubus",
     category: "Culture",
+    placements: ["Normal", "Featured"],
     headline: "Op-Ed: I was Pressured to Take the J&J Vaccine. 28 Months Later, My Favorite Band is Incubus.",
     dek: "Written by John Magnauer",
     byline: "Gabe Nipote",
@@ -1841,6 +1961,7 @@ export const stories: Story[] = [
   {
     slug: "book-club-members-unanimously-agree-it-was-great-have-little-else-to-offer",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Book club members unanimously agree “it was great.” Have little else to offer.",
     dek: "A local book club recently found itself in the unusual position of unanimous agreement, with every member echoing the sentiment that their latest selection was “great.” However, as discussions…",
     byline: "Gabe Nipote",
@@ -1856,6 +1977,7 @@ export const stories: Story[] = [
   {
     slug: "italian-american-father-urges-family-to-research-irrelevant-topic",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Italian-American father urges family to research irrelevant topic.",
     dek: "In an Italian-American household, an ongoing family saga has emerged as Paolo Rossi, the family patriarch, persistently encourages his loved ones to delve into seemingly irrelevant topics. However,…",
     byline: "Gabe Nipote",
@@ -1871,6 +1993,7 @@ export const stories: Story[] = [
   {
     slug: "adam-driver-under-fire-actor-faces-nepo-baby-accusations-with-upcoming-ferrari-movie",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Adam Driver Under Fire: Actor Faces “Nepo Baby” Accusations with Upcoming “Ferrari” Movie",
     dek: "Adam Driver, renowned for his acting prowess, now grapples with a casting controversy surrounding his upcoming movie, “Ferrari.” In a surprising twist, Driver himself is at the center of the storm,…",
     byline: "Gabe Nipote",
@@ -1884,7 +2007,8 @@ export const stories: Story[] = [
   },
   {
     slug: "macho-ambulance-driver-costs-life-by-struggling-to-show-off-parallel-parking-skills",
-    category: "Culture",
+    category: "Health",
+    placements: ["Normal"],
     headline: "Macho Ambulance Driver Costs Life By Struggling to Show Off “Parallel Parking Skills”",
     dek: "In a harrowing incident that underscores the dangers of machismo, a self-proclaimed “badass parallel parker” ambulance driver cost a life while attempting to flaunt his parallel parking skills. The…",
     byline: "Gabe Nipote",
@@ -1900,6 +2024,7 @@ export const stories: Story[] = [
   {
     slug: "breaking-german-man-watches-adult-film-not-involving-leather",
     category: "Culture",
+    placements: ["Normal"],
     headline: "BREAKING: German Man Watches Adult Film Not Involving Leather",
     dek: "In a notable departure from the stereotype often associated with certain adult entertainment preferences, a German man has gained attention for his unconventional viewing habits.",
     byline: "Gabe Nipote",
@@ -1914,6 +2039,7 @@ export const stories: Story[] = [
   {
     slug: "mayor-adams-a-c-e-trains-to-be-converted-to-6mi-long-slip-n-slide-due-to-flash-flooding",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Mayor Adams: A, C, E Trains to be Converted to 6mi Long Slip N’ Slide Due to Flash Flooding",
     dek: "In a visionary move aimed at addressing New York City’s recurring flash flooding challenges, Mayor Eric Adams has unveiled an audacious proposal to repurpose the A, C, and E subway lines into a…",
     byline: "Gabe Nipote",
@@ -1929,6 +2055,7 @@ export const stories: Story[] = [
   {
     slug: "ben-shapiro-unveils-plan-to-eat-veggies-before-chicken-nuggets-at-upcoming-dinner-with-grown-ups",
     category: "Culture",
+    placements: ["Normal", "Trending", "Breaking"],
     headline: "Ben Shapiro Unveils Plan to Eat Veggies Before Chicken Nuggets at Upcoming Dinner with Grown-Ups.",
     dek: "Conservative commentator Ben Shapiro has made headlines again, this time with an unexpected dietary declaration. In preparation for an upcoming dinner with a group of adults, Shapiro revealed his…",
     byline: "Gabe Nipote",
@@ -1944,6 +2071,7 @@ export const stories: Story[] = [
   {
     slug: "tallest-man-ever-robert-wadlow-811-shortest-man-ever-rand-pauls-penis",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Tallest Man Ever: Robert Wadlow, 8’11” – Shortest Man Ever: Rand Paul’s Penis.",
     dek: "Robert Wadlow, often referred to as the “Alton Giant,” holds the distinction of being the tallest man in recorded history. Born in 1918 in Alton, Illinois, Wadlow’s extraordinary growth began early…",
     byline: "Gabe Nipote",
@@ -1958,6 +2086,7 @@ export const stories: Story[] = [
   {
     slug: "trump-classified-files-state-that-inside-of-mussel-should-look-like-peanut-and-all-mussels-look-gross",
     category: "Politics",
+    placements: ["Normal"],
     headline: "Trump: Classified files state that inside of mussel should look like peanut and all mussels look gross.",
     dek: "There appears to be a misunderstanding regarding the appearance of mussels in classified files. To the best of our knowledge, there are no classified documents or reports that make claims about…",
     byline: "Gabe Nipote",
@@ -1973,6 +2102,7 @@ export const stories: Story[] = [
   {
     slug: "catholic-church-bullish-that-gpt-unlikely-to-replace-molestation",
     category: "World",
+    placements: ["Normal", "Trending"],
     headline: "Catholic Church bullish that Artificial Intelligence unlikely to replace molestation.",
     dek: "The Catholic Church, a venerable institution with a history spanning centuries, remains steadfast in its belief that artificial intelligence (AI) will not replace the expertise required to execute…",
     byline: "Gabe Nipote",
@@ -1987,6 +2117,7 @@ export const stories: Story[] = [
   {
     slug: "former-president-trump-and-giuliani-aggressively-dine-at-ikea-food-court",
     category: "Business",
+    placements: ["Normal"],
     headline: "Former President Trump and Giuliani Aggressively Dine at Ikea Food Court",
     dek: "In an unusual turn of events, former President Donald Trump found himself both surprised and slightly angered when Rudy Giuliani, his loyal lawyer and friend, suggested the IKEA food court as their…",
     byline: "Gabe Nipote",
@@ -2001,6 +2132,7 @@ export const stories: Story[] = [
   {
     slug: "melania-trump-native-tongue-discovered-to-be-gibberish",
     category: "World",
+    placements: ["Normal"],
     headline: "Melania Trump Native Tongue Discovered to Be Gibberish",
     dek: "In a remarkable linguistic discovery, former first lady Melania Trump has left experts astounded as her native language turned out to be a form of unintelligible gibberish. Melania, a descendant of a…",
     byline: "Gabe Nipote",
@@ -2016,6 +2148,7 @@ export const stories: Story[] = [
   {
     slug: "musk-reverse-engineers-perfect-kbbq-order-shareholders-doubling-down",
     category: "Business",
+    placements: ["Normal"],
     headline: "Musk reverse engineers perfect kbbq order. Shareholders doubling down.",
     dek: "Elon Musk, the visionary entrepreneur known for his groundbreaking ventures in space exploration, electric vehicles, and renewable energy, has once again taken an unconventional turn, this time in…",
     byline: "Gabe Nipote",
@@ -2031,6 +2164,7 @@ export const stories: Story[] = [
   {
     slug: "report-on-most-up-its-own-ass-chocolate-company-finds-lindt-most-up-its-own-ass-chocolate-company",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Report on Most Up Its Own Ass Chocolate Company Finds Lindt Most Up Its Own Ass Chocolate Company",
     dek: "In a stunning revelation that has sent ripples through the confectionery industry, a comprehensive report has identified Lindt as the “Most Up Its Own Ass Chocolate Company.” The scathing assessment,…",
     byline: "Gabe Nipote",
@@ -2050,6 +2184,7 @@ export const stories: Story[] = [
   {
     slug: "feeling-the-back-of-my-head-for-500-days-in-a-row-to-see-if-i-feel-anything-different",
     category: "Health",
+    placements: ["Normal"],
     headline: "Feeling the back of my head for 500 days in a row to see if I feel anything different.",
     dek: "I’ve been feeling the back of my head for 341 days in a row. I haven’t really felt anything different yet. I think I’m touching the same part of the back of my head every day and I always use my…",
     byline: "Gabe Nipote",
@@ -2063,6 +2198,7 @@ export const stories: Story[] = [
   {
     slug: "fermented-foods-found-to-promote-gut-health-specifically-kimchi-found-to-promote-taste-of-shit-in-mouth",
     category: "Health",
+    placements: ["Normal", "Featured"],
     headline: "Fermented Foods Found to Promote Gut Health. Specifically, Kimchi Found to Promote Taste of Shit In Mouth.",
     dek: "Kimchi, the iconic Korean dish celebrated for its vibrant flavors and gut-boosting probiotics, stands at the forefront of global culinary curiosity. Yet, for all its fame and accolades, there exists…",
     byline: "Gabe Nipote",
@@ -2080,6 +2216,7 @@ export const stories: Story[] = [
   {
     slug: "governors-everywhere-wonder-how-gubernatorial-chosen-for-anything-official-at-all",
     category: "Politics",
+    placements: ["Normal"],
     headline: "U.S. Governors Wonder How Word “Gubernatorial” Used For Anything Official At All.",
     dek: "As the country’s state leaders convene for the National Governors Association conference, many are left wondering: why is the word “gubernatorial” associated with anything official at all?",
     byline: "Gabe Nipote",
@@ -2095,6 +2232,7 @@ export const stories: Story[] = [
   {
     slug: "gene-hackman-found-guilty-of-looking-like-italian-american-lego-piece",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Actor Gene Hackman found guilty of looking like Italian-American Lego Piece",
     dek: "Gene Hackman, the acclaimed actor, is often admired for his rugged charm and timeless appeal, which some may liken to the classic handsomeness associated with Italian men. With his striking features…",
     byline: "Gabe Nipote",
@@ -2109,6 +2247,7 @@ export const stories: Story[] = [
   {
     slug: "passengers-in-tragic-story-who-unnecessarily-died-going-to-look-at-titanic-didnt-realize-only-way-to-unnecessarily-die-while-going-to-look-at-titanic-is-unnecessarily-going-to-look-at-titanic",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Passengers in tragic story who unnecessarily died going to look at titanic didn’t realize only way to unnecessarily die while going to look at titanic is by unnecessarily going to look at titanic.",
     dek: "Several months ago a heartbreaking story surfaced about a group of passengers who embarked on a journey to witness the remnants of the ill-fated Titanic, only to tragically lose their lives when…",
     byline: "Gabe Nipote",
@@ -2123,6 +2262,7 @@ export const stories: Story[] = [
   {
     slug: "man-claims-search-history-including-asia-minor-was-legitimately-about-asia-minor",
     category: "Culture",
+    placements: ["Normal", "Featured"],
     headline: "Man Claims Search History Including “Asia minor” was Legitimately about Asia Minor.",
     dek: "In a digital age rife with suspicion, one man finds himself in an unusual predicament after authorities questioned his internet search history, specifically the entry for “Asia Minor.” The man, whose…",
     byline: "Gabe Nipote",
@@ -2137,6 +2277,7 @@ export const stories: Story[] = [
   {
     slug: "swiss-nationals-slowly-realize-ww2-neutrality-not-really-a-great-look",
     category: "World",
+    placements: ["Normal", "Featured"],
     headline: "Swiss Nationals Slowly Realize WW2 Neutrality Not Really A Great Look.",
     dek: "In a reflection on its historical stance, the Swiss government is gradually coming to terms with the fact that its World War II neutrality may not be as commendable as once believed. Switzerland’s…",
     byline: "Gabe Nipote",
@@ -2151,6 +2292,7 @@ export const stories: Story[] = [
   {
     slug: "breaking-sandra-bullock-still-alive-the-actress-resides-in-a-house-with-a-family",
     category: "Culture",
+    placements: ["Normal"],
     headline: "Breaking: Sandra bullock still alive. The actress resides in a house with a family.",
     dek: "In a world where celebrity status often leads to constant scrutiny and public attention, Oscar-winning actress Sandra Bullock has managed to carve out a quiet, private life that might surprise many…",
     byline: "Gabe Nipote",
@@ -2167,4 +2309,8 @@ export const stories: Story[] = [
 
 export function getStoryBySlug(slug: string): Story | undefined {
   return stories.find((s) => s.slug === slug);
+}
+
+export function storiesByPlacement(placement: string): Story[] {
+  return stories.filter((s) => s.placements.includes(placement));
 }

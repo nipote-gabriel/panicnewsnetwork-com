@@ -4,14 +4,15 @@ import { StoryMeta } from "@/components/StoryMeta";
 import { AdSlot } from "@/components/AdSlot";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { stories } from "@/lib/stories";
+import { stories, storiesByPlacement } from "@/lib/stories";
 
-const heroStory = stories[0];
-const secondaryStories = stories.slice(1, 3);
-const gridStories = stories.slice(3, 15);
-const sidebarStories = stories.slice(15, 21);
-const featuredStories = stories.slice(21, 25);
-const editorsPicks = stories.slice(25, 31);
+const heroStory = storiesByPlacement("Hero")[0] ?? stories[0];
+const remainingStories = stories.filter((s) => s.slug !== heroStory.slug);
+const secondaryStories = remainingStories.slice(0, 2);
+const gridStories = remainingStories.slice(2, 14);
+const sidebarStories = storiesByPlacement("Trending");
+const featuredStories = storiesByPlacement("Featured");
+const editorsPicks = storiesByPlacement("Editor's Pick");
 
 export default function Home() {
   return (
@@ -59,7 +60,7 @@ export default function Home() {
 
         <aside className="border-t border-neutral-200 pt-4 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
           <h2 className="mb-3 border-b-2 border-brand-red pb-1 font-display text-sm uppercase">
-            Latest Headlines
+            Trending Now
           </h2>
           <ul className="flex flex-col gap-3">
             {sidebarStories.map((s) => (
