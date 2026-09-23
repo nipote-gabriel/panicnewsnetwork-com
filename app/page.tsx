@@ -11,8 +11,8 @@ const remainingStories = stories.filter((s) => s.slug !== heroStory.slug);
 const secondaryStories = remainingStories.slice(0, 2);
 const gridStories = remainingStories.slice(2, 14);
 const sidebarStories = storiesByPlacement("Trending");
-const featuredStories = storiesByPlacement("Featured");
-const editorsPicks = storiesByPlacement("Editor's Pick");
+const featuredStories = storiesByPlacement("Featured", 12);
+const editorsPicks = storiesByPlacement("Editor's Pick", 6);
 
 export default function Home() {
   return (

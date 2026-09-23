@@ -2311,6 +2311,9 @@ export function getStoryBySlug(slug: string): Story | undefined {
   return stories.find((s) => s.slug === slug);
 }
 
-export function storiesByPlacement(placement: string): Story[] {
-  return stories.filter((s) => s.placements.includes(placement));
+export function storiesByPlacement(placement: string, limit?: number): Story[] {
+  const matches = stories
+    .filter((s) => s.placements.includes(placement))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return limit === undefined ? matches : matches.slice(0, limit);
 }
