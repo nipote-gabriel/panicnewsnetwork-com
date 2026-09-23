@@ -8,7 +8,7 @@ const tickerStories = storiesByPlacement("Breaking");
 
 export function SiteHeader() {
   return (
-    <div className="sticky top-0 z-50 shadow-sm">
+    <>
       {/* Top utility bar */}
       <div className="full-bleed bg-black">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-1.5 text-xs text-neutral-300">
@@ -30,7 +30,7 @@ export function SiteHeader() {
       </div>
 
       {/* Header / logo */}
-      <header className="full-bleed bg-black px-4 py-4">
+      <header className="full-bleed sticky top-0 z-50 bg-black px-4 py-4 shadow-sm">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-3">
           <div className="flex min-w-0 items-center gap-3">
             <Link href="/" className="shrink-0">
@@ -119,6 +119,6 @@ export function SiteHeader() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
