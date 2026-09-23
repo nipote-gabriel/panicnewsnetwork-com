@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const AD_SIZES = {
   leaderboard: { width: 728, height: 90, fluid: true },
   rectangle: { width: 300, height: 250, fluid: false },
@@ -57,7 +55,8 @@ export function AdSlot({
               : { aspectRatio: `${width} / ${height}`, maxWidth: width }
           }
         >
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={ad.src}
             alt={ad.alt}
             width={ad.width}
