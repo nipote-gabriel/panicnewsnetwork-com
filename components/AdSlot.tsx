@@ -13,12 +13,12 @@ const HQC_URL = "https://www.headquarterscomedy.com";
 
 const ADS: Partial<Record<AdSize, { src: string; width: number; height: number; alt: string }[]>> = {
   leaderboard: [
-    { src: "/ads/altman-behr-defense-728x90.jpg", width: 1600, height: 187, alt: "Altman Behr Defense — Superior solutions for a safer tomorrow." },
+    { src: "/ads/altman-behr-defense-728x90.jpg", width: 1456, height: 170, alt: "Altman Behr Defense — Superior solutions for a safer tomorrow." },
     { src: "/ads/gorman-pharmaceuticals-728x90.jpg", width: 728, height: 90, alt: "Gorman Pharmaceuticals — The world, addicted." },
     { src: "/ads/dongvape-728x90.jpg", width: 728, height: 90, alt: "DongVape — Suck on this." },
   ],
   rectangle: [
-    { src: "/ads/altman-behr-defense-300x250.jpg", width: 700, height: 583, alt: "Altman Behr Defense — Superior solutions for a safer tomorrow." },
+    { src: "/ads/altman-behr-defense-300x250.jpg", width: 600, height: 500, alt: "Altman Behr Defense — Superior solutions for a safer tomorrow." },
     { src: "/ads/dongvape-300x250.jpg", width: 300, height: 250, alt: "DongVape — Suck on this." },
   ],
 };
