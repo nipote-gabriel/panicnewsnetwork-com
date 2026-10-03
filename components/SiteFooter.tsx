@@ -53,12 +53,12 @@ export function SiteFooter() {
             </li>
             <li>
               <a
-                href="https://www.worldcorpinternational.com/"
+                href="https://www.headquartersagency.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white hover:underline"
               >
-                WorldCorp International
+                Headquarters Agency
               </a>
             </li>
             <li>
