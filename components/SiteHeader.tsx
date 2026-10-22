@@ -18,7 +18,7 @@ export function SiteHeader() {
               Shop
             </button>
             <a
-              href="https://headquarterscomedy.beehiiv.com/"
+              href="https://incompetencewetrust.beehiiv.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"

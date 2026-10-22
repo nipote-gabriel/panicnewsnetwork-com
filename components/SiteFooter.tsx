@@ -73,7 +73,7 @@ export function SiteFooter() {
             </li>
             <li>
               <a
-                href="https://headquarterscomedy.beehiiv.com/"
+                href="https://incompetencewetrust.beehiiv.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white hover:underline"
